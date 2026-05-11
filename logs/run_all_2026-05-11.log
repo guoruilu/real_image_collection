@@ -1,0 +1,1251 @@
+2026-05-11 15:47:17,877 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:47:17,877 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:47:17,877 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:47:17,877 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:47:17,877 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:47:17,878 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:47:18,245 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau cat&first=0
+2026-05-11 15:47:18,357 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau cat&first=20
+2026-05-11 15:47:18,566 - INFO - downloader - image #1	https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f59e6e07-7906-4eb8-befa-ad92f5a01f61/dfimjmc-01ef615f-a68a-4c15-b8c1-4ae5244af311.jpg
+2026-05-11 15:47:20,247 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:47:20,248 - INFO - parser - thread parser-001 exit
+2026-05-11 15:47:20,362 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:47:20,363 - INFO - parser - thread parser-002 exit
+2026-05-11 15:47:22,880 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:47:22,880 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:47:22,881 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:47:22,881 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:47:22,881 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:47:22,882 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:47:23,567 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:47:23,567 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:47:23,887 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:47:23,890 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:47:23,891 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:47:23,891 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:47:23,892 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:47:23,892 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:47:23,894 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:47:25,895 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:47:25,895 - INFO - parser - thread parser-002 exit
+2026-05-11 15:47:26,464 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=Egyptian Mau cat&pn=0&rn=30
+2026-05-11 15:47:27,045 - INFO - downloader - image #1	https://hellorfimg.zcool.cn/large/99506039.jpg
+2026-05-11 15:47:27,135 - INFO - downloader - image #2	https://gips0.baidu.com/it/u=2510353417,544040246&fm=3074&app=3074&f=JPEG
+2026-05-11 15:47:27,171 - INFO - downloader - image #3	https://gips0.baidu.com/it/u=1627561434,3631053634&fm=3074&app=3074&f=JPEG
+2026-05-11 15:47:27,261 - INFO - downloader - image #4	https://pic2.zhimg.com/v2-8d4da04999247a274552a6e59b1a4ae5_r.jpg
+2026-05-11 15:47:29,544 - INFO - downloader - image #5	https://copyright.bdstatic.com/vcg/edit/0af6371053da62b0c50914b4e436ced2.jpg@h_1280
+2026-05-11 15:47:29,807 - INFO - downloader - image #6	https://hellorfimg.zcool.cn/large/99506042.jpg
+2026-05-11 15:47:29,815 - ERROR - downloader - Response status code 404, file https://b0.bdstatic.com/ugc/EotVJTacgRdWyAGbcF_1rA020f50288f975240f795809a3287414d.jpg@h_1280
+2026-05-11 15:47:30,136 - INFO - downloader - image #7	https://copyright.bdstatic.com/vcg/edit/151f7cf1d8cba38e767957865d8686ff.jpg@h_1280
+2026-05-11 15:47:30,181 - INFO - downloader - image #8	https://hellorfimg.zcool.cn/large/1818784850.jpg
+2026-05-11 15:47:30,303 - INFO - downloader - image #9	https://gd-hbimg.huaban.com/862fa0dd51066980f364fcaa4ba70dd05399e4cc4d8cf-3GY3cZ_fw658
+2026-05-11 15:47:30,440 - INFO - downloader - image #10	https://hellorfimg.zcool.cn/preview/182880752.jpg
+2026-05-11 15:47:30,444 - INFO - downloader - image #11	https://t8.baidu.com/it/u=4193483624,3493637413&fm=193
+2026-05-11 15:47:30,599 - INFO - downloader - image #12	https://gd-hbimg.huaban.com/98320a091c00906f668ef59999a442a7c892e95d7eab9-kAD01s_fw658
+2026-05-11 15:47:30,690 - INFO - downloader - image #13	https://gips0.baidu.com/it/u=3486177629,1369300216&fm=3074&app=3074&f=JPEG
+2026-05-11 15:47:30,755 - INFO - downloader - image #14	https://hellorfimg.zcool.cn/large/566187640.jpg
+2026-05-11 15:47:30,799 - INFO - downloader - image #15	https://q2.itc.cn/q_70/images01/20250702/68edc43f65f445229510aa32c8006543.jpeg
+2026-05-11 15:47:31,112 - INFO - downloader - image #16	https://copyright.bdstatic.com/vcg/edit/88ad8fbbb52bf1eef688bda2de171ecc.jpg@h_1280
+2026-05-11 15:47:31,281 - INFO - downloader - image #17	https://copyright.bdstatic.com/vcg/edit/5074608b30963685e9223ef97cae2efc.jpg@h_1280
+2026-05-11 15:47:31,564 - INFO - downloader - image #18	https://gips1.baidu.com/it/u=2704975591,2006478809&fm=3074&app=3074&f=JPEG?w=686&h=448&type=normal&func=
+2026-05-11 15:47:31,813 - INFO - downloader - image #19	https://hellorfimg.zcool.cn/large/566187613.jpg
+2026-05-11 15:47:31,946 - INFO - downloader - image #20	https://hellorfimg.zcool.cn/large/2224114131.jpg
+2026-05-11 15:47:32,539 - INFO - downloader - image #21	https://t9.baidu.com/it/u=3281547989,3611106074&fm=193
+2026-05-11 15:47:32,758 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:47:32,758 - INFO - parser - thread parser-001 exit
+2026-05-11 15:47:33,143 - INFO - downloader - image #22	https://t9.baidu.com/it/u=923992507,944775524&fm=193
+2026-05-11 15:47:33,144 - INFO - downloader - image #23	https://t9.baidu.com/it/u=3171145871,282504719&fm=193
+2026-05-11 15:47:33,608 - INFO - downloader - image #24	https://copyright.bdstatic.com/vcg/edit/388e48e475adac5c5aa3cb9e9785a9f8.jpg@h_1280
+2026-05-11 15:47:33,962 - INFO - downloader - image #25	https://t9.baidu.com/it/u=3852716483,1132408202&fm=193
+2026-05-11 15:47:34,628 - INFO - downloader - image #26	https://t9.baidu.com/it/u=857191544,2087320946&fm=193
+2026-05-11 15:47:35,149 - INFO - downloader - downloaded images reach max num, thread downloader-001 is ready to exit
+2026-05-11 15:47:35,149 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:47:35,595 - INFO - downloader - downloaded images reach max num, thread downloader-004 is ready to exit
+2026-05-11 15:47:35,595 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:47:38,963 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:47:38,963 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:47:39,629 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:47:39,630 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:47:39,915 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:47:39,929 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:47:39,929 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:47:39,930 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:47:39,930 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:47:39,931 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:47:39,933 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:47:40,392 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau kitten&first=0
+2026-05-11 15:47:40,421 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau kitten&first=20
+2026-05-11 15:47:40,654 - INFO - downloader - image #1	https://stockholm-tourist.de/wp-content/uploads/2023/12/Die-Avicii-Arena-hiess-frueher-Ericsson-Globe.jpg
+2026-05-11 15:47:42,397 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:47:42,397 - INFO - parser - thread parser-001 exit
+2026-05-11 15:47:42,424 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:47:42,424 - INFO - parser - thread parser-002 exit
+2026-05-11 15:47:44,934 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:47:44,935 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:47:44,935 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:47:44,935 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:47:44,935 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:47:44,936 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:47:45,655 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:47:45,655 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:47:45,942 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:47:45,946 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:47:45,946 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:47:45,947 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:47:45,948 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:47:45,948 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:47:45,950 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:47:47,951 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:47:47,951 - INFO - parser - thread parser-002 exit
+2026-05-11 15:47:48,276 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=Egyptian Mau kitten&pn=0&rn=30
+2026-05-11 15:47:48,944 - INFO - downloader - image #1	https://gips0.baidu.com/it/u=2510353417,544040246&fm=3074&app=3074&f=JPEG
+2026-05-11 15:47:48,978 - INFO - downloader - image #2	https://hellorfimg.zcool.cn/large/566187613.jpg
+2026-05-11 15:47:49,024 - INFO - downloader - image #3	https://hellorfimg.zcool.cn/large/566187640.jpg
+2026-05-11 15:47:49,037 - INFO - downloader - image #4	https://gips0.baidu.com/it/u=3486177629,1369300216&fm=3074&app=3074&f=JPEG
+2026-05-11 15:47:49,427 - INFO - downloader - image #5	https://hellorfimg.zcool.cn/large/652757755.jpg
+2026-05-11 15:47:49,508 - INFO - downloader - image #6	https://gips1.baidu.com/it/u=2704975591,2006478809&fm=3074&app=3074&f=JPEG?w=686&h=448&type=normal&func=
+2026-05-11 15:47:49,751 - INFO - downloader - image #7	https://pic2.zhimg.com/v2-8d4da04999247a274552a6e59b1a4ae5_r.jpg
+2026-05-11 15:47:49,917 - INFO - downloader - image #8	https://q2.itc.cn/q_70/images01/20250702/68edc43f65f445229510aa32c8006543.jpeg
+2026-05-11 15:47:50,287 - INFO - downloader - image #9	https://hellorfimg.zcool.cn/large/602759123.jpg
+2026-05-11 15:47:50,585 - INFO - downloader - image #10	https://p0.meituan.net/aigcimg/c92e83da513afebe5c29e7b0f886cc7e1806512.jpg%40watermark%3D0
+2026-05-11 15:47:50,611 - INFO - downloader - image #11	https://hellorfimg.zcool.cn/large/566187625.jpg?x-oss-process=image/format,webp
+2026-05-11 15:47:50,681 - INFO - downloader - image #12	https://p0.meituan.net/aigcimg/17bdb462805a782fa2c03dfe8622f050296287.jpg%40watermark%3D0
+2026-05-11 15:47:51,199 - INFO - downloader - image #13	https://hellorfimg.zcool.cn/large/1638288448.jpg
+2026-05-11 15:47:51,375 - INFO - downloader - image #14	https://hellorfimg.zcool.cn/large/602760308.jpg
+2026-05-11 15:47:52,398 - INFO - downloader - image #15	https://copyright.bdstatic.com/vcg/edit/151f7cf1d8cba38e767957865d8686ff.jpg@h_1280
+2026-05-11 15:47:52,823 - INFO - downloader - image #16	https://p8.itc.cn/images01/20210204/0896af08b68146ada35c67e4c39357d5.jpeg
+2026-05-11 15:47:52,991 - INFO - downloader - image #17	https://pic.rmb.bdstatic.com/bjh/5dd2c05459b98746f6d13c08f38580a02037.jpeg
+2026-05-11 15:47:53,176 - INFO - downloader - image #18	https://hellorfimg.zcool.cn/large/492358549.jpg
+2026-05-11 15:47:53,653 - INFO - downloader - image #19	https://bkimg.cdn.bcebos.com/pic/bd3eb13533fa828b3cb8be6bfd1f4134960a5a9a
+2026-05-11 15:47:54,197 - ERROR - downloader - Response status code 403, file https://image109.360doc.cn/DownloadImg/2019/05/2515/162073992_12_20190525035920707
+2026-05-11 15:47:54,266 - INFO - downloader - image #20	https://hellorfimg.zcool.cn/large/1300604389.jpg
+2026-05-11 15:47:54,535 - INFO - downloader - image #21	https://hellorfimg.zcool.cn/large/2268912611.jpg
+2026-05-11 15:47:54,758 - INFO - downloader - image #22	https://5b0988e595225.cdn.sohucs.com/images/20180627/f4efd527b2234e789fd8aa2cc7dd61e7.jpeg
+2026-05-11 15:47:55,243 - INFO - downloader - image #23	https://q9.itc.cn/q_70/images03/20250529/f6edbbf575874c64a52f73b355c000cc.jpeg
+2026-05-11 15:47:55,379 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:47:55,379 - INFO - parser - thread parser-001 exit
+2026-05-11 15:47:55,461 - INFO - downloader - image #24	https://hellorfimg.zcool.cn/large/2273714101.jpg
+2026-05-11 15:47:55,675 - INFO - downloader - image #25	https://pics6.baidu.com/feed/f636afc379310a555486d1ad3dea0ca183261004.jpeg?token=95f123a37162ab353c0cda4e29560e9a
+2026-05-11 15:47:56,964 - INFO - downloader - image #26	https://hellorfimg.zcool.cn/large/241291579.jpg
+2026-05-11 15:47:59,102 - INFO - downloader - downloaded images reach max num, thread downloader-001 is ready to exit
+2026-05-11 15:47:59,102 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:48:00,676 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:48:00,676 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:48:01,430 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:48:01,431 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:48:01,966 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:48:01,966 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:48:01,974 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:48:01,978 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:48:01,979 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:48:01,979 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:48:01,979 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:48:01,979 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:48:01,981 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:48:02,223 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau breed&first=20
+2026-05-11 15:48:02,236 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau breed&first=0
+2026-05-11 15:48:02,539 - INFO - downloader - image #1	https://i.pinimg.com/originals/7c/b4/7d/7cb47da0c31b2caa29761b45c20fccc1.jpg
+2026-05-11 15:48:04,225 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:48:04,225 - INFO - parser - thread parser-002 exit
+2026-05-11 15:48:04,237 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:48:04,237 - INFO - parser - thread parser-001 exit
+2026-05-11 15:48:06,982 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:48:06,982 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:48:06,982 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:48:06,983 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:48:06,983 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:48:06,983 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:48:07,539 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:48:07,540 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:48:07,990 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:48:07,994 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:48:07,994 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:48:07,995 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:48:07,995 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:48:07,995 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:48:07,998 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:48:09,998 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:48:09,998 - INFO - parser - thread parser-002 exit
+2026-05-11 15:48:11,627 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=Egyptian Mau breed&pn=0&rn=30
+2026-05-11 15:48:11,900 - INFO - downloader - image #1	https://gips0.baidu.com/it/u=2510353417,544040246&fm=3074&app=3074&f=JPEG
+2026-05-11 15:48:11,915 - INFO - downloader - image #2	https://hellorfimg.zcool.cn/preview/182880752.jpg
+2026-05-11 15:48:12,168 - INFO - downloader - image #3	https://hellorfimg.zcool.cn/large/182880746.jpg
+2026-05-11 15:48:12,387 - INFO - downloader - image #4	https://hellorfimg.zcool.cn/large/566187640.jpg
+2026-05-11 15:48:12,442 - INFO - downloader - image #5	https://pic2.zhimg.com/v2-8d4da04999247a274552a6e59b1a4ae5_r.jpg
+2026-05-11 15:48:12,609 - INFO - downloader - image #6	https://gips1.baidu.com/it/u=2704975591,2006478809&fm=3074&app=3074&f=JPEG?w=686&h=448&type=normal&func=
+2026-05-11 15:48:13,646 - INFO - downloader - image #7	https://hellorfimg.zcool.cn/large/566187613.jpg
+2026-05-11 15:48:14,012 - INFO - downloader - image #8	https://p0.meituan.net/aigcimg/17bdb462805a782fa2c03dfe8622f050296287.jpg%40watermark%3D0
+2026-05-11 15:48:14,389 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:48:14,389 - INFO - parser - thread parser-001 exit
+2026-05-11 15:48:14,949 - INFO - downloader - image #9	https://p0.meituan.net/aigcimg/c92e83da513afebe5c29e7b0f886cc7e1806512.jpg%40watermark%3D0
+2026-05-11 15:48:15,862 - INFO - downloader - image #10	https://pic.rmb.bdstatic.com/bjh/5dd2c05459b98746f6d13c08f38580a02037.jpeg
+2026-05-11 15:48:15,940 - INFO - downloader - image #11	https://hellorfimg.zcool.cn/large/566187625.jpg?x-oss-process=image/format,webp
+2026-05-11 15:48:16,329 - INFO - downloader - image #12	https://images.unsplash.com/photo-1634310925404-947b6247b360?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8
+2026-05-11 15:48:16,599 - INFO - downloader - image #13	https://pics6.baidu.com/feed/f636afc379310a555486d1ad3dea0ca183261004.jpeg?token=95f123a37162ab353c0cda4e29560e9a
+2026-05-11 15:48:16,771 - INFO - downloader - image #14	https://5b0988e595225.cdn.sohucs.com/images/20180627/f4efd527b2234e789fd8aa2cc7dd61e7.jpeg
+2026-05-11 15:48:16,829 - INFO - downloader - image #15	https://copyright.bdstatic.com/vcg/edit/151f7cf1d8cba38e767957865d8686ff.jpg@h_1280
+2026-05-11 15:48:18,399 - INFO - downloader - image #16	https://p6.toutiaoimg.com/origin/pgc-image/d5a2e92d423144eb8b6c59c6b6c5a1ef?from=pc
+2026-05-11 15:48:21,600 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:48:21,600 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:48:21,772 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:48:21,772 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:48:21,830 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:48:21,831 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:48:23,402 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:48:23,403 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:48:24,020 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:48:24,033 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:48:24,033 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:48:24,034 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:48:24,035 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:48:24,035 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:48:24,038 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:48:24,423 - INFO - parser - parsing result page https://www.bing.com/images/async?q=spotted Egyptian Mau&first=0
+2026-05-11 15:48:24,446 - INFO - parser - parsing result page https://www.bing.com/images/async?q=spotted Egyptian Mau&first=20
+2026-05-11 15:48:24,767 - INFO - downloader - image #1	http://media-cdn.tripadvisor.com/media/photo-s/01/24/7a/25/subtropical-swimming.jpg
+2026-05-11 15:48:24,938 - INFO - downloader - image #2	https://media-cdn.tripadvisor.com/media/photo-s/17/b1/7f/82/photo2jpg.jpg
+2026-05-11 15:48:24,941 - INFO - downloader - image #3	https://i.ytimg.com/vi/pXmja9K6YFs/maxresdefault.jpg
+2026-05-11 15:48:25,092 - INFO - downloader - image #4	http://media-cdn.tripadvisor.com/media/photo-s/05/0a/71/d9/elveden-forest-center.jpg
+2026-05-11 15:48:25,195 - INFO - downloader - image #5	https://live.staticflickr.com/3876/15115713712_d2e1c751a4_b.jpg
+2026-05-11 15:48:25,336 - INFO - downloader - image #6	https://i.ytimg.com/vi/bi12mHOG1BU/maxresdefault.jpg
+2026-05-11 15:48:25,484 - INFO - downloader - image #7	https://i.dailymail.co.uk/i/pix/2012/06/01/article-0-1367618F000005DC-671_634x422.jpg
+2026-05-11 15:48:25,614 - INFO - downloader - image #8	https://images.bauerhosting.com/affiliates/sites/12/2024/10/Untitled-design-555.jpg
+2026-05-11 15:48:25,712 - INFO - downloader - image #9	http://media-cdn.tripadvisor.com/media/photo-s/01/df/8b/c6/subtropical-swimming.jpg
+2026-05-11 15:48:25,907 - INFO - downloader - image #10	https://c8.alamy.com/comp/B1PC98/swimming-pool-at-center-parcs-at-elveden-near-thetforduk-B1PC98.jpg
+2026-05-11 15:48:26,426 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:48:26,426 - INFO - parser - thread parser-001 exit
+2026-05-11 15:48:26,630 - INFO - downloader - image #11	https://c8.alamy.com/comp/AGRWBG/main-swimming-pool-area-centre-parcs-elveden-norfolk-uk-AGRWBG.jpg
+2026-05-11 15:48:26,773 - INFO - downloader - image #12	https://i.pinimg.com/originals/41/eb/3c/41eb3c4498461e7bcff30d9929dd913c.jpg
+2026-05-11 15:48:26,942 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:48:26,942 - INFO - parser - thread parser-002 exit
+2026-05-11 15:48:27,019 - INFO - downloader - image #13	https://i.pinimg.com/474x/77/69/64/776964acbc5c2a781456dcd5c21453b9--visit-uk-parcs.jpg
+2026-05-11 15:48:27,125 - INFO - downloader - image #14	https://www.centerparcs.co.uk/content/dam/centerparcs/maps/subtropical-swimming-paradise/06500-EF-STSP-Pool-Map.jpg
+2026-05-11 15:48:27,788 - ERROR - downloader - Response status code 404, file https://www.centerparcs.co.uk/content/centerparcs/uk/en/discover-center-parcs/things-to-do/activities/subtropical-swimming-paradise-pool-session/_jcr_content/root/responsivegrid/gallery/images/5.transform.1570186365591.jpg
+2026-05-11 15:48:28,278 - INFO - downloader - image #15	https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiatZ80eOE44dhvfdNeU8iNQtIYs4m2zTeO0S2GIBsYP730eUMAm5kwvD-2uiTiIgrWB3H8RYR-yfgqVf9mrYv1OqrL7BDtFFg20WBeRhhY-4uqNnfO5Iqv3Sj4IE0PCBAcP6JrrSpcAfywnktTD7TguQCPYjLsX2fqFLPiiZJWjnlcdTYGe4dZBZe2rJU/s2640/wild water rapids outside swimming pool review center parcs.jpg
+2026-05-11 15:48:28,697 - INFO - downloader - image #16	https://dynamic-media-cdn.tripadvisor.com/media/photo-o/27/cd/08/dc/center-parcs-elveden.jpg
+2026-05-11 15:48:32,128 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:48:32,128 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:48:32,789 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:48:32,789 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:48:33,281 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:48:33,281 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:48:33,700 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:48:33,701 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:48:34,052 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:48:34,054 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:48:34,054 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:48:34,055 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:48:34,055 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:48:34,056 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:48:34,058 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:48:36,058 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:48:36,059 - INFO - parser - thread parser-002 exit
+2026-05-11 15:48:36,426 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=spotted Egyptian Mau&pn=0&rn=30
+2026-05-11 15:48:36,690 - INFO - downloader - image #1	https://pic2.zhimg.com/v2-8d4da04999247a274552a6e59b1a4ae5_r.jpg
+2026-05-11 15:48:36,755 - INFO - downloader - image #2	https://gips0.baidu.com/it/u=2510353417,544040246&fm=3074&app=3074&f=JPEG
+2026-05-11 15:48:37,204 - INFO - downloader - image #3	https://hellorfimg.zcool.cn/large/566187640.jpg
+2026-05-11 15:48:37,285 - INFO - downloader - image #4	https://hellorfimg.zcool.cn/large/92279995.jpg
+2026-05-11 15:48:37,384 - INFO - downloader - image #5	https://hellorfimg.zcool.cn/large/566187613.jpg
+2026-05-11 15:48:37,634 - INFO - downloader - image #6	https://hellorfimg.zcool.cn/large/182880746.jpg
+2026-05-11 15:48:37,751 - INFO - downloader - image #7	https://gips1.baidu.com/it/u=2704975591,2006478809&fm=3074&app=3074&f=JPEG?w=686&h=448&type=normal&func=
+2026-05-11 15:48:37,914 - INFO - downloader - image #8	https://p0.meituan.net/aigcimg/17bdb462805a782fa2c03dfe8622f050296287.jpg%40watermark%3D0
+2026-05-11 15:48:37,968 - INFO - downloader - image #9	https://gips0.baidu.com/it/u=3486177629,1369300216&fm=3074&app=3074&f=JPEG
+2026-05-11 15:48:38,449 - INFO - downloader - image #10	https://p0.meituan.net/aigcimg/c92e83da513afebe5c29e7b0f886cc7e1806512.jpg%40watermark%3D0
+2026-05-11 15:48:38,510 - INFO - downloader - image #11	https://hellorfimg.zcool.cn/preview/182880752.jpg
+2026-05-11 15:48:39,058 - INFO - downloader - image #12	https://pic.rmb.bdstatic.com/bjh/5dd2c05459b98746f6d13c08f38580a02037.jpeg
+2026-05-11 15:48:39,123 - INFO - downloader - image #13	https://hellorfimg.zcool.cn/large/566187625.jpg?x-oss-process=image/format,webp
+2026-05-11 15:48:39,885 - INFO - downloader - image #14	https://copyright.bdstatic.com/vcg/edit/151f7cf1d8cba38e767957865d8686ff.jpg@h_1280
+2026-05-11 15:48:40,203 - INFO - downloader - image #15	https://p8.itc.cn/images01/20210204/0896af08b68146ada35c67e4c39357d5.jpeg
+2026-05-11 15:48:40,244 - INFO - downloader - image #16	https://pics6.baidu.com/feed/f636afc379310a555486d1ad3dea0ca183261004.jpeg?token=95f123a37162ab353c0cda4e29560e9a
+2026-05-11 15:48:40,809 - INFO - downloader - image #17	https://bkimg.cdn.bcebos.com/pic/472309f790529822720e1502db996ccb0a46f31f7eed
+2026-05-11 15:48:40,969 - ERROR - downloader - Response status code 403, file https://wx2.sinaimg.cn/mw690/e7d748c6gy1i3y46zo39pj20m80go77b.jpg
+2026-05-11 15:48:41,220 - INFO - downloader - image #18	https://images.unsplash.com/photo-1634310925404-947b6247b360?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8
+2026-05-11 15:48:41,290 - ERROR - downloader - Response status code 403, file https://image109.360doc.cn/DownloadImg/2019/05/2515/162073992_12_20190525035920707
+2026-05-11 15:48:41,586 - ERROR - downloader - Response status code 403, file https://img2.chinadaily.com.cn/images/201905/13/5cd8c16ca3104842e4ad12ce.jpeg
+2026-05-11 15:48:42,002 - INFO - downloader - image #19	https://hellorfimg.zcool.cn/large/1390172585.jpg
+2026-05-11 15:48:42,246 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:48:42,246 - INFO - parser - thread parser-001 exit
+2026-05-11 15:48:42,251 - INFO - downloader - image #20	https://q9.itc.cn/q_70/images03/20250529/f6edbbf575874c64a52f73b355c000cc.jpeg
+2026-05-11 15:48:42,552 - INFO - downloader - image #21	https://5b0988e595225.cdn.sohucs.com/images/20180627/f4efd527b2234e789fd8aa2cc7dd61e7.jpeg
+2026-05-11 15:48:43,375 - INFO - downloader - image #22	https://p6.toutiaoimg.com/origin/pgc-image/d5a2e92d423144eb8b6c59c6b6c5a1ef?from=pc
+2026-05-11 15:48:43,416 - ERROR - downloader - Exception caught when downloading file https://ec4.images-amazon.com/images/I/61-OCfkpccL._SL1000_.jpg, error: HTTPSConnectionPool(host='ec4.images-amazon.com', port=443): Max retries exceeded with url: /images/I/61-OCfkpccL._SL1000_.jpg (Caused by NameResolutionError("HTTPSConnection(host='ec4.images-amazon.com', port=443): Failed to resolve 'ec4.images-amazon.com' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:48:43,448 - ERROR - downloader - Exception caught when downloading file https://ec4.images-amazon.com/images/I/61-OCfkpccL._SL1000_.jpg, error: HTTPSConnectionPool(host='ec4.images-amazon.com', port=443): Max retries exceeded with url: /images/I/61-OCfkpccL._SL1000_.jpg (Caused by NameResolutionError("HTTPSConnection(host='ec4.images-amazon.com', port=443): Failed to resolve 'ec4.images-amazon.com' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:48:43,478 - ERROR - downloader - Exception caught when downloading file https://ec4.images-amazon.com/images/I/61-OCfkpccL._SL1000_.jpg, error: HTTPSConnectionPool(host='ec4.images-amazon.com', port=443): Max retries exceeded with url: /images/I/61-OCfkpccL._SL1000_.jpg (Caused by NameResolutionError("HTTPSConnection(host='ec4.images-amazon.com', port=443): Failed to resolve 'ec4.images-amazon.com' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:48:43,835 - INFO - downloader - image #23	https://pics4.baidu.com/feed/4610b912c8fcc3ce7567b27f41032582d53f20ac.jpeg@f_auto?token=dba1f75eda419fa031b21dd42557fefd
+2026-05-11 15:48:48,836 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:48:48,836 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:48:49,185 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:48:49,185 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:48:49,404 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:48:49,404 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:48:50,697 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:48:50,698 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:48:51,080 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:48:51,091 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:48:51,091 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:48:51,091 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:48:51,092 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:48:51,092 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:48:51,096 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:48:51,354 - INFO - parser - parsing result page https://www.bing.com/images/async?q=silver Egyptian Mau&first=20
+2026-05-11 15:48:51,387 - INFO - parser - parsing result page https://www.bing.com/images/async?q=silver Egyptian Mau&first=0
+2026-05-11 15:48:51,715 - INFO - downloader - image #1	https://www.travauxdhercule.com/wp-content/uploads/2022/10/terex-ppm-ac55l-travaux-hercule-1-768x576.jpg
+2026-05-11 15:48:53,358 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:48:53,358 - INFO - parser - thread parser-002 exit
+2026-05-11 15:48:53,391 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:48:53,391 - INFO - parser - thread parser-001 exit
+2026-05-11 15:48:56,097 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:48:56,097 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:48:56,098 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:48:56,098 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:48:56,098 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:48:56,098 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:48:56,716 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:48:56,716 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:48:57,105 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:48:57,110 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:48:57,110 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:48:57,111 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:48:57,111 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:48:57,112 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:48:57,114 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:48:59,115 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:48:59,115 - INFO - parser - thread parser-002 exit
+2026-05-11 15:48:59,736 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=silver Egyptian Mau&pn=0&rn=30
+2026-05-11 15:49:00,671 - INFO - downloader - image #1	https://hellorfimg.zcool.cn/large/566187640.jpg
+2026-05-11 15:49:00,728 - INFO - downloader - image #2	https://gips0.baidu.com/it/u=2510353417,544040246&fm=3074&app=3074&f=JPEG
+2026-05-11 15:49:00,739 - INFO - downloader - image #3	https://hellorfimg.zcool.cn/large/566187613.jpg
+2026-05-11 15:49:00,945 - INFO - downloader - image #4	https://pic2.zhimg.com/v2-8d4da04999247a274552a6e59b1a4ae5_r.jpg
+2026-05-11 15:49:02,005 - ERROR - downloader - Response status code 404, file https://b0.bdstatic.com/ugc/EotVJTacgRdWyAGbcF_1rA020f50288f975240f795809a3287414d.jpg@h_1280
+2026-05-11 15:49:02,639 - INFO - downloader - image #5	https://t8.baidu.com/it/u=4193483624,3493637413&fm=193
+2026-05-11 15:49:02,722 - ERROR - downloader - Exception caught when downloading file https://images1.epailive.com/upload/epailive/12795/18102/415l.jpg, error: HTTPSConnectionPool(host='images1.epailive.com', port=443): Max retries exceeded with url: /upload/epailive/12795/18102/415l.jpg (Caused by NameResolutionError("HTTPSConnection(host='images1.epailive.com', port=443): Failed to resolve 'images1.epailive.com' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:49:02,772 - ERROR - downloader - Exception caught when downloading file https://images1.epailive.com/upload/epailive/12795/18102/415l.jpg, error: HTTPSConnectionPool(host='images1.epailive.com', port=443): Max retries exceeded with url: /upload/epailive/12795/18102/415l.jpg (Caused by NameResolutionError("HTTPSConnection(host='images1.epailive.com', port=443): Failed to resolve 'images1.epailive.com' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:49:02,802 - INFO - downloader - image #6	https://gips1.baidu.com/it/u=2704975591,2006478809&fm=3074&app=3074&f=JPEG?w=686&h=448&type=normal&func=
+2026-05-11 15:49:02,826 - ERROR - downloader - Exception caught when downloading file https://images1.epailive.com/upload/epailive/12795/18102/415l.jpg, error: HTTPSConnectionPool(host='images1.epailive.com', port=443): Max retries exceeded with url: /upload/epailive/12795/18102/415l.jpg (Caused by NameResolutionError("HTTPSConnection(host='images1.epailive.com', port=443): Failed to resolve 'images1.epailive.com' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:49:03,078 - INFO - downloader - image #7	https://copyright.bdstatic.com/vcg/edit/151f7cf1d8cba38e767957865d8686ff.jpg@h_1280
+2026-05-11 15:49:03,154 - INFO - downloader - image #8	https://p0.meituan.net/aigcimg/17bdb462805a782fa2c03dfe8622f050296287.jpg%40watermark%3D0
+2026-05-11 15:49:03,556 - INFO - downloader - image #9	https://copyright.bdstatic.com/vcg/edit/0af6371053da62b0c50914b4e436ced2.jpg@h_1280
+2026-05-11 15:49:04,015 - INFO - downloader - image #10	https://t9.baidu.com/it/u=3281547989,3611106074&fm=193
+2026-05-11 15:49:04,959 - INFO - downloader - image #11	https://pic.rmb.bdstatic.com/bjh/5dd2c05459b98746f6d13c08f38580a02037.jpeg
+2026-05-11 15:49:05,391 - INFO - downloader - image #12	https://gips0.baidu.com/it/u=3486177629,1369300216&fm=3074&app=3074&f=JPEG
+2026-05-11 15:49:05,842 - INFO - downloader - image #13	https://t7.baidu.com/it/u=364904983,4093187094&fm=193
+2026-05-11 15:49:06,002 - INFO - downloader - image #14	https://www.collectsource.net/Photos12/12_e2.jpg
+2026-05-11 15:49:06,270 - ERROR - downloader - Response status code 404, file https://www.classic-play.com/wp-content/uploads/2013/10/hieroglyphs_symbols.jpg
+2026-05-11 15:49:06,539 - INFO - downloader - image #15	https://p0.meituan.net/aigcimg/c92e83da513afebe5c29e7b0f886cc7e1806512.jpg%40watermark%3D0
+2026-05-11 15:49:06,614 - INFO - downloader - image #16	https://sns-img-hw.xhscdn.com/65f35310-7c0a-345a-a806-52ed7ee9b681?imageView2/2/w/1080/format/webp
+2026-05-11 15:49:06,685 - ERROR - downloader - Response status code 403, file https://ww1.sinaimg.cn/mw690/60fb2309ly1hq31za9q4gj211h0xh7oo.jpg
+2026-05-11 15:49:06,704 - ERROR - downloader - Exception caught when downloading file https://www.thunderchops.com/images/DSCF7347.JPG, error: HTTPSConnectionPool(host='www.thunderchops.com', port=443): Max retries exceeded with url: /images/DSCF7347.JPG (Caused by NameResolutionError("HTTPSConnection(host='www.thunderchops.com', port=443): Failed to resolve 'www.thunderchops.com' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:49:06,776 - ERROR - downloader - Exception caught when downloading file https://www.thunderchops.com/images/DSCF7347.JPG, error: HTTPSConnectionPool(host='www.thunderchops.com', port=443): Max retries exceeded with url: /images/DSCF7347.JPG (Caused by NameResolutionError("HTTPSConnection(host='www.thunderchops.com', port=443): Failed to resolve 'www.thunderchops.com' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:49:06,889 - ERROR - downloader - Exception caught when downloading file https://www.thunderchops.com/images/DSCF7347.JPG, error: HTTPSConnectionPool(host='www.thunderchops.com', port=443): Max retries exceeded with url: /images/DSCF7347.JPG (Caused by NameResolutionError("HTTPSConnection(host='www.thunderchops.com', port=443): Failed to resolve 'www.thunderchops.com' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:49:06,928 - INFO - downloader - image #17	https://hellorfimg.zcool.cn/large/92279995.jpg
+2026-05-11 15:49:06,964 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:49:06,965 - INFO - parser - thread parser-001 exit
+2026-05-11 15:49:10,210 - INFO - downloader - image #18	https://pic.rmb.bdstatic.com/bjh/events/f6c23f27ad93db2980aef51e989547199274.png@h_1280
+2026-05-11 15:49:10,528 - INFO - downloader - image #19	https://ae01.alicdn.com/kf/Hdf5e3fe311f94cc6b6ece61a023d32eeg/Classic-Ankh-Cross-Pendant-Alloy-Gold-Silver-Black-Egyptian-Key-of-Life-Pendant-Necklace-Men-Women.jpg_q50.jpg
+2026-05-11 15:49:10,610 - INFO - downloader - image #20	https://bkimg.cdn.bcebos.com/pic/1b4c510fd9f9d72ab9fc4eecdf2a2834359bbba3
+2026-05-11 15:49:10,624 - INFO - downloader - image #21	https://bkimg.cdn.bcebos.com/pic/d000baa1cd11728b17b5d2d3c3fcc3cec2fd2ca2
+2026-05-11 15:49:12,532 - INFO - downloader - image #22	https://bkimg.cdn.bcebos.com/pic/dbb44aed2e738bd428a7ecc0aa8b87d6267ff9b9
+2026-05-11 15:49:15,529 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:49:15,529 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:49:15,612 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:49:15,613 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:49:15,627 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:49:15,627 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:49:17,535 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:49:17,535 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:49:18,144 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:49:18,145 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:49:18,146 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:49:18,146 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:49:18,146 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:49:18,147 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:49:18,149 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:49:18,475 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau full body&first=0
+2026-05-11 15:49:18,485 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Egyptian Mau full body&first=20
+2026-05-11 15:49:18,737 - INFO - downloader - image #1	https://minecraft.fr/wp-content/uploads/2023/07/wither-storm-mod-minecraft-ciel.jpg
+2026-05-11 15:49:20,478 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:49:20,478 - INFO - parser - thread parser-001 exit
+2026-05-11 15:49:20,488 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:49:20,489 - INFO - parser - thread parser-002 exit
+2026-05-11 15:49:23,150 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:49:23,151 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:49:23,151 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:49:23,152 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:49:23,151 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:49:23,152 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:49:23,738 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:49:23,738 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:49:24,158 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:49:24,162 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:49:24,162 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:49:24,163 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:49:24,163 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:49:24,164 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:49:24,166 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:49:26,166 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:49:26,167 - INFO - parser - thread parser-002 exit
+2026-05-11 15:49:26,386 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=Egyptian Mau full body&pn=0&rn=30
+2026-05-11 15:49:26,741 - INFO - downloader - image #1	https://gips0.baidu.com/it/u=2510353417,544040246&fm=3074&app=3074&f=JPEG
+2026-05-11 15:49:26,905 - INFO - downloader - image #2	https://qcloud.dpfile.com/pc/GZrwpzt5dc2n9BxBnIUf3Ufd75-h-bqKnNO5IusSBgqYyOVgW_NwuZwnCpruFe8JY0q73sB2DyQcgmKUxZFQtw.jpg
+2026-05-11 15:49:27,045 - INFO - downloader - image #3	https://pic2.zhimg.com/v2-8d4da04999247a274552a6e59b1a4ae5_r.jpg
+2026-05-11 15:49:27,232 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oUFvZdDbAE6IgRiu7wPiMKA7uPIAvA6dBAIkd~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1775264400&x-signature=ppDH6923bRhxzC4tF9OvMViC%2B6k%3D
+2026-05-11 15:49:27,828 - INFO - downloader - image #4	https://copyright.bdstatic.com/vcg/edit/0af6371053da62b0c50914b4e436ced2.jpg@h_1280
+2026-05-11 15:49:29,024 - INFO - downloader - image #5	https://copyright.bdstatic.com/vcg/edit/88ad8fbbb52bf1eef688bda2de171ecc.jpg@h_1280
+2026-05-11 15:49:29,183 - INFO - downloader - image #6	https://i0.hdslb.com/bfs/article/watermark/bfbdfdae2cb972e3b6ebf4f579206a8d276021cc.jpg@1192w_1788h.webp
+2026-05-11 15:49:29,492 - INFO - downloader - image #7	https://pic.rmb.bdstatic.com/bjh/5dd2c05459b98746f6d13c08f38580a02037.jpeg
+2026-05-11 15:49:29,890 - INFO - downloader - image #8	https://copyright.bdstatic.com/vcg/edit/151f7cf1d8cba38e767957865d8686ff.jpg@h_1280
+2026-05-11 15:49:30,199 - INFO - downloader - image #9	https://www.minghuafuzhi.com/2022/11/20221104134339513.jpg?r420x450
+2026-05-11 15:49:30,207 - INFO - downloader - image #10	https://t8.baidu.com/it/u=4193483624,3493637413&fm=193
+2026-05-11 15:49:30,833 - INFO - downloader - image #11	https://i1.hdslb.com/bfs/archive/8da1344681a134d3660476d8c4f0206d29ab45b8.jpg
+2026-05-11 15:49:30,948 - INFO - downloader - image #12	https://p4.itc.cn/q_70/images03/20220330/525e06692737434292cfa20d3ba45256.jpeg
+2026-05-11 15:49:31,059 - ERROR - downloader - Response status code 403, file https://wx3.sinaimg.cn/mw690/005OCyhIgy1hbtsln1m7aj30i90sggpx.jpg
+2026-05-11 15:49:31,479 - INFO - downloader - image #13	https://copyright.bdstatic.com/vcg/edit/388e48e475adac5c5aa3cb9e9785a9f8.jpg@h_1280
+2026-05-11 15:49:32,267 - INFO - downloader - image #14	https://qcloud.dpfile.com/pc/-Y2Ue1QuZBLghO-r1WwlsHUcF0MLxsAbvO9bkgqogN_8fTyCYMbK6mV5xznFfbODY0q73sB2DyQcgmKUxZFQtw.jpg
+2026-05-11 15:49:32,286 - INFO - downloader - image #15	https://copyright.bdstatic.com/vcg/edit/5074608b30963685e9223ef97cae2efc.jpg@h_1280
+2026-05-11 15:49:32,460 - INFO - downloader - image #16	https://cdn.lianghuadashi.com/wp-content/uploads/2021/03/8136f63eef48efb.jpg
+2026-05-11 15:49:32,915 - ERROR - downloader - Exception caught when downloading file https://img.mp.itc.cn/q_70,c_zoom,w_640/upload/20170424/be7e09e73c734914996f0f8b89a93507_th.jpeg, error: HTTPSConnectionPool(host='img.mp.itc.cn', port=443): Max retries exceeded with url: /q_70,c_zoom,w_640/upload/20170424/be7e09e73c734914996f0f8b89a93507_th.jpeg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)'))), remaining retry times: 2
+2026-05-11 15:49:33,123 - ERROR - downloader - Exception caught when downloading file https://img.mp.itc.cn/q_70,c_zoom,w_640/upload/20170424/be7e09e73c734914996f0f8b89a93507_th.jpeg, error: HTTPSConnectionPool(host='img.mp.itc.cn', port=443): Max retries exceeded with url: /q_70,c_zoom,w_640/upload/20170424/be7e09e73c734914996f0f8b89a93507_th.jpeg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)'))), remaining retry times: 1
+2026-05-11 15:49:33,253 - INFO - downloader - image #17	https://p6.toutiaoimg.com/origin/pgc-image/d5a2e92d423144eb8b6c59c6b6c5a1ef?from=pc
+2026-05-11 15:49:33,333 - ERROR - downloader - Exception caught when downloading file https://img.mp.itc.cn/q_70,c_zoom,w_640/upload/20170424/be7e09e73c734914996f0f8b89a93507_th.jpeg, error: HTTPSConnectionPool(host='img.mp.itc.cn', port=443): Max retries exceeded with url: /q_70,c_zoom,w_640/upload/20170424/be7e09e73c734914996f0f8b89a93507_th.jpeg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1007)'))), remaining retry times: 0
+2026-05-11 15:49:33,482 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:49:33,482 - INFO - parser - thread parser-001 exit
+2026-05-11 15:49:33,726 - ERROR - downloader - Response status code 403, file https://ww4.sinaimg.cn/mw690/006yDexJly1h9z9vzze83j30u00u0wk9.jpg
+2026-05-11 15:49:33,746 - INFO - downloader - image #18	https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201501/379191598.jpg
+2026-05-11 15:49:33,784 - ERROR - downloader - Response status code 403, file https://wx3.sinaimg.cn/mw690/482eb94bgy1hepv7lkkqkj21hj2zie59.jpg
+2026-05-11 15:49:33,937 - INFO - downloader - image #19	https://copyright.bdstatic.com/vcg/edit/65368779e1ba087c115fde89bfe778d0.jpg@h_1280
+2026-05-11 15:49:34,275 - INFO - downloader - image #20	https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201811/666708247.jpg
+2026-05-11 15:49:34,581 - INFO - downloader - image #21	https://mediad.publicbroadcasting.net/p/shared/npr/styles/x_large/nprshared/201805/590405155.jpg
+2026-05-11 15:49:34,600 - INFO - downloader - image #22	https://pics6.baidu.com/feed/f636afc379310a555486d1ad3dea0ca183261004.jpeg?token=95f123a37162ab353c0cda4e29560e9a
+2026-05-11 15:49:35,303 - INFO - downloader - image #23	https://t9.baidu.com/it/u=3171145871,282504719&fm=193
+2026-05-11 15:49:35,558 - INFO - downloader - image #24	https://thewatchtowers.org/wp-content/uploads/2019/02/07337947.jpg
+2026-05-11 15:49:39,583 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:49:39,583 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:49:39,601 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:49:39,602 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:49:40,304 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:49:40,304 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:49:40,559 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:49:40,559 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:49:41,189 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:49:41,190 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:49:41,190 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:49:41,191 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:49:41,192 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:49:41,192 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:49:41,193 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:49:41,591 - INFO - parser - parsing result page https://www.bing.com/images/async?q=埃及猫&first=0
+2026-05-11 15:49:41,680 - INFO - parser - parsing result page https://www.bing.com/images/async?q=埃及猫&first=20
+2026-05-11 15:49:42,407 - INFO - downloader - image #1	https://static.vecteezy.com/system/resources/previews/002/877/530/original/repetitive-flapping-rocking-spinning-concept-icon-autism-symptom-abstract-idea-thin-line-illustration-stereotyped-motor-movements-isolated-outline-color-drawing-editable-stroke-vector.jpg
+2026-05-11 15:49:42,567 - INFO - downloader - image #2	https://www.wonderbaby.org/wp-content/uploads/2023/02/Child-boy-flapping-hands.jpg
+2026-05-11 15:49:42,821 - INFO - downloader - image #3	https://c8.alamy.com/comp/2G5WE5P/repetitive-flapping-rocking-spinning-concept-icon-autism-symptom-abstract-idea-thin-line-illustration-self-stimulatory-behavior-vector-isolated-o-2G5WE5P.jpg
+2026-05-11 15:49:42,882 - INFO - downloader - image #4	https://abcachieve.com/wp-content/uploads/2025/06/Why-Do-Children-with-Autism-Flap-Their-Hands-ABS-1024x1003.jpg
+2026-05-11 15:49:42,971 - ERROR - downloader - Response status code 404, file https://strivehighaba.com/wp-content/uploads/2025/09/what-does-autism-hand-flapping-look-like-980x551.jpg
+2026-05-11 15:49:43,043 - INFO - downloader - image #5	https://static.wixstatic.com/media/58e90e_6dbbef41c9d1430f8bcc25e94ce6792a~mv2.jpg
+2026-05-11 15:49:43,127 - INFO - downloader - image #6	https://www.autismparentingmagazine.com/wp-content/uploads/2020/06/hand-flapping-autism.jpg
+2026-05-11 15:49:43,128 - ERROR - downloader - Exception caught when downloading file https://www.awesomearchie.co.uk/wp-content/uploads/2023/05/dsfsdf.jpg, error: HTTPSConnectionPool(host='www.awesomearchie.co.uk', port=443): Max retries exceeded with url: /wp-content/uploads/2023/05/dsfsdf.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)'))), remaining retry times: 2
+2026-05-11 15:49:43,246 - ERROR - downloader - Exception caught when downloading file https://www.awesomearchie.co.uk/wp-content/uploads/2023/05/dsfsdf.jpg, error: HTTPSConnectionPool(host='www.awesomearchie.co.uk', port=443): Max retries exceeded with url: /wp-content/uploads/2023/05/dsfsdf.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)'))), remaining retry times: 1
+2026-05-11 15:49:43,370 - ERROR - downloader - Exception caught when downloading file https://www.awesomearchie.co.uk/wp-content/uploads/2023/05/dsfsdf.jpg, error: HTTPSConnectionPool(host='www.awesomearchie.co.uk', port=443): Max retries exceeded with url: /wp-content/uploads/2023/05/dsfsdf.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)'))), remaining retry times: 0
+2026-05-11 15:49:43,609 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:49:43,609 - INFO - parser - thread parser-001 exit
+2026-05-11 15:49:43,627 - INFO - downloader - image #7	https://neurolaunch.com/wp-content/uploads/2024/08/understanding-hand-flapping-in-excited-children-a-comprehensive-guide-for-parents-1024x701.jpg
+2026-05-11 15:49:43,708 - INFO - downloader - image #8	https://i.ytimg.com/vi/X9ZJr8baOwc/maxresdefault.jpg
+2026-05-11 15:49:43,732 - INFO - downloader - image #9	https://i.ytimg.com/vi/LdhlzKn5j4U/maxresdefault.jpg
+2026-05-11 15:49:43,770 - INFO - downloader - image #10	https://neurolaunch.com/wp-content/uploads/2024/08/is-clapping-a-sign-of-autism-understanding-repetitive-behaviors-in-autism-spectrum-disorder-1024x701.jpg
+2026-05-11 15:49:43,893 - INFO - downloader - image #11	https://www.autismparentingmagazine.com/wp-content/uploads/2024/07/Untitled-design-32-1024x538.jpg
+2026-05-11 15:49:44,115 - INFO - downloader - image #12	https://heartlinksaba.com/wp-content/uploads/2024/07/Hand-of-Child-Finger-Flicking.jpg
+2026-05-11 15:49:44,230 - ERROR - downloader - Response status code 429, file https://acclimateabatherapy.com/wp-content/uploads/2025/03/Examples-of-Repetitive-Movements-and-Stimming-in-Autism.jpg
+2026-05-11 15:49:44,258 - INFO - downloader - image #13	https://i.ytimg.com/vi/sKWgqFqXJcE/maxresdefault.jpg
+2026-05-11 15:49:44,287 - INFO - downloader - image #14	https://i.ytimg.com/vi/JxLyX23L-lY/maxresdefault.jpg
+2026-05-11 15:49:44,370 - INFO - downloader - image #15	https://mantracare.org/wp-content/uploads/2021/12/Stimming-In-Autism-1024x503.jpg
+2026-05-11 15:49:44,639 - INFO - downloader - image #16	https://slidetodoc.com/presentation_image_h/160de16330af99f7d8c0328fdd6e6b24/image-13.jpg
+2026-05-11 15:49:44,885 - INFO - downloader - image #17	https://autismtravel.com/wp-content/uploads/sites/2/2021/10/Blog-Artwork-1-thegem-blog-timeline-large.jpg
+2026-05-11 15:49:44,997 - INFO - downloader - image #18	https://heartlinksaba.com/wp-content/uploads/2023/09/shutterstock_1499232812.jpg
+2026-05-11 15:49:45,123 - ERROR - downloader - Response status code 403, file https://luxai.com/wp-content/uploads/2022/05/stimming-in-autism-examples-684x1024-500x748.jpg
+2026-05-11 15:49:45,164 - INFO - downloader - image #19	https://villageoflittles.com/wp-content/uploads/2024/11/childtwirling-1024x536.jpg
+2026-05-11 15:49:45,269 - INFO - downloader - image #20	https://i.ytimg.com/vi/Mf8XiGufpzg/maxresdefault.jpg
+2026-05-11 15:49:45,772 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:49:45,773 - INFO - parser - thread parser-002 exit
+2026-05-11 15:49:49,321 - ERROR - downloader - Exception caught when downloading file https://www.outlanderanatomy.com/wp-content/uploads/2015/05/finger-movements-KLS-edited.jpg, error: HTTPSConnectionPool(host='www.outlanderanatomy.com', port=443): Max retries exceeded with url: /wp-content/uploads/2015/05/finger-movements-KLS-edited.jpg (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.outlanderanatomy.com', port=443) at 0x7378541c5540>, 'Connection to www.outlanderanatomy.com timed out. (connect timeout=5)')), remaining retry times: 2
+2026-05-11 15:49:50,165 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:49:50,166 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:49:50,270 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:49:50,270 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:49:50,271 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:49:50,272 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:49:58,305 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:49:58,306 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:49:59,219 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:49:59,220 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:49:59,220 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:49:59,221 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:49:59,221 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:49:59,221 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:49:59,223 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:50:01,224 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:50:01,224 - INFO - parser - thread parser-002 exit
+2026-05-11 15:50:01,764 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=埃及猫&pn=0&rn=30
+2026-05-11 15:50:02,273 - INFO - downloader - image #1	https://i2.hdslb.com/bfs/archive/603a84949e25e7a799f9355153aac399862a116f.jpg
+2026-05-11 15:50:02,290 - INFO - downloader - image #2	https://i2.hdslb.com/bfs/archive/9a2f9a67fda9709e06612f24d7fc77051e2be60f.jpg
+2026-05-11 15:50:02,516 - INFO - downloader - image #3	https://i2.hdslb.com/bfs/archive/3015f6022c5c0963147a0224f4bff642bc542be0.jpg
+2026-05-11 15:50:02,802 - INFO - downloader - image #4	https://i0.hdslb.com/bfs/archive/60b9e38b79698af19e54ab74f742a110ac7829c9.jpg
+2026-05-11 15:50:03,338 - INFO - downloader - image #5	https://i0.hdslb.com/bfs/archive/94a68ff9ca691288e4fbadff8839901d980893cc.jpg
+2026-05-11 15:50:03,388 - INFO - downloader - image #6	https://i2.hdslb.com/bfs/archive/5c26110a60ed9321dee80408760b339e4ee105cd.jpg
+2026-05-11 15:50:03,533 - ERROR - downloader - Response status code 403, file https://p9-pc-sign.douyinpic.com/tos-cn-i-0813/oMaZACoYP4l2IHAEAAvQ2MBZ9ixAZiABByjI9~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1763316000&x-signature=xu30MboJgJ02iX7ppJTsGyHDz2M%3D
+2026-05-11 15:50:03,708 - INFO - downloader - image #7	https://img.alicdn.com/bao/uploaded/i3/1784502320/O1CN01lxj9dX1T0bhLxE4yS_%21%211784502320.jpg
+2026-05-11 15:50:03,986 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEiWC4LiAgr3a0ZAEgRIDKv07AIBAlg546PFA~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1761717600&x-signature=FKBFdCBy6mYNT0eizll8P%2FP%2BFzw%3D
+2026-05-11 15:50:04,966 - INFO - downloader - image #8	https://pic.rmb.bdstatic.com/bjh/240406/news/6e4d0197a7a236a101c9c485819d43797050.jpeg?x-bce-process=image/watermark,bucket_baidu-rmb-video-cover-1,image_YmpoL25ld3MvNjUzZjZkMjRlMDJiNjdjZWU1NzEzODg0MDNhYTQ0YzQucG5n,type_RlpMYW5UaW5nSGVpU01HQg==,w_31,text_QEtvcGnokIzlrqDnlJ_mtLs=,size_31,x_24,y_24,interval_2,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1
+2026-05-11 15:50:05,517 - INFO - downloader - image #9	https://pic.rmb.bdstatic.com/bjh/240120/756331674dfd029ed19f8bbfae18f1ef3575.jpeg@h_1280
+2026-05-11 15:50:05,613 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oUp27mAiIEXFa2AJffRBbDvF2QoEO2AfgALFH7~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1763834400&x-signature=DfPzeADbBtdwuCASQzxjXMzG9n0%3D
+2026-05-11 15:50:05,756 - INFO - downloader - image #10	https://pic.rmb.bdstatic.com/9692dcfd4450c9c82dd315d127637134@wm_1,k_cGljX2JqaHdhdGVyLmpwZw==
+2026-05-11 15:50:05,971 - INFO - downloader - image #11	https://copyright.bdstatic.com/vcg/creative/0b0bc16c3ddf7480df771c7d1f0be9f5.jpg@wm_1,k_cGljX2JqaHdhdGVyLmpwZw==
+2026-05-11 15:50:06,325 - INFO - downloader - image #12	https://gips3.baidu.com/it/u=31636055,685968559&fm=3074&app=3074&f=JPEG?w=1024&h=994&type=normal&func=
+2026-05-11 15:50:06,575 - INFO - downloader - image #13	https://pic.rmb.bdstatic.com/bjh/news/adcdae7ee6725f2ef3cd44451a92b726.png
+2026-05-11 15:50:06,643 - INFO - downloader - image #14	https://q0.itc.cn/q_70/images01/20250703/636a44e379eb4f61b44c201db6e0bb67.jpeg
+2026-05-11 15:50:06,708 - INFO - downloader - image #15	https://p3-pc-sign.douyinpic.com/obj/tos-cn-p-0015c000-ce/oMPAZI6eG3QA0q3zXMEmCFjB7J7DMgw8eIfdIP?x-expires=2078542800&x-signature=tAHkJCTr1MzcdEc%2FfRzpTZMH%2FZ4%3D&from=1516005123
+2026-05-11 15:50:07,283 - INFO - downloader - image #16	https://q0.itc.cn/q_70/images01/20250702/befc4c75e9cc479ca19d1812110f473c.png
+2026-05-11 15:50:07,313 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/o09AwYSYIAdnj7zPZBiMAHEANPnriAah62UAB~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:50:07,742 - INFO - downloader - image #17	https://pics6.baidu.com/feed/58ee3d6d55fbb2fbedce6e0231c827b44723dc4f.jpeg@f_auto?token=e8d14cb7e9e79986ab64012a19286bec
+2026-05-11 15:50:07,747 - INFO - downloader - image #18	https://pic.rmb.bdstatic.com/bjh/news/3d66c801d25f1dcd359a5885466b50b9.png
+2026-05-11 15:50:08,079 - INFO - downloader - image #19	https://qcloud.dpfile.com/pc/lyS10HDZMvq79TFNEYkkH0UXUK6fjQPosJjoQzeCKdtui2n-P_yK4QHCEHFDC2TtAsjew4BovU6axjPJM2w4nrGzA5roSQdOIZBdpbY56uQFaWqA0j7ta3_A22czT6CvR2wBLHpNWleM8u_F-3h0csaq1-bq6jn4ci07g10pOcR8r-pAC7Z8Me1lmvv-C1rCtuD2Ttc33o2oiy9iGY5KAqS8eU1WRISyVZ5oaCuzdo9GQLj2BUn2Fvl5kTJ57OrBF71mYN0a8QgyjWdwktTu-eSLHrinTWdANQrkQ8zTrCAvE6F65paJjmYOYXGqV9_J7zcVBo8zTukJWTo-Iy24IYnl4SXh8qQ6pspuq9If6ffv4xhx0lpSfZxI3Q_BWORSTPXji3xoALZCu9MCBrvtAlOko2i_OXgvhx1YnqFqHmAFKUqngyqrejBr2bGMiRozgtuy8nGgoBQ_Nav6z9pJRPQv2Ix13D3AugMMuh8xZh_98TZmiIze_ykblJN1_Y7CvYIK0hn83ctlVdKLZMq4S7yZQc9HWRmhBTkGOPusbuFJCCOj4k5qEr4nVOOEVnJCdAp17UyqY14UTX4j_o7Cpvft2lPOrvpngHMrWvEyPOWJy1mHWMGmBfCyU3upYAtHiOccqTzEtZS30GYkHv8CwA.jpg
+2026-05-11 15:50:08,364 - INFO - downloader - image #20	https://gips0.baidu.com/it/u=3043073247,3951190526&fm=3074&app=3074&f=JPEG
+2026-05-11 15:50:08,579 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:50:08,580 - INFO - parser - thread parser-001 exit
+2026-05-11 15:50:08,722 - INFO - downloader - image #21	https://i1.hdslb.com/bfs/archive/d51d4a3f469ce1af07d286a212b8ce4ad37c779f.jpg
+2026-05-11 15:50:08,846 - INFO - downloader - image #22	https://pic.rmb.bdstatic.com/bjh/240220/news/273bf544731d114926fdfd793248187a5903.png
+2026-05-11 15:50:09,622 - ERROR - downloader - Response status code 403, file https://p9-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/ooEv7ADjwDoffAdNCL7P8HxEAI5FIBQIJQgAfv~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1771714800&x-signature=P8bwOo2As7QO4btpRABOvT%2FbxNQ%3D
+2026-05-11 15:50:09,745 - INFO - downloader - image #23	https://pic.rmb.bdstatic.com/bjh/240406/news/c3474365941a88d5677c4ee9e77325787883.jpeg?x-bce-process=image/watermark,bucket_baidu-rmb-video-cover-1,image_YmpoL25ld3MvNjUzZjZkMjRlMDJiNjdjZWU1NzEzODg0MDNhYTQ0YzQucG5n,type_RlpMYW5UaW5nSGVpU01HQg==,w_28,text_QEtvcGnokIzlrqDnlJ_mtLs=,size_28,x_22,y_22,interval_2,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1
+2026-05-11 15:50:10,345 - INFO - downloader - image #24	https://miaobi-lite.cdn.bcebos.com/miaobi/5mao/b%27LV8xNzMxNjk5MDQ5Ljg5NDExNTI%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-11-15T19%3A30%3A50Z%2F-1%2F%2Fea1bc3b04f56a3a000b03b6cd39e86065119ed2698cb85655c8282b05fd3baa1
+2026-05-11 15:50:10,405 - INFO - downloader - image #25	https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fimg.alicdn.com%2Fbao%2Fuploaded%2Fi3%2F2264215783%2FO1CN01uVMPkl1safKEiaFkq_%21%212264215783.jpg&refer=http%3A%2F%2Fimg.alicdn.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1781099402&t=880424a14ace288c4489345c6e82932a
+2026-05-11 15:50:14,623 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:50:14,623 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:50:14,747 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:50:14,747 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:50:15,348 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:50:15,348 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:50:15,406 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:50:15,406 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:50:16,246 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:50:16,256 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:50:16,257 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:50:16,257 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:50:16,258 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:50:16,258 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:50:16,261 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:50:16,527 - INFO - parser - parsing result page https://www.bing.com/images/async?q=埃及神猫&first=0
+2026-05-11 15:50:16,577 - INFO - parser - parsing result page https://www.bing.com/images/async?q=埃及神猫&first=20
+2026-05-11 15:50:16,665 - INFO - downloader - image #1	https://cdn.neowin.com/news/images/uploaded/2024/05/1715772477_edge_story.jpg
+2026-05-11 15:50:16,835 - INFO - downloader - image #2	https://i.pinimg.com/736x/6a/b8/b0/6ab8b0a6125fa430ac8d00d90f594240.jpg
+2026-05-11 15:50:18,530 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:50:18,530 - INFO - parser - thread parser-001 exit
+2026-05-11 15:50:18,581 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:50:18,581 - INFO - parser - thread parser-002 exit
+2026-05-11 15:50:21,263 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:50:21,263 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:50:21,264 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:50:21,264 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:50:21,666 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:50:21,666 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:50:21,835 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:50:21,836 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:50:22,272 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:50:22,277 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:50:22,277 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:50:22,277 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:50:22,278 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:50:22,278 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:50:22,281 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:50:24,281 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:50:24,281 - INFO - parser - thread parser-002 exit
+2026-05-11 15:50:24,644 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=埃及神猫&pn=0&rn=30
+2026-05-11 15:50:25,027 - INFO - downloader - image #1	https://gips3.baidu.com/it/u=328207299,312585113&fm=3074&app=3074&f=JPEG?w=810&h=1050&type=normal&func=
+2026-05-11 15:50:25,126 - INFO - downloader - image #2	https://gips3.baidu.com/it/u=3692322916,1538434726&fm=3074&app=3074&f=JPEG
+2026-05-11 15:50:26,644 - INFO - downloader - image #3	https://pic.rmb.bdstatic.com/bjh/events/96f62cedfe6fc28e5b0d65a36c44bc2d.jpeg@h_1280
+2026-05-11 15:50:26,831 - INFO - downloader - image #4	https://pics6.baidu.com/feed/0d338744ebf81a4cc6a6db4e46064254242da65e.jpeg@f_auto?token=c4cc04b24a537bbcf67c678f1c038f72
+2026-05-11 15:50:26,949 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/o4mBevAGaLr2AEaA7Rbb7JAAKIIreB0GQfMU27~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1767682800&x-signature=f%2FnXKDTbBJOPKHlXQ1Yw2VafhkU%3D
+2026-05-11 15:50:27,236 - INFO - downloader - image #5	https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fci.xiaohongshu.com%2Fe59fba56-06a0-f045-d99a-3555aa2ac4e7%3FimageView2%2F2%2Fw%2F1080%2Fformat%2Fjpg&refer=http%3A%2F%2Fci.xiaohongshu.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1781099424&t=593c8051d16a66af7542c57c19dc5133
+2026-05-11 15:50:27,296 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/oAif8AEoXAS3ASiAiwhMB9zCCVcfINPAAbdgEB~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:50:27,474 - INFO - downloader - image #6	https://i1.hdslb.com/bfs/archive/d51d4a3f469ce1af07d286a212b8ce4ad37c779f.jpg
+2026-05-11 15:50:27,656 - ERROR - downloader - Response status code 403, file https://wx1.sinaimg.cn/mw690/008AIwADly1hwznz4skwaj30ps0y8e81.jpg
+2026-05-11 15:50:28,210 - INFO - downloader - image #7	https://gips2.baidu.com/it/u=3703565846,3010522396&fm=3074&app=3074&f=JPEG?w=1345&h=1731&type=normal&func=T
+2026-05-11 15:50:28,331 - INFO - downloader - image #8	https://gips3.baidu.com/it/u=3465787895,1258513023&fm=3074&app=3074&f=JPEG?w=1345&h=1731&type=normal&func=T
+2026-05-11 15:50:29,596 - INFO - downloader - image #9	https://pics7.baidu.com/feed/8718367adab44aed6754bbef99c2eb11a08bfb95.jpeg@f_auto?token=99bb9e2c305d0fca5924122961f73551
+2026-05-11 15:50:34,549 - INFO - downloader - image #10	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzMzNjc5Mzk4LjE2Mjc2Nw%3D%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-12-08T17%3A36%3A38Z%2F-1%2F%2F9d58996424455b1d6dbbfaf0c1541350ea45160f98b190376c1f5efcf14c0b29
+2026-05-11 15:50:36,339 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:50:36,339 - INFO - parser - thread parser-001 exit
+2026-05-11 15:50:38,011 - INFO - downloader - image #11	https://b0.bdstatic.com/0d07b885b7a0eb5c18f24d98b6d1122b.jpeg
+2026-05-11 15:50:40,098 - INFO - downloader - image #12	https://pic.rmb.bdstatic.com/bjh/news/32f972599e9b62fee05b8a90110cb54f.png
+2026-05-11 15:50:42,293 - INFO - downloader - image #13	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzM2MDE1NDgyLjExNDc5ODhfMTczNjAxNTQ4Mi4zMDg0NjA1%27/1.png
+2026-05-11 15:50:42,566 - INFO - downloader - image #14	https://pic.rmb.bdstatic.com/bjh/250228/beautify/b9e24d99fec06623783d56e51366266b.jpeg@c_1,w_534,h_713,x_0,y_0
+2026-05-11 15:50:43,203 - INFO - downloader - image #15	https://gips1.baidu.com/it/u=3850905473,479649505&fm=3074&app=3074&f=JPEG?w=1345&h=1731&type=normal&func=T
+2026-05-11 15:50:44,241 - INFO - downloader - image #16	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%27LV8xNzMzMDg5NDY3Ljc2NTYyMTc%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-12-01T21%3A44%3A28Z%2F-1%2F%2F80c3c1ce14987d3e0c040aa1a899358bc5df21155da0693da3f4a0ac8cc9ac6f
+2026-05-11 15:50:44,257 - INFO - downloader - image #17	https://qcloud.dpfile.com/pc/HoONgcHpkEC_E_GITF7ZPON2BJ43FuCbrVq4y5LZ2cj78ALYHNsplNTvZhwiAL68.jpg
+2026-05-11 15:50:44,452 - INFO - downloader - image #18	https://qcloud.dpfile.com/pc/J2S7cw0iwdjJI4goimvAL1vUky2zlip7Go8Mf1-g9pitWC9vM0aQA9t1m2PuU1xU.jpg
+2026-05-11 15:50:44,902 - INFO - downloader - image #19	https://pic.rmb.bdstatic.com/bjh/news/8d58f9e824e5ed44219b0ce89f8cd9c5.png
+2026-05-11 15:50:46,286 - INFO - downloader - image #20	https://pics1.baidu.com/feed/c8177f3e6709c93d0a353c90662cbcd3d00054b6.jpeg@f_auto?token=ac71f2074346c92221876a95a6284020
+2026-05-11 15:50:46,387 - INFO - downloader - image #21	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%275oyo5Y%2BK54yrXzE3MzUzMzk3OTYuNTUwOTY4Ng%3D%3D%27/0.png
+2026-05-11 15:50:49,432 - INFO - downloader - image #22	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%275Z%2BD5Y%2BK5Lq65Zac5qyi54yrXzE3MzUzNDU5MzAuMzgxMjIxOA%3D%3D%27/0.png
+2026-05-11 15:50:50,450 - INFO - downloader - image #23	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%275aSn6Iux5Y2a54mp6aaG54yr56We6ZuV5YOPXzE3MzE4NzY2NjEuNTk0NzU1Mg%3D%3D%27/0.png
+2026-05-11 15:50:51,287 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:50:51,288 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:50:51,388 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:50:51,388 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:50:54,435 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:50:54,435 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:50:55,453 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:50:55,453 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:50:56,326 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:50:56,343 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:50:56,344 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:50:56,344 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:50:56,345 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:50:56,346 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:50:56,349 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:50:56,719 - INFO - parser - parsing result page https://www.bing.com/images/async?q=埃及猫 写真&first=20
+2026-05-11 15:50:56,748 - INFO - parser - parsing result page https://www.bing.com/images/async?q=埃及猫 写真&first=0
+2026-05-11 15:50:58,723 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:50:58,724 - INFO - parser - thread parser-002 exit
+2026-05-11 15:50:58,752 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:50:58,752 - INFO - parser - thread parser-001 exit
+2026-05-11 15:51:01,350 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:51:01,352 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:51:01,352 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:51:01,353 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:51:01,353 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:51:01,353 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:51:01,353 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:51:01,353 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:51:01,358 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:51:01,362 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:51:01,362 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:51:01,363 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:51:01,364 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:51:01,364 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:51:01,367 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:51:03,368 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:51:03,368 - INFO - parser - thread parser-002 exit
+2026-05-11 15:51:03,885 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=埃及猫 写真&pn=0&rn=30
+2026-05-11 15:51:04,161 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/o09AwYSYIAdnj7zPZBiMAHEANPnriAah62UAB~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:51:04,164 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oceAkjcjAefAZMAsA7Afx9eIYfQADjgPj2Q741~noop.jpeg?biz_tag=pcweb_cover&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&se=false&x-expires=1746039600&x-signature=kP6E9Cwu%2BCHYEdojqApI6MIjtJg%3D
+2026-05-11 15:51:04,182 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oEiWC4LiAgr3a0ZAEgRIDKv07AIBAlg546PFA~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1761717600&x-signature=FKBFdCBy6mYNT0eizll8P%2FP%2BFzw%3D
+2026-05-11 15:51:04,401 - INFO - downloader - image #1	https://q9.itc.cn/q_70/images01/20250702/83b4ade1de6b4f2c89373e64de65d86a.jpeg
+2026-05-11 15:51:04,604 - INFO - downloader - image #2	https://gips2.baidu.com/it/u=4135818074,3652366431&fm=3074&app=3074&f=JPEG
+2026-05-11 15:51:05,050 - INFO - downloader - image #3	https://q0.itc.cn/q_70/images01/20250702/befc4c75e9cc479ca19d1812110f473c.png
+2026-05-11 15:51:06,611 - INFO - downloader - image #4	https://pics6.baidu.com/feed/0df431adcbef76097ae3282a9606a4dc7ed99e82.jpeg@f_auto?token=9f02467630ac86cd1e26012405e47b3c
+2026-05-11 15:51:07,577 - INFO - downloader - image #5	https://q8.itc.cn/q_70/images01/20250702/b4bf615282ce437ca86956b56969b37a.png
+2026-05-11 15:51:08,083 - INFO - downloader - image #6	https://pics5.baidu.com/feed/b64543a98226cffc46a169b8d97a2f9ff703eab8.jpeg@f_auto?token=b6778b5ef569b9de311b1b85d9f7bf8e
+2026-05-11 15:51:08,111 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/o4A9DEgjE1oAqYASICUAfDFAcF502AfNkbAHkh~tplv-dy-aweme-images:q75.webp?biz_tag=aweme_images&from=327834062&lk3s=138a59ce&s=PackSourceEnum_SEO&sc=image&se=false&x-expires=1776895200&x-signature=vj7VwfjpE4rDNAN%2FIgMH7jJ6%2F6Q%3D
+2026-05-11 15:51:08,490 - INFO - downloader - image #7	https://miaobi-lite.cdn.bcebos.com/miaobi/5mao/b%27LV8xNzMxNjk5MDQ5Ljg5NDExNTI%3D%27/0.png?authorization=bce-auth-v1%2FALTAKmda7zOvhZVbRzBLewvCMU%2F2024-11-15T19%3A30%3A50Z%2F-1%2F%2Fea1bc3b04f56a3a000b03b6cd39e86065119ed2698cb85655c8282b05fd3baa1
+2026-05-11 15:51:09,117 - INFO - downloader - image #8	https://pic.rmb.bdstatic.com/bjh/news/adcdae7ee6725f2ef3cd44451a92b726.png
+2026-05-11 15:51:09,137 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c000-ce/oAEeuhDrEFA8ICEg1AEeA3AAE0NRf9EAn9yCw1~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:51:09,155 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/o07EeFBoAd1fGgsY2N2eAyEyiAIBQAsMDmbmEA~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:51:09,643 - INFO - downloader - image #9	https://pic.rmb.bdstatic.com/9692dcfd4450c9c82dd315d127637134@wm_1,k_cGljX2JqaHdhdGVyLmpwZw==
+2026-05-11 15:51:10,465 - INFO - downloader - image #10	https://pic.rmb.bdstatic.com/bjh/news/af1924451688ac387c9701be0d8a0466.png
+2026-05-11 15:51:11,124 - INFO - downloader - image #11	https://pics3.baidu.com/feed/34fae6cd7b899e51774acf7d2f2e9923c9950d28.jpeg@f_auto?token=2b7d82bc7bc0c98c1043d2e6c41b3795
+2026-05-11 15:51:11,646 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:51:11,646 - INFO - parser - thread parser-001 exit
+2026-05-11 15:51:11,837 - INFO - downloader - image #12	https://pic.rmb.bdstatic.com/bjh/240219/4d9bacbfded1e7dab432cf787e0b76014567.png@h_1280
+2026-05-11 15:51:11,990 - INFO - downloader - image #13	https://pics4.baidu.com/feed/4ec2d5628535e5dd49ac6a40cd6d82ffcc1b62ed.jpeg@f_auto?token=37f2ff9047ad13c3d69200a172c076ab
+2026-05-11 15:51:12,023 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/o4bl9nJAAACDAlgEIjnyNlIQvEAUjF9kReRACf~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:51:12,163 - INFO - downloader - image #14	https://pic.rmb.bdstatic.com/bjh/240406/news/6e4d0197a7a236a101c9c485819d43797050.jpeg?x-bce-process=image/watermark,bucket_baidu-rmb-video-cover-1,image_YmpoL25ld3MvNjUzZjZkMjRlMDJiNjdjZWU1NzEzODg0MDNhYTQ0YzQucG5n,type_RlpMYW5UaW5nSGVpU01HQg==,w_31,text_QEtvcGnokIzlrqDnlJ_mtLs=,size_31,x_24,y_24,interval_2,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1
+2026-05-11 15:51:12,328 - INFO - downloader - image #15	https://pic.rmb.bdstatic.com/1cb5babba4199a6c27f05935801d2646@wm_1,k_cGljX2JqaHdhdGVyLmpwZw==
+2026-05-11 15:51:12,595 - INFO - downloader - image #16	https://pic.rmb.bdstatic.com/bjh/news/ecd0f7d741408330220a68c12ba38548.png
+2026-05-11 15:51:12,620 - INFO - downloader - image #17	https://pics3.baidu.com/feed/e850352ac65c1038ba1e412c9c890303b17e8921.jpeg@f_auto?token=e69f6bcf4311f8a24f5b2ef9cb439421
+2026-05-11 15:51:12,837 - INFO - downloader - image #18	https://qcloud.dpfile.com/pc/HtTAc-YF6pejCaXQi1fZR90qrMeqrToajui5NXtWaMhNLQ8ZGXUw-hU30Jbh_g1sTQ4fCszAs24-Pc8UUi50JrGzA5roSQdOIZBdpbY56uQFaWqA0j7ta3_A22czT6CvR2wBLHpNWleM8u_F-3h0csaq1-bq6jn4ci07g10pOcR8r-pAC7Z8Me1lmvv-C1rCtuD2Ttc33o2oiy9iGY5KAqS8eU1WRISyVZ5oaCuzdo9GQLj2BUn2Fvl5kTJ57OrBF71mYN0a8QgyjWdwktTu-XOxL2t5JOD_SWu_46jrp-qk3fSuZwC2bRXuhxt9XR9T8pzKFUY1gE_ui-JZmPM45VD6nPAKQ9bMVDwMneGFaSb9UA08EdrTA39g_OrTyfSyb1yBQVFg4Owl7XDftOa6OVOko2i_OXgvhx1YnqFqHmAFKUqngyqrejBr2bGMiRozgtuy8nGgoBQ_Nav6z9pJRPQv2Ix13D3AugMMuh8xZh_98TZmiIze_ykblJN1_Y7CvYIK0hn83ctlVdKLZMq4S7yZQc9HWRmhBTkGOPusbuFJCCOj4k5qEr4nVOOEVnJCdAp17UyqY14UTX4j_o7Cpvft2lPOrvpngHMrWvEyPOWJy1mHWMGmBfCyU3upYAtHiOccqTzEtZS30GYkHv8CwA.jpg
+2026-05-11 15:51:13,540 - INFO - downloader - image #19	https://pic.rmb.bdstatic.com/bjh/news/7cab0b5a50b54d85c1672604a455e716.png
+2026-05-11 15:51:14,456 - INFO - downloader - image #20	https://pic.rmb.bdstatic.com/bjh/news/1cff8997cb7098f06888fae68841b22b.png
+2026-05-11 15:51:15,796 - INFO - downloader - image #21	https://b0.bdstatic.com/d39b7842024cb72552f6ccad53feec71.jpg
+2026-05-11 15:51:18,542 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:51:18,542 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:51:19,458 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:51:19,458 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:51:20,797 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:51:20,798 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:51:26,144 - INFO - downloader - image #22	https://miaobi-lite.bj.bcebos.com/miaobi/5mao/b%276buR55m95p2h57q554yr5Zu%2B54mHXzE3MzUxNjAxMTUuNzkxMjQ4Ng%3D%3D%27/0.png
+2026-05-11 15:51:31,145 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:51:31,146 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:51:31,408 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:51:31,418 - INFO - root - Parsing model identifier. Schema: None, Identifier: ViT-L-14
+2026-05-11 15:51:31,418 - INFO - root - Loaded built-in ViT-L-14 model config.
+2026-05-11 15:51:31,643 - INFO - httpx - HTTP Request: HEAD https://huggingface.co/timm/vit_large_patch14_clip_224.openai/resolve/main/open_clip_model.safetensors "HTTP/1.1 302 Found"
+/home/lgr/miniconda3/envs/eh/lib/python3.10/site-packages/open_clip/factory.py:450: UserWarning: QuickGELU mismatch between final model config (quick_gelu=False) and pretrained tag 'openai' (quick_gelu=True).
+  warnings.warn(
+2026-05-11 15:51:31,645 - INFO - root - Instantiating model architecture: CLIP
+2026-05-11 15:51:35,644 - INFO - root - Loading full pretrained weights from: /home/lgr/.cache/huggingface/hub/models--timm--vit_large_patch14_clip_224.openai/snapshots/18d0535469bb561bf468d76c1d73aa35156c922b/open_clip_model.safetensors
+2026-05-11 15:51:35,923 - INFO - root - Final image preprocessing configuration set: {'size': (224, 224), 'mode': 'RGB', 'mean': (0.48145466, 0.4578275, 0.40821073), 'std': (0.26862954, 0.26130258, 0.27577711), 'interpolation': 'bicubic', 'resize_mode': 'shortest', 'fill_color': 0}
+2026-05-11 15:51:35,923 - INFO - root - Model ViT-L-14 creation process complete.
+2026-05-11 15:51:35,924 - INFO - root - Parsing tokenizer identifier. Schema: None, Identifier: ViT-L-14
+2026-05-11 15:51:35,924 - INFO - root - Attempting to load config from built-in: ViT-L-14
+2026-05-11 15:51:35,924 - INFO - root - Using default SimpleTokenizer.
+raw downloaded: 250
+loading CLIP ViT-L/14...
+after CLIP filter: 110 (real>=0.55, cat>=0.2)
+loading yolov8s-worldv2.pt...
+saved 52 to /home/lgr/prjs/EEG_Obj_Detection/real_image_collection/egyptian_mau_cats
+removed /home/lgr/prjs/EEG_Obj_Detection/real_image_collection/_raw
+NOTE: saved 52 (< target 80). Lower thresholds or add more --queries to grow the pool.
+2026-05-11 15:52:00,968 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:52:00,968 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:52:00,968 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:52:00,968 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:52:00,968 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:52:00,969 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:52:01,211 - INFO - parser - parsing result page https://www.bing.com/images/async?q=capuchin monkey&first=20
+2026-05-11 15:52:01,240 - INFO - parser - parsing result page https://www.bing.com/images/async?q=capuchin monkey&first=0
+2026-05-11 15:52:01,377 - ERROR - downloader - Response status code 403, file https://www.alfaromeo.fr/content/dam/alfa/cross/stelvio/gallery-exteriors/5/july-22/mobile.jpg
+2026-05-11 15:52:01,501 - INFO - downloader - image #1	https://www.slideteam.net/media/catalog/product/cache/960x720/e/i/eight_data_protection_principles_by_regulators_slide01.jpg
+2026-05-11 15:52:03,215 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:52:03,215 - INFO - parser - thread parser-002 exit
+2026-05-11 15:52:03,245 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:52:03,245 - INFO - parser - thread parser-001 exit
+2026-05-11 15:52:05,971 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:52:05,971 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:52:05,971 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:52:05,971 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:52:06,378 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:52:06,378 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:52:06,501 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:52:06,502 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:52:06,978 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:52:06,982 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:52:06,982 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:52:06,982 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:52:06,983 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:52:06,983 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:52:06,986 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:52:08,986 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:52:08,986 - INFO - parser - thread parser-002 exit
+2026-05-11 15:52:09,753 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=capuchin monkey&pn=0&rn=30
+2026-05-11 15:52:10,649 - INFO - downloader - image #1	https://hellorfimg.zcool.cn/large/470626196.jpg
+2026-05-11 15:52:10,658 - INFO - downloader - image #2	https://hellorfimg.zcool.cn/large/551125519.jpg
+2026-05-11 15:52:11,300 - INFO - downloader - image #3	https://hellorfimg.zcool.cn/large/1065527846.jpg
+2026-05-11 15:52:11,862 - INFO - downloader - image #4	https://hellorfimg.zcool.cn/large/674066185.jpg
+2026-05-11 15:52:11,961 - INFO - downloader - image #5	https://hellorfimg.zcool.cn/large/1990038662.jpg
+2026-05-11 15:52:12,148 - INFO - downloader - image #6	https://hellorfimg.zcool.cn/large/2478655289.jpg
+2026-05-11 15:52:12,215 - INFO - downloader - image #7	https://hellorfimg.zcool.cn/large/109951391.jpg
+2026-05-11 15:52:12,414 - INFO - downloader - image #8	https://hellorfimg.zcool.cn/large/2346174359.jpg
+2026-05-11 15:52:12,420 - INFO - downloader - image #9	https://mediaim.expedia.com/localexpert/2093397/9a65e9d3-39c4-40f1-82ea-a9093ddf3353.jpg?impolicy=resizecrop&rw=1005&rh=565
+2026-05-11 15:52:12,829 - INFO - downloader - image #10	https://hellorfimg.zcool.cn/large/1273239241.jpg
+2026-05-11 15:52:13,738 - INFO - downloader - image #11	https://hellorfimg.zcool.cn/large/2380359117.jpg
+2026-05-11 15:52:13,815 - INFO - downloader - image #12	https://hellorfimg.zcool.cn/large/1617733015.jpg
+2026-05-11 15:52:14,153 - INFO - downloader - image #13	https://hellorfimg.zcool.cn/large/551125540.jpg
+2026-05-11 15:52:14,189 - INFO - downloader - image #14	https://hellorfimg.zcool.cn/large/168229091.jpg
+2026-05-11 15:52:14,841 - INFO - downloader - image #15	https://hellorfimg.zcool.cn/large/1681824844.jpg
+2026-05-11 15:52:15,193 - INFO - downloader - image #16	https://hellorfimg.zcool.cn/large/1361019293.jpg
+2026-05-11 15:52:15,832 - INFO - downloader - image #17	https://hellorfimg.zcool.cn/large/266379731.jpg
+2026-05-11 15:52:16,161 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:52:16,161 - INFO - parser - thread parser-001 exit
+2026-05-11 15:52:16,598 - INFO - downloader - image #18	https://hellorfimg.zcool.cn/large/1088106722.jpg
+2026-05-11 15:52:17,420 - INFO - downloader - image #19	https://hellorfimg.zcool.cn/large/1167195586.jpg
+2026-05-11 15:52:17,468 - INFO - downloader - image #20	https://hellorfimg.zcool.cn/large/1400711045.jpg
+2026-05-11 15:52:17,537 - INFO - downloader - image #21	https://hellorfimg.zcool.cn/large/1635115390.jpg
+2026-05-11 15:52:19,381 - INFO - downloader - image #22	https://hellorfimg.zcool.cn/large/1918361648.jpg
+2026-05-11 15:52:19,651 - INFO - downloader - image #23	https://hellorfimg.zcool.cn/large/1352026208.jpg
+2026-05-11 15:52:19,820 - ERROR - downloader - Exception caught when downloading file https://www.deepgreenphoto.com/pics/mammals/Cebus_capucinus02.jpg, error: HTTPSConnectionPool(host='www.deepgreenphoto.com', port=443): Max retries exceeded with url: /pics/mammals/Cebus_capucinus02.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)'))), remaining retry times: 2
+2026-05-11 15:52:19,836 - INFO - downloader - image #24	https://hellorfimg.zcool.cn/large/1669154023.jpg
+2026-05-11 15:52:20,035 - INFO - downloader - image #25	https://t7.baidu.com/it/u=4092509725,3606670842&fm=193
+2026-05-11 15:52:20,059 - ERROR - downloader - Exception caught when downloading file https://www.deepgreenphoto.com/pics/mammals/Cebus_capucinus02.jpg, error: HTTPSConnectionPool(host='www.deepgreenphoto.com', port=443): Max retries exceeded with url: /pics/mammals/Cebus_capucinus02.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)'))), remaining retry times: 1
+2026-05-11 15:52:20,323 - ERROR - downloader - Exception caught when downloading file https://www.deepgreenphoto.com/pics/mammals/Cebus_capucinus02.jpg, error: HTTPSConnectionPool(host='www.deepgreenphoto.com', port=443): Max retries exceeded with url: /pics/mammals/Cebus_capucinus02.jpg (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)'))), remaining retry times: 0
+2026-05-11 15:52:24,653 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:52:24,653 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:52:24,839 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:52:24,839 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:52:25,036 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:52:25,037 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:52:25,324 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:52:25,324 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:52:26,012 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:52:26,013 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:52:26,013 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:52:26,014 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:52:26,015 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:52:26,015 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:52:26,019 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:52:26,331 - INFO - parser - parsing result page https://www.bing.com/images/async?q=white-faced capuchin&first=20
+2026-05-11 15:52:26,447 - INFO - parser - parsing result page https://www.bing.com/images/async?q=white-faced capuchin&first=0
+2026-05-11 15:52:26,519 - INFO - downloader - image #1	https://wallpaperaccess.com/full/1378108.jpg
+2026-05-11 15:52:26,519 - INFO - downloader - image #2	https://wallpaperaccess.com/full/1556608.jpg
+2026-05-11 15:52:26,644 - INFO - downloader - image #3	https://wallpaper.dog/large/10892387.jpg
+2026-05-11 15:52:26,657 - INFO - downloader - image #4	https://wallpapercave.com/wp/wp3493988.jpg
+2026-05-11 15:52:26,689 - INFO - downloader - image #5	https://wallpaperaccess.com/full/5166898.jpg
+2026-05-11 15:52:26,795 - INFO - downloader - image #6	https://cdn.wallpapersafari.com/80/24/Gor4K8.jpg
+2026-05-11 15:52:26,861 - INFO - downloader - image #7	https://wallpapers.com/images/featured-full/blank-white-background-xbsfzsltjksfompa.jpg
+2026-05-11 15:52:26,972 - ERROR - downloader - Response status code 403, file https://e0.pxfuel.com/wallpapers/806/472/desktop-wallpaper-blank-white-bright-white-thumbnail.jpg
+2026-05-11 15:52:27,134 - INFO - downloader - image #8	https://www.reyplast.pe/blog/wp-content/uploads/2016/06/white-background-2.jpg
+2026-05-11 15:52:27,286 - INFO - downloader - image #9	https://i.pinimg.com/originals/ea/33/c3/ea33c39890bae547201127d2d1ff379d.jpg
+2026-05-11 15:52:27,325 - INFO - downloader - image #10	https://i.pinimg.com/originals/08/1a/ed/081aed2e7ddc029f940021ddb22145fc.jpg
+2026-05-11 15:52:27,395 - INFO - downloader - image #11	https://scr.vn/wp-content/uploads/2020/07/nền-trắng-full-768x480.jpg
+2026-05-11 15:52:27,404 - INFO - downloader - image #12	http://data.pixiz.com/output/user/frame/preview/api/big/1/7/8/2/3742871_ab7b5.jpg
+2026-05-11 15:52:27,422 - INFO - downloader - image #13	https://wallpaperaccess.com/thumb/1556608.jpg
+2026-05-11 15:52:27,515 - ERROR - downloader - Response status code 403, file https://e1.pxfuel.com/desktop-wallpaper/806/472/desktop-wallpaper-blank-white-bright-white-thumbnail.jpg
+2026-05-11 15:52:27,558 - INFO - downloader - image #14	https://www.abpd.org/application/files/9317/2295/3584/whitebackground.jpg
+2026-05-11 15:52:27,625 - INFO - downloader - image #15	https://thuthuatnhanh.com/wp-content/uploads/2022/05/background-trang-tinh-800x500.jpg
+2026-05-11 15:52:27,653 - INFO - downloader - image #16	https://www.shutterstock.com/shutterstock/videos/1033947818/thumb/1.jpg
+2026-05-11 15:52:27,699 - INFO - downloader - image #17	https://t4.ftcdn.net/jpg/05/51/66/43/360_F_551664342_5xy9efa2SGgpxbv5TvOrWSMOA5ZGPmeb.jpg
+2026-05-11 15:52:27,702 - INFO - downloader - image #18	https://scr.vn/wp-content/uploads/2020/07/nền-trắng-full-1024x640.jpg
+2026-05-11 15:52:27,736 - INFO - downloader - image #19	https://i.pinimg.com/originals/f9/81/ce/f981ce21d4ebc2a4d6712fe645a3930d.jpg
+2026-05-11 15:52:27,826 - INFO - downloader - image #20	https://i.pinimg.com/736x/2b/ac/c4/2bacc423715c20a9e7077c47a49b287f.jpg
+2026-05-11 15:52:28,306 - INFO - downloader - image #21	https://thuthuatnhanh.com/wp-content/uploads/2022/05/Background-trang-tron.jpg
+2026-05-11 15:52:28,369 - INFO - downloader - image #22	https://logicdewateringksa.com/assets/img/download/white.jpg
+2026-05-11 15:52:29,287 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:52:29,287 - INFO - parser - thread parser-001 exit
+2026-05-11 15:52:29,297 - INFO - downloader - image #23	https://thuyhaisanvn.com/wp-content/uploads/2021/06/nen-trang-full.jpg
+2026-05-11 15:52:29,327 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:52:29,327 - INFO - parser - thread parser-002 exit
+2026-05-11 15:52:32,827 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:52:32,827 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:52:33,307 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:52:33,307 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:52:33,370 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:52:33,370 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:52:34,298 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:52:34,298 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:52:35,041 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:52:35,048 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:52:35,048 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:52:35,048 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:52:35,051 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:52:35,051 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:52:35,052 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:52:37,053 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:52:37,054 - INFO - parser - thread parser-002 exit
+2026-05-11 15:52:37,312 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=white-faced capuchin&pn=0&rn=30
+2026-05-11 15:52:38,361 - INFO - downloader - image #1	https://img14.360buyimg.com/pop/jfs/t1/307028/16/21440/83595/6889cc2dFa256959d/442179a4465c1a04.jpg
+2026-05-11 15:52:39,309 - ERROR - downloader - Response status code 403, file https://bbs.qn.img-space.com/201811/25/b5fd48c6765182dab5f15af18c977843.jpg?imageView2/2/w/1024/q/90/ignore-error/1/
+2026-05-11 15:52:39,646 - INFO - downloader - image #2	https://hellorfimg.zcool.cn/large/1979505374.jpg
+2026-05-11 15:52:40,179 - INFO - downloader - image #3	https://dongniao.net/uimg/m/10946_DN_20211008214208_7586143_0.webp
+2026-05-11 15:52:40,395 - INFO - downloader - image #4	https://dongniao.net/uimg/m/6940_DN_20240626214329_1303899957_0.webp
+2026-05-11 15:52:40,668 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/os2yCm0AhW6fBDxA0g0E8SzAeP7vzAABANzI7D~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:52:41,680 - INFO - downloader - image #5	https://gips3.baidu.com/it/u=821022140,2447826114&fm=3074&app=3074&f=JPEG
+2026-05-11 15:52:42,026 - INFO - downloader - image #6	https://pic3.zhimg.com/100/v2-ad9713e39b5892c89a4e02fac476b1ec_r.jpg
+2026-05-11 15:52:42,260 - INFO - downloader - image #7	https://bkimg.cdn.bcebos.com/pic/e4dde71190ef76c6a7eff155ae43eafaaf51f3dec90a
+2026-05-11 15:52:42,353 - INFO - downloader - image #8	https://hellorfimg.zcool.cn/preview260/695383468.jpg?x-oss-process=image/resize,h_380
+2026-05-11 15:52:42,566 - ERROR - downloader - Exception caught when downloading file https://media.nuyou.com.sg/2015/09/MAIN-j12_365_white-1200x800.jpg, error: HTTPSConnectionPool(host='media.nuyou.com.sg', port=443): Max retries exceeded with url: /2015/09/MAIN-j12_365_white-1200x800.jpg (Caused by NameResolutionError("HTTPSConnection(host='media.nuyou.com.sg', port=443): Failed to resolve 'media.nuyou.com.sg' ([Errno -5] No address associated with hostname)")), remaining retry times: 2
+2026-05-11 15:52:42,651 - ERROR - downloader - Exception caught when downloading file https://media.nuyou.com.sg/2015/09/MAIN-j12_365_white-1200x800.jpg, error: HTTPSConnectionPool(host='media.nuyou.com.sg', port=443): Max retries exceeded with url: /2015/09/MAIN-j12_365_white-1200x800.jpg (Caused by NameResolutionError("HTTPSConnection(host='media.nuyou.com.sg', port=443): Failed to resolve 'media.nuyou.com.sg' ([Errno -5] No address associated with hostname)")), remaining retry times: 1
+2026-05-11 15:52:42,685 - ERROR - downloader - Exception caught when downloading file https://media.nuyou.com.sg/2015/09/MAIN-j12_365_white-1200x800.jpg, error: HTTPSConnectionPool(host='media.nuyou.com.sg', port=443): Max retries exceeded with url: /2015/09/MAIN-j12_365_white-1200x800.jpg (Caused by NameResolutionError("HTTPSConnection(host='media.nuyou.com.sg', port=443): Failed to resolve 'media.nuyou.com.sg' ([Errno -5] No address associated with hostname)")), remaining retry times: 0
+2026-05-11 15:52:43,234 - INFO - downloader - image #9	https://cdn.birdseye.photo/media/resized/large/001161-909-20180429223156.jpg
+2026-05-11 15:52:43,243 - INFO - downloader - image #10	https://p8.itc.cn/q_70/images03/20220729/737e25c212384aa6b20bc5e1d7a28142.jpeg
+2026-05-11 15:52:43,817 - INFO - downloader - image #11	https://img.haikudeck.com/mg/QfmkmHB39B_1425323080888.jpg
+2026-05-11 15:52:44,107 - ERROR - downloader - Exception caught when downloading file https://i01.i.aliimg.com/wsphoto/v0/1644384035/-font-b-Double-b-font-font-b-Faced-b-font-Adhesive-font-b-Tape-b.jpg, error: HTTPSConnectionPool(host='i01.i.aliimg.com', port=443): Max retries exceeded with url: /wsphoto/v0/1644384035/-font-b-Double-b-font-font-b-Faced-b-font-Adhesive-font-b-Tape-b.jpg (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i01.i.aliimg.com'. (_ssl.c:1007)"))), remaining retry times: 2
+2026-05-11 15:52:44,111 - INFO - downloader - image #12	https://static.ettoday.net/images/1878/d1878054.jpg
+2026-05-11 15:52:44,368 - ERROR - downloader - Exception caught when downloading file https://i01.i.aliimg.com/wsphoto/v0/1644384035/-font-b-Double-b-font-font-b-Faced-b-font-Adhesive-font-b-Tape-b.jpg, error: HTTPSConnectionPool(host='i01.i.aliimg.com', port=443): Max retries exceeded with url: /wsphoto/v0/1644384035/-font-b-Double-b-font-font-b-Faced-b-font-Adhesive-font-b-Tape-b.jpg (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i01.i.aliimg.com'. (_ssl.c:1007)"))), remaining retry times: 1
+2026-05-11 15:52:44,369 - ERROR - downloader - Exception caught when downloading file https://i01.i.aliimg.com/wsphoto/v0/1839057675/-font-b-Rough-b-font-black-aph-flag-double-faced-time-gem-round-ball-font.jpg, error: HTTPSConnectionPool(host='i01.i.aliimg.com', port=443): Max retries exceeded with url: /wsphoto/v0/1839057675/-font-b-Rough-b-font-black-aph-flag-double-faced-time-gem-round-ball-font.jpg (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i01.i.aliimg.com'. (_ssl.c:1007)"))), remaining retry times: 2
+2026-05-11 15:52:44,480 - ERROR - downloader - Exception caught when downloading file https://i01.i.aliimg.com/wsphoto/v0/1839057675/-font-b-Rough-b-font-black-aph-flag-double-faced-time-gem-round-ball-font.jpg, error: HTTPSConnectionPool(host='i01.i.aliimg.com', port=443): Max retries exceeded with url: /wsphoto/v0/1839057675/-font-b-Rough-b-font-black-aph-flag-double-faced-time-gem-round-ball-font.jpg (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i01.i.aliimg.com'. (_ssl.c:1007)"))), remaining retry times: 1
+2026-05-11 15:52:44,484 - ERROR - downloader - Exception caught when downloading file https://i01.i.aliimg.com/wsphoto/v0/1644384035/-font-b-Double-b-font-font-b-Faced-b-font-Adhesive-font-b-Tape-b.jpg, error: HTTPSConnectionPool(host='i01.i.aliimg.com', port=443): Max retries exceeded with url: /wsphoto/v0/1644384035/-font-b-Double-b-font-font-b-Faced-b-font-Adhesive-font-b-Tape-b.jpg (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i01.i.aliimg.com'. (_ssl.c:1007)"))), remaining retry times: 0
+2026-05-11 15:52:44,580 - ERROR - downloader - Exception caught when downloading file https://i01.i.aliimg.com/wsphoto/v0/1839057675/-font-b-Rough-b-font-black-aph-flag-double-faced-time-gem-round-ball-font.jpg, error: HTTPSConnectionPool(host='i01.i.aliimg.com', port=443): Max retries exceeded with url: /wsphoto/v0/1839057675/-font-b-Rough-b-font-black-aph-flag-double-faced-time-gem-round-ball-font.jpg (Caused by SSLError(SSLCertVerificationError(1, "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'i01.i.aliimg.com'. (_ssl.c:1007)"))), remaining retry times: 0
+2026-05-11 15:52:44,686 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:52:44,686 - INFO - parser - thread parser-001 exit
+2026-05-11 15:52:44,932 - INFO - downloader - image #13	https://cdn.ipernity.com/139/19/63/28041963.f3d58780.640.jpg?r2
+2026-05-11 15:52:45,258 - INFO - downloader - image #14	https://malcolmtattersall.com.au/wp/wp-content/uploads/2013/05/IMG_5519cbs.jpg
+2026-05-11 15:52:45,463 - INFO - downloader - image #15	https://cdn.ipernity.com/143/56/83/32905683.c8ed50ff.640.jpg?r2
+2026-05-11 15:52:45,625 - INFO - downloader - image #16	https://malcolmtattersall.com.au/wp/wp-content/uploads/2013/05/IMG_9269c2bs.jpg
+2026-05-11 15:52:47,042 - INFO - downloader - image #17	https://malcolmtattersall.com.au/wp/wp-content/uploads/2013/05/IMG_5535cbs.jpg
+2026-05-11 15:52:47,084 - INFO - downloader - image #18	https://hellorfimg.zcool.cn/large/100721122.jpg
+2026-05-11 15:52:50,464 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:52:50,464 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:52:50,626 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:52:50,627 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:52:52,044 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:52:52,044 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:52:52,085 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:52:52,086 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:52:53,077 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:52:53,077 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:52:53,077 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:52:53,078 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:52:53,078 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:52:53,078 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:52:53,079 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:52:53,331 - INFO - parser - parsing result page https://www.bing.com/images/async?q=tufted capuchin&first=0
+2026-05-11 15:52:53,450 - INFO - parser - parsing result page https://www.bing.com/images/async?q=tufted capuchin&first=20
+2026-05-11 15:52:53,628 - INFO - downloader - image #1	https://laptopmedia.com/wp-content/uploads/2024/02/0-etailer-hero-acer-aspire-go-15-ag15-31p-non-fingerprint-non-backlit-wallpaper-logo-pure-silver-01.tif-custom-scaled-e1707170568717.jpg
+2026-05-11 15:52:53,932 - INFO - downloader - image #2	https://i.pinimg.com/736x/5b/97/d5/5b97d5413c56814df6a8fa975a62818e.jpg
+2026-05-11 15:52:53,969 - INFO - downloader - image #3	https://i.etsystatic.com/47463576/r/il/f23e5c/5458940223/il_1080xN.5458940223_l0ba.jpg
+2026-05-11 15:52:54,140 - INFO - downloader - image #4	https://i.pinimg.com/originals/5b/97/d5/5b97d5413c56814df6a8fa975a62818e.jpg
+2026-05-11 15:52:54,484 - INFO - downloader - image #5	https://i.etsystatic.com/36534053/r/il/34e21f/4332543566/il_fullxfull.4332543566_dvkz.jpg
+2026-05-11 15:52:54,518 - INFO - downloader - image #6	https://m.media-amazon.com/images/I/61StlyP5WAL._AC_UF894,1000_QL80_.jpg
+2026-05-11 15:52:54,897 - INFO - downloader - image #7	https://i.redd.it/4tt0kn85xme51.jpg
+2026-05-11 15:52:55,192 - INFO - downloader - image #8	http://www.residency-records.com/cdn/shop/files/weezer-blue-album.jpg
+2026-05-11 15:52:55,329 - INFO - downloader - image #9	https://retrospekt.com/cdn/shop/products/CD-VR-1091_2.jpg
+2026-05-11 15:52:55,339 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:52:55,339 - INFO - parser - thread parser-001 exit
+2026-05-11 15:52:55,494 - INFO - downloader - image #10	https://i.pinimg.com/736x/ea/a7/00/eaa700e8bfbe53a2b844deff4e600ad1.jpg
+2026-05-11 15:52:55,775 - INFO - downloader - image #11	https://i.pinimg.com/736x/16/fb/87/16fb87b63bcad521fe415214cc4d96ae.jpg
+2026-05-11 15:52:55,831 - INFO - downloader - image #12	http://www.northwestgrooves.com/cdn/shop/products/image_225daff3-6d48-48f0-b0ad-0c63420745f0.jpg
+2026-05-11 15:52:56,108 - INFO - downloader - image #13	https://images.genius.com/fee7a293f05e8440baf65a45c3e316c0.1000x1000x1.jpg
+2026-05-11 15:52:56,127 - INFO - downloader - image #14	https://www.musikexpress.de/wp-content/uploads/2024/11/weezer-weezer-_blue-album-30th-anniversary-edition.jpg
+2026-05-11 15:52:56,338 - INFO - downloader - image #15	https://e.snmc.io/i/600/s/1484e296b87150da89a1a9d4d69cd88d/1333582/weezer-weezer-blue-album-Cover-Art.jpg
+2026-05-11 15:52:56,459 - INFO - downloader - image #16	https://www.udiscovermusic.com/wp-content/uploads/2019/05/Weezer-Blue-Album-cover-web-optimised-820-2048x2048.jpg
+2026-05-11 15:52:56,748 - ERROR - downloader - Response status code 403, file https://thumbs.worthpoint.com/zoom/images1/1/0120/21/weezer-blue-album-cover-1995-vintage_1_f8b626a32435f60536d48b7725b1a787.jpg
+2026-05-11 15:52:56,751 - INFO - downloader - image #17	https://wallpapersok.com/images/high/weezer-blue-album-cover-d164k7mvqy0ku4c8.jpg
+2026-05-11 15:52:56,959 - INFO - downloader - image #18	https://media.redcircle.com/images/2024/8/25/20/e8d642e0-ff1b-46ad-a49d-5ec30256e0a0_img_4274.jpg
+2026-05-11 15:52:57,123 - INFO - downloader - image #19	https://akamai-b.cdn.cddbp.net/cds/2.0/cover/5D72/A185/DD0A/C51D_xlarge_front.jpg
+2026-05-11 15:52:57,223 - INFO - downloader - image #20	https://wallpapers.com/images/hd/weezer-the-blue-mix-album-cover-wl8r4frouu0r8ogc.jpg
+2026-05-11 15:52:57,224 - INFO - downloader - image #21	https://i.pinimg.com/736x/6f/cf/a2/6fcfa26d37820323fce4bea9af1278ce.jpg
+2026-05-11 15:52:57,349 - ERROR - downloader - Response status code 403, file https://preview.redd.it/dosc1c7r4sl91.jpg
+2026-05-11 15:52:57,448 - INFO - downloader - image #22	https://www.visions.de/wp-content/uploads/weezer-blaues-album-e1722259693101.jpg
+2026-05-11 15:52:57,545 - INFO - downloader - image #23	https://i.ytimg.com/vi/CAuEp6j6hrQ/maxresdefault.jpg
+2026-05-11 15:52:57,738 - INFO - downloader - image #24	https://imagescdn.juno.co.uk/full/CS627153-01A-BIG.jpg
+2026-05-11 15:52:57,769 - INFO - downloader - image #25	https://i.redd.it/i470odb4tdt41.jpg
+2026-05-11 15:52:57,776 - INFO - downloader - image #26	https://i.ytimg.com/vi/HsWz7LOdd34/maxresdefault.jpg
+2026-05-11 15:52:57,923 - INFO - downloader - downloaded images reach max num, thread downloader-001 is ready to exit
+2026-05-11 15:52:57,923 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:52:58,066 - INFO - downloader - downloaded images reach max num, thread downloader-003 is ready to exit
+2026-05-11 15:52:58,066 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:52:58,214 - INFO - downloader - downloaded images reach max num, thread downloader-002 is ready to exit
+2026-05-11 15:52:58,215 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:52:58,680 - INFO - downloader - downloaded images reach max num, thread downloader-004 is ready to exit
+2026-05-11 15:52:58,680 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:52:59,088 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:52:59,089 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:52:59,089 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:52:59,089 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:52:59,089 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:52:59,090 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:52:59,091 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:52:59,740 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:52:59,740 - INFO - parser - thread parser-002 exit
+2026-05-11 15:53:01,091 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:53:01,091 - INFO - parser - thread parser-002 exit
+2026-05-11 15:53:01,606 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=tufted capuchin&pn=0&rn=30
+2026-05-11 15:53:02,342 - INFO - downloader - image #1	https://hellorfimg.zcool.cn/large/470626196.jpg
+2026-05-11 15:53:02,400 - INFO - downloader - image #2	https://hellorfimg.zcool.cn/large/168229091.jpg
+2026-05-11 15:53:02,883 - INFO - downloader - image #3	https://gd-hbimg.huaban.com/980fd40066b95ee63f5285259709eba1363b5f113d704-OyuqSy_fw658webp
+2026-05-11 15:53:03,028 - INFO - downloader - image #4	https://hellorfimg.zcool.cn/large/1361019293.jpg
+2026-05-11 15:53:03,060 - INFO - downloader - image #5	https://hellorfimg.zcool.cn/large/2160749803.jpg
+2026-05-11 15:53:03,694 - INFO - downloader - image #6	https://www.birdquest-tours.com/wp-content/uploads/2019/08/Tufted-Puffin-Russia-Mark-Beaman_1747.jpg
+2026-05-11 15:53:04,075 - INFO - downloader - image #7	https://www.caryinstitute.org/sites/default/files/public/styles/wysiwyg_max_width/public/2019-06/tufted_capuchin_cristina_stoian_via_dreamstime.com_.jpg
+2026-05-11 15:53:04,480 - INFO - downloader - image #8	https://hellorfimg.zcool.cn/large/1995982145.jpg
+2026-05-11 15:53:04,966 - INFO - downloader - image #9	https://hellorfimg.zcool.cn/large/406838227.jpg
+2026-05-11 15:53:05,458 - INFO - downloader - image #10	https://hellorfimg.zcool.cn/large/1901515747.jpg
+2026-05-11 15:53:06,740 - INFO - downloader - image #11	https://bkimg.cdn.bcebos.com/pic/b3b7d0a20cf431add63925d74936acaf2fdd9870
+2026-05-11 15:53:07,186 - INFO - downloader - image #12	https://bkimg.cdn.bcebos.com/pic/91ae68c623ec3d489d163dfc
+2026-05-11 15:53:07,308 - INFO - downloader - image #13	https://bkimg.cdn.bcebos.com/pic/9f510fb30f2442a74a819b4bd343ad4bd0130254
+2026-05-11 15:53:07,816 - INFO - downloader - image #14	https://hellorfimg.zcool.cn/large/709427863.jpg
+2026-05-11 15:53:08,693 - INFO - downloader - image #15	https://hellorfimg.zcool.cn/large/1984291772.jpg
+2026-05-11 15:53:09,546 - INFO - downloader - image #16	https://ebth-com-production.imgix.net/2019/02/11/08/39/28/6c675fef-fbd5-47fc-b247-a59cab1985e6/1549892190061-8262733c1de083a9ace35b2bcf57aa54dc7444d8e5aaedb221eae0277fd9f4ae.JPG?ixlib=rb-1.1.0&w=1400&h=2100&fit=max&crop=&auto=format
+2026-05-11 15:53:09,634 - INFO - downloader - image #17	https://hellorfimg.zcool.cn/large/1295108974.jpg
+2026-05-11 15:53:09,675 - INFO - downloader - image #18	https://gd-hbimg.huaban.com/f57ff5395fd17d39340ae1fb6f02f3452aff19a616f67-ScQKJT_fw658
+2026-05-11 15:53:09,681 - INFO - downloader - image #19	https://bkimg.cdn.bcebos.com/pic/cf1b9d16fdfaaf51f3def281bd0183eef01f3a29ccca
+2026-05-11 15:53:10,641 - INFO - downloader - image #20	https://cdn.birdseye.photo/media/resized/large/000293-100-20130816000302.jpg
+2026-05-11 15:53:10,662 - INFO - downloader - image #21	https://cdn.birdseye.photo/media/resized/large/000293-100-20150109221157.jpg
+2026-05-11 15:53:10,696 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:53:10,696 - INFO - parser - thread parser-001 exit
+2026-05-11 15:53:11,376 - INFO - downloader - image #22	https://d00.paixin.com/thumbs/2550333/31756369/staff_1024.jpg
+2026-05-11 15:53:11,935 - INFO - downloader - image #23	https://hellorfimg.zcool.cn/large/2415010753.jpg?x-image-process=image/format,webp
+2026-05-11 15:53:12,022 - INFO - downloader - image #24	https://image.made-in-china.com/226f3j00yZElgojdyqrA/Boho-Woven-Tufted-Decorative-Pillow-Cover-with-Tassel-Diamond-Pattern.jpg
+2026-05-11 15:53:12,382 - INFO - downloader - image #25	https://image.made-in-china.com/226f3j00uZGtoqCBCfbn/Hand-Tufted-Carpet-and-Area-Rug-NP-227-D-.jpg
+2026-05-11 15:53:12,431 - ERROR - downloader - Exception caught when downloading file https://ec4.images-amazon.com/images/I/81--1e0Jm3L._UL1500_.jpg, error: HTTPSConnectionPool(host='ec4.images-amazon.com', port=443): Max retries exceeded with url: /images/I/81--1e0Jm3L._UL1500_.jpg (Caused by NameResolutionError("HTTPSConnection(host='ec4.images-amazon.com', port=443): Failed to resolve 'ec4.images-amazon.com' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:53:12,453 - ERROR - downloader - Exception caught when downloading file https://ec4.images-amazon.com/images/I/81--1e0Jm3L._UL1500_.jpg, error: HTTPSConnectionPool(host='ec4.images-amazon.com', port=443): Max retries exceeded with url: /images/I/81--1e0Jm3L._UL1500_.jpg (Caused by NameResolutionError("HTTPSConnection(host='ec4.images-amazon.com', port=443): Failed to resolve 'ec4.images-amazon.com' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:53:12,476 - ERROR - downloader - Exception caught when downloading file https://ec4.images-amazon.com/images/I/81--1e0Jm3L._UL1500_.jpg, error: HTTPSConnectionPool(host='ec4.images-amazon.com', port=443): Max retries exceeded with url: /images/I/81--1e0Jm3L._UL1500_.jpg (Caused by NameResolutionError("HTTPSConnection(host='ec4.images-amazon.com', port=443): Failed to resolve 'ec4.images-amazon.com' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:53:12,815 - INFO - downloader - image #26	https://ebth-com-production.imgix.net/2019/02/11/08/39/30/cd2fcde2-c7fc-468a-93f2-c04a716fe4b3/1549892197085-2fb8915b0b9613b546127c39627da558c093a49c7f015829d32a8f242c7f5286.JPG?ixlib=rb-1.1.0&w=880&h=880&fit=max&crop=&auto=format
+2026-05-11 15:53:14,449 - INFO - downloader - downloaded images reach max num, thread downloader-003 is ready to exit
+2026-05-11 15:53:14,449 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:53:14,823 - INFO - downloader - downloaded images reach max num, thread downloader-004 is ready to exit
+2026-05-11 15:53:14,823 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:53:17,476 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:53:17,477 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:53:17,816 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:53:17,816 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:53:18,114 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:53:18,116 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:53:18,116 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:53:18,116 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:53:18,117 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:53:18,117 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:53:18,120 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:53:18,519 - INFO - parser - parsing result page https://www.bing.com/images/async?q=black capuchin monkey&first=20
+2026-05-11 15:53:18,556 - INFO - parser - parsing result page https://www.bing.com/images/async?q=black capuchin monkey&first=0
+2026-05-11 15:53:18,758 - INFO - downloader - image #1	https://wallpapers.com/images/featured/amh1tqh06166z417.jpg
+2026-05-11 15:53:18,838 - INFO - downloader - image #2	https://cdn.shopify.com/s/files/1/1038/1798/articles/shades-of-black-color-with-names-and-hex-codes.jpg
+2026-05-11 15:53:18,885 - INFO - downloader - image #3	https://cdn.shopify.com/s/files/1/1038/1798/files/shades-of-black-color-with-names-and-hex-codes-pinterest-tall.jpg
+2026-05-11 15:53:18,936 - INFO - downloader - image #4	https://wallpapers.com/images/hd/pure-black-color-background-1w91gtcbpeq412pg.jpg
+2026-05-11 15:53:18,981 - INFO - downloader - image #5	https://www.turnblack.in/wp-content/uploads/2018/10/2014_NYR_03486_0013_000francis_newton_souza_black_landscape.jpg
+2026-05-11 15:53:19,154 - INFO - downloader - image #6	https://adrianreynolds.ie/wp-content/uploads/2023/02/An-oil-painting-of-a-world-that-is-just-black-01-1.jpg
+2026-05-11 15:53:19,162 - INFO - downloader - image #7	https://i.pinimg.com/736x/0f/72/5d/0f725de485d7bd7483b120d7294231c0.jpg
+2026-05-11 15:53:19,212 - INFO - downloader - image #8	https://i0.wp.com/blog.treasurie.com/wp-content/uploads/how-to-make-color-black-1.jpg
+2026-05-11 15:53:19,301 - INFO - downloader - image #9	https://wallpapers.com/images/hd/pure-black-oled-9etgj73d7owi4s0g.jpg
+2026-05-11 15:53:19,369 - INFO - downloader - image #10	https://wallpapers.com/images/hd/pure-black-background-y8wp2r83b15xxdi6.jpg
+2026-05-11 15:53:19,562 - INFO - downloader - image #11	https://mir-s3-cdn-cf.behance.net/project_modules/1400/710a29104647271.5f72c0a69a49a.jpg
+2026-05-11 15:53:19,562 - INFO - downloader - image #12	https://source.boomplaymusic.com/buzzgroup1/M00/2E/FA/rBEeLGI0MN2AbGpmAALuKB6yzKY120.jpg
+2026-05-11 15:53:19,674 - INFO - downloader - image #13	https://mir-s3-cdn-cf.behance.net/project_modules/disp/f2bfe7113584753.602b0da01192d.jpg
+2026-05-11 15:53:19,727 - INFO - downloader - image #14	https://i0.wp.com/blog.treasurie.com/wp-content/uploads/how-to-make-color-black-0.jpg
+2026-05-11 15:53:19,839 - INFO - downloader - image #15	https://mir-s3-cdn-cf.behance.net/project_modules/disp/bbc0aa113584753.602b0da013683.jpg
+2026-05-11 15:53:20,133 - INFO - downloader - image #16	https://static.vecteezy.com/system/resources/previews/010/952/057/original/black-gold-luxury-background-black-elegant-background-free-vector.jpg
+2026-05-11 15:53:20,690 - INFO - downloader - image #17	https://www.artpapers.org/wp-content/uploads/2019/02/7_Black-is-the-Color-Nina-Simone_2015-e1549901483817.jpg
+2026-05-11 15:53:20,876 - INFO - downloader - image #18	https://thumbor.ixchosted.com/3F1nNX_xnJjYZtCa0zjbqZDwSyo=/adaptive-fit-in/400x300/filters:format(webp)/https://agsa-prod.s3.amazonaws.com/media/dd/images/54668-WR-953PH19.9217ec3.jpg
+2026-05-11 15:53:20,930 - INFO - downloader - image #19	https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8cd199113584753.602b0da012735.jpg
+2026-05-11 15:53:20,939 - INFO - downloader - image #20	https://wallpapers.com/images/hd/pure-black-background-py9pa0f1mlsscm9s.jpg
+2026-05-11 15:53:21,151 - INFO - downloader - image #21	https://wallpapers.com/images/hd/black-glitter-background-uvwerxta37fj3g14.jpg
+2026-05-11 15:53:21,244 - INFO - downloader - image #22	https://thumbor.ixchosted.com/RPYS1RcBK3IrS1TSDwaVmviuc6w=/adaptive-fit-in/800x600/filters:format(webp)/https://agsa-prod.s3.amazonaws.com/media/dd/images/11126-HQ-200110P20.fd571be.jpg
+2026-05-11 15:53:21,294 - INFO - downloader - image #23	https://wallpapers.com/images/hd/all-black-background-vxqyzaac4tdb83gr.jpg
+2026-05-11 15:53:21,592 - INFO - downloader - image #24	https://blackartsfoundation.org/wp-content/uploads/2024/07/painting-of-a-pretty-young-african-american-woman-with-black-paint-and-colorful-paint-on-her-face-ai-generated-photo.jpg
+2026-05-11 15:53:21,685 - INFO - downloader - image #25	https://colorvisit.com/wp-content/uploads/2023/02/Art-Uses-Of-Black-1.jpg
+2026-05-11 15:53:21,720 - ERROR - downloader - Response status code 403, file https://images.wallpapersden.com/image/download/black-4k-windows-11-original_bmVsbWaUmZqaraWkpJRobWllrWdma2U.jpg
+2026-05-11 15:53:22,175 - INFO - downloader - image #26	https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f6ca9f113584753.602b0da013202.jpg
+2026-05-11 15:53:22,382 - INFO - downloader - downloaded images reach max num, thread downloader-003 is ready to exit
+2026-05-11 15:53:22,382 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:53:22,402 - INFO - downloader - downloaded images reach max num, thread downloader-002 is ready to exit
+2026-05-11 15:53:22,402 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:53:22,433 - INFO - downloader - downloaded images reach max num, thread downloader-004 is ready to exit
+2026-05-11 15:53:22,433 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:53:23,726 - INFO - parser - downloaded image reached max num, thread parser-002 is ready to exit
+2026-05-11 15:53:23,726 - INFO - parser - thread parser-002 exit
+2026-05-11 15:53:24,181 - INFO - parser - downloaded image reached max num, thread parser-001 is ready to exit
+2026-05-11 15:53:24,181 - INFO - parser - thread parser-001 exit
+2026-05-11 15:53:26,159 - INFO - downloader - downloaded images reach max num, thread downloader-001 is ready to exit
+2026-05-11 15:53:26,160 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:53:27,134 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:53:27,146 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:53:27,146 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:53:27,147 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:53:27,147 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:53:27,148 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:53:27,150 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:53:29,071 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=black capuchin monkey&pn=0&rn=30
+2026-05-11 15:53:29,150 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:53:29,151 - INFO - parser - thread parser-002 exit
+2026-05-11 15:53:29,941 - INFO - downloader - image #1	https://hellorfimg.zcool.cn/large/551125519.jpg
+2026-05-11 15:53:30,515 - INFO - downloader - image #2	https://hellorfimg.zcool.cn/large/551125540.jpg
+2026-05-11 15:53:30,531 - INFO - downloader - image #3	https://hellorfimg.zcool.cn/large/1167195586.jpg
+2026-05-11 15:53:30,961 - INFO - downloader - image #4	https://hellorfimg.zcool.cn/large/1065527846.jpg
+2026-05-11 15:53:31,420 - INFO - downloader - image #5	https://bkimg.cdn.bcebos.com/pic/37d12f2eb9389b504fc2ad3e7666f2dde71190efc019
+2026-05-11 15:53:31,818 - INFO - downloader - image #6	https://bkimg.cdn.bcebos.com/pic/2e2eb9389b504fc2d562fc69168ef01190ef76c6c719
+2026-05-11 15:53:32,009 - INFO - downloader - image #7	https://hellorfimg.zcool.cn/large/2234685035.jpg
+2026-05-11 15:53:32,517 - INFO - downloader - image #8	https://bkimg.cdn.bcebos.com/pic/4ec2d5628535e5dde711ecb38595b0efce1b9d16c419
+2026-05-11 15:53:32,520 - INFO - downloader - image #9	https://bkimg.cdn.bcebos.com/pic/e4dde71190ef76c6a7efb1476e45eafaaf51f3dec919
+2026-05-11 15:53:32,567 - INFO - downloader - image #10	https://bkimg.cdn.bcebos.com/pic/e61190ef76c6a7efce1b1d4a0ea9b851f3deb48fc819
+2026-05-11 15:53:32,833 - INFO - downloader - image #11	https://hellorfimg.zcool.cn/large/109951391.jpg
+2026-05-11 15:53:33,632 - INFO - downloader - image #12	https://bkimg.cdn.bcebos.com/pic/8435e5dde71190ef76c6d9b33d488a16fdfaaf51ca19
+2026-05-11 15:53:33,850 - INFO - downloader - image #13	https://bkimg.cdn.bcebos.com/pic/b8389b504fc2d56285359f81144287ef76c6a7efc619
+2026-05-11 15:53:33,944 - INFO - downloader - image #14	https://bkimg.cdn.bcebos.com/pic/55e736d12f2eb9389b50389e26319235e5dde711c119
+2026-05-11 15:53:34,133 - INFO - downloader - image #15	https://bkimg.cdn.bcebos.com/pic/a6efce1b9d16fdfaaf51708547dc9b5494eef01fcd06
+2026-05-11 15:53:34,512 - INFO - downloader - image #16	https://bkimg.cdn.bcebos.com/pic/5ab5c9ea15ce36d3970da6713df33a87e950b161
+2026-05-11 15:53:35,529 - INFO - downloader - image #17	https://govt.chinadaily.com.cn/images/202205/17/62833be8498e6a12d12102d4.jpeg
+2026-05-11 15:53:35,919 - INFO - downloader - image #18	https://hellorfimg.zcool.cn/large/470626196.jpg
+2026-05-11 15:53:35,946 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:53:35,947 - INFO - parser - thread parser-001 exit
+2026-05-11 15:53:35,980 - INFO - downloader - image #19	https://n.sinaimg.cn/spider20190615/53/w513h340/20190615/21f1-hymscpq3936531.jpg
+2026-05-11 15:53:36,124 - ERROR - downloader - Exception caught when downloading file https://www.makapix.co.uk/wp-content/gallery/costa-rica-animals/img_0473.jpg, error: HTTPSConnectionPool(host='www.makapix.co.uk', port=443): Max retries exceeded with url: /wp-content/gallery/costa-rica-animals/img_0473.jpg (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)'))), remaining retry times: 2
+2026-05-11 15:53:36,213 - INFO - downloader - image #20	https://photo.tuchong.com/23439768/f/1081153311.jpg
+2026-05-11 15:53:36,267 - ERROR - downloader - Exception caught when downloading file https://www.makapix.co.uk/wp-content/gallery/costa-rica-animals/img_0473.jpg, error: HTTPSConnectionPool(host='www.makapix.co.uk', port=443): Max retries exceeded with url: /wp-content/gallery/costa-rica-animals/img_0473.jpg (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)'))), remaining retry times: 1
+2026-05-11 15:53:36,586 - ERROR - downloader - Response status code 403, file https://wx3.sinaimg.cn/mw690/97ea5e26gy1hv2efjopyqj26dc48we8f.jpg
+2026-05-11 15:53:36,653 - ERROR - downloader - Exception caught when downloading file https://www.makapix.co.uk/wp-content/gallery/costa-rica-animals/img_0473.jpg, error: HTTPSConnectionPool(host='www.makapix.co.uk', port=443): Max retries exceeded with url: /wp-content/gallery/costa-rica-animals/img_0473.jpg (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)'))), remaining retry times: 0
+2026-05-11 15:53:37,169 - INFO - downloader - image #21	https://hellorfimg.zcool.cn/large/1617733015.jpg
+2026-05-11 15:53:37,568 - INFO - downloader - image #22	https://hellorfimg.zcool.cn/large/1273239241.jpg
+2026-05-11 15:53:38,711 - INFO - downloader - image #23	https://hellorfimg.zcool.cn/large/1286076493.jpg?x-image-process=image/format,webp
+2026-05-11 15:53:38,993 - INFO - downloader - image #24	https://b0.bdstatic.com/ugc/JlM5SyKxQA9DtkU_vLrLUw311d182eb506788ed4fcb41336039aa2.jpg
+2026-05-11 15:53:40,406 - ERROR - downloader - Exception caught when downloading file https://www.makapix.co.uk/wp-content/gallery/costa-rica-animals/img_0494.jpg, error: HTTPSConnectionPool(host='www.makapix.co.uk', port=443): Max retries exceeded with url: /wp-content/gallery/costa-rica-animals/img_0494.jpg (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)'))), remaining retry times: 2
+2026-05-11 15:53:40,550 - ERROR - downloader - Exception caught when downloading file https://www.makapix.co.uk/wp-content/gallery/costa-rica-animals/img_0494.jpg, error: HTTPSConnectionPool(host='www.makapix.co.uk', port=443): Max retries exceeded with url: /wp-content/gallery/costa-rica-animals/img_0494.jpg (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)'))), remaining retry times: 1
+2026-05-11 15:53:40,681 - ERROR - downloader - Exception caught when downloading file https://www.makapix.co.uk/wp-content/gallery/costa-rica-animals/img_0494.jpg, error: HTTPSConnectionPool(host='www.makapix.co.uk', port=443): Max retries exceeded with url: /wp-content/gallery/costa-rica-animals/img_0494.jpg (Caused by SSLError(SSLError(1, '[SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)'))), remaining retry times: 0
+2026-05-11 15:53:43,181 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:53:43,181 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:53:43,713 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:53:43,714 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:53:43,996 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:53:43,996 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:53:45,681 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:53:45,681 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:53:46,177 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:53:46,178 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:53:46,178 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:53:46,179 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:53:46,179 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:53:46,180 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:53:46,183 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:53:46,441 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Cebus capucinus&first=20
+2026-05-11 15:53:46,486 - INFO - parser - parsing result page https://www.bing.com/images/async?q=Cebus capucinus&first=0
+2026-05-11 15:53:46,720 - INFO - downloader - image #1	https://i.ytimg.com/vi/YrM5NQYw8Xk/maxresdefault.jpg
+2026-05-11 15:53:47,558 - INFO - downloader - image #2	https://library.sportingnews.com/styles/twitter_card_120x120/s3/2026-05/Pablo David Raya West Ham Arsenal 05102026.jpg
+2026-05-11 15:53:48,457 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:53:48,457 - INFO - parser - thread parser-002 exit
+2026-05-11 15:53:48,491 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:53:48,491 - INFO - parser - thread parser-001 exit
+2026-05-11 15:53:51,184 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:53:51,184 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:53:51,185 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:53:51,185 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:53:51,721 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:53:51,721 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:53:52,560 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:53:52,560 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:53:53,193 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:53:53,197 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:53:53,197 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:53:53,198 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:53:53,198 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:53:53,198 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:53:53,199 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:53:55,200 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:53:55,200 - INFO - parser - thread parser-002 exit
+2026-05-11 15:53:55,866 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=Cebus capucinus&pn=0&rn=30
+2026-05-11 15:53:57,815 - INFO - downloader - image #1	https://bkimg.cdn.bcebos.com/pic/0b55b319ebc4b74543a9e560b2a809178a82b901bf33
+2026-05-11 15:53:58,542 - INFO - downloader - image #2	https://bkimg.cdn.bcebos.com/pic/dcc451da81cb39dbb6fd162ead421e24ab18972b9a35
+2026-05-11 15:53:58,611 - INFO - downloader - image #3	https://bkimg.cdn.bcebos.com/pic/3ac79f3df8dcd100baa1e0560fdf5010b912c8fc8132
+2026-05-11 15:53:58,810 - ERROR - downloader - Exception caught when downloading file https://alifei05.cfp.cn/creative/vcg/nowarter800/new/VCG211199885652.jpg, error: HTTPSConnectionPool(host='alifei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG211199885652.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei05.cfp.cn', port=443): Failed to resolve 'alifei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:53:58,911 - INFO - downloader - image #4	https://bkimg.cdn.bcebos.com/pic/d000baa1cd11728b47108955b5a8d4cec3fdfc038632
+2026-05-11 15:53:58,935 - INFO - downloader - image #5	https://bkimg.cdn.bcebos.com/pic/c83d70cf3bc79f3df8dcfa47c7f5da11728b47108332
+2026-05-11 15:53:59,042 - ERROR - downloader - Response status code 400, file https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cebus_capucinus%2C_Costa_Rica.JPG/1024px-Cebus_capucinus%2C_Costa_Rica.JPG
+2026-05-11 15:53:59,131 - ERROR - downloader - Exception caught when downloading file https://alifei05.cfp.cn/creative/vcg/nowarter800/new/VCG211199885652.jpg, error: HTTPSConnectionPool(host='alifei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG211199885652.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei05.cfp.cn', port=443): Failed to resolve 'alifei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:53:59,399 - ERROR - downloader - Exception caught when downloading file https://alifei05.cfp.cn/creative/vcg/nowarter800/new/VCG211199885652.jpg, error: HTTPSConnectionPool(host='alifei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG211199885652.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei05.cfp.cn', port=443): Failed to resolve 'alifei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:53:59,408 - INFO - downloader - image #6	https://bkimg.cdn.bcebos.com/pic/bba1cd11728b4710b912f9bbbe9ad4fdfc0392458532
+2026-05-11 15:53:59,421 - INFO - downloader - image #7	https://bkimg.cdn.bcebos.com/pic/71cf3bc79f3df8dcd10096e6b045658b4710b9128232
+2026-05-11 15:53:59,723 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/nowater800/new/VCG41N1294752280.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294752280.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:53:59,871 - INFO - downloader - image #8	https://bkimg.cdn.bcebos.com/pic/f9dcd100baa1cd11728b6857c446dffcc3cec3fd8732
+2026-05-11 15:54:00,008 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/nowater800/new/VCG41N1294752280.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294752280.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:00,088 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/nowater800/new/VCG41N1294752280.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294752280.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:00,227 - ERROR - downloader - Exception caught when downloading file https://alifei04.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189594.jpg, error: HTTPSConnectionPool(host='alifei04.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189594.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei04.cfp.cn', port=443): Failed to resolve 'alifei04.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:00,394 - INFO - downloader - image #9	https://bkimg.cdn.bcebos.com/pic/b812c8fcc3cec3fdfc03a702abdcc33f8794a4c28932
+2026-05-11 15:54:00,416 - ERROR - downloader - Exception caught when downloading file https://alifei04.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189594.jpg, error: HTTPSConnectionPool(host='alifei04.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189594.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei04.cfp.cn', port=443): Failed to resolve 'alifei04.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:00,446 - ERROR - downloader - Exception caught when downloading file https://tenfei02.cfp.cn/creative/vcg/nowater800/new/VCG41N1294874444.jpg, error: HTTPSConnectionPool(host='tenfei02.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294874444.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei02.cfp.cn', port=443): Failed to resolve 'tenfei02.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:00,473 - ERROR - downloader - Exception caught when downloading file https://alifei04.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189594.jpg, error: HTTPSConnectionPool(host='alifei04.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189594.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei04.cfp.cn', port=443): Failed to resolve 'alifei04.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:00,741 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/nowarter800/new/VCG41N1088811014.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1088811014.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:00,846 - ERROR - downloader - Exception caught when downloading file https://tenfei02.cfp.cn/creative/vcg/nowater800/new/VCG41N1294874444.jpg, error: HTTPSConnectionPool(host='tenfei02.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294874444.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei02.cfp.cn', port=443): Failed to resolve 'tenfei02.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:00,924 - INFO - downloader - image #10	https://veer01.cfp.cn/creative/vcg/veer/1600water/veer-426468097.jpg
+2026-05-11 15:54:00,931 - ERROR - downloader - Exception caught when downloading file https://tenfei02.cfp.cn/creative/vcg/nowater800/new/VCG41N1294874444.jpg, error: HTTPSConnectionPool(host='tenfei02.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294874444.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei02.cfp.cn', port=443): Failed to resolve 'tenfei02.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:01,069 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/nowarter800/new/VCG41N1088811014.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1088811014.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:01,117 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/nowarter800/new/VCG41N1088811014.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1088811014.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:01,275 - ERROR - downloader - Exception caught when downloading file https://tenfei01.cfp.cn/creative/vcg/nowater800/new/VCG41N1419084200.jpg, error: HTTPSConnectionPool(host='tenfei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1419084200.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei01.cfp.cn', port=443): Failed to resolve 'tenfei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:01,420 - INFO - downloader - image #11	https://veer02.cfp.cn/creative/vcg/veer/1600water/veer-426468368.jpg
+2026-05-11 15:54:01,503 - ERROR - downloader - Exception caught when downloading file https://tenfei01.cfp.cn/creative/vcg/nowater800/new/VCG41N1419084200.jpg, error: HTTPSConnectionPool(host='tenfei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1419084200.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei01.cfp.cn', port=443): Failed to resolve 'tenfei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:01,524 - ERROR - downloader - Exception caught when downloading file https://alifei03.cfp.cn/creative/vcg/nowater800/new/VCG41N1484757622.jpg, error: HTTPSConnectionPool(host='alifei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1484757622.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei03.cfp.cn', port=443): Failed to resolve 'alifei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:01,727 - ERROR - downloader - Exception caught when downloading file https://tenfei05.cfp.cn/creative/vcg/nowarter800/new/VCG41N1087856780.jpg, error: HTTPSConnectionPool(host='tenfei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1087856780.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei05.cfp.cn', port=443): Failed to resolve 'tenfei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:01,750 - ERROR - downloader - Exception caught when downloading file https://alifei03.cfp.cn/creative/vcg/nowater800/new/VCG41N1484757622.jpg, error: HTTPSConnectionPool(host='alifei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1484757622.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei03.cfp.cn', port=443): Failed to resolve 'alifei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:01,784 - ERROR - downloader - Exception caught when downloading file https://tenfei05.cfp.cn/creative/vcg/nowarter800/new/VCG41N1087856780.jpg, error: HTTPSConnectionPool(host='tenfei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1087856780.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei05.cfp.cn', port=443): Failed to resolve 'tenfei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:01,798 - ERROR - downloader - Exception caught when downloading file https://alifei03.cfp.cn/creative/vcg/nowater800/new/VCG41N1484757622.jpg, error: HTTPSConnectionPool(host='alifei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1484757622.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei03.cfp.cn', port=443): Failed to resolve 'alifei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:01,844 - ERROR - downloader - Exception caught when downloading file https://alifei03.cfp.cn/creative/vcg/nowarter800/new/VCG41N1161249544.jpg, error: HTTPSConnectionPool(host='alifei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1161249544.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei03.cfp.cn', port=443): Failed to resolve 'alifei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:01,865 - ERROR - downloader - Exception caught when downloading file https://tenfei01.cfp.cn/creative/vcg/nowater800/new/VCG41N1419084200.jpg, error: HTTPSConnectionPool(host='tenfei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1419084200.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei01.cfp.cn', port=443): Failed to resolve 'tenfei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:01,891 - ERROR - downloader - Exception caught when downloading file https://alifei03.cfp.cn/creative/vcg/nowarter800/new/VCG41N1161249544.jpg, error: HTTPSConnectionPool(host='alifei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1161249544.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei03.cfp.cn', port=443): Failed to resolve 'alifei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:01,898 - INFO - downloader - image #12	https://t9.baidu.com/it/u=1096012932,767552966&fm=193
+2026-05-11 15:54:01,934 - ERROR - downloader - Exception caught when downloading file https://alifei03.cfp.cn/creative/vcg/nowarter800/new/VCG41N1161249544.jpg, error: HTTPSConnectionPool(host='alifei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1161249544.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei03.cfp.cn', port=443): Failed to resolve 'alifei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:01,983 - ERROR - downloader - Exception caught when downloading file https://tenfei02.cfp.cn/creative/vcg/nowater800/new/VCG41N1294678559.jpg, error: HTTPSConnectionPool(host='tenfei02.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294678559.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei02.cfp.cn', port=443): Failed to resolve 'tenfei02.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:01,988 - ERROR - downloader - Exception caught when downloading file https://tenfei05.cfp.cn/creative/vcg/nowarter800/new/VCG41N1087856780.jpg, error: HTTPSConnectionPool(host='tenfei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowarter800/new/VCG41N1087856780.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei05.cfp.cn', port=443): Failed to resolve 'tenfei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:02,030 - ERROR - downloader - Exception caught when downloading file https://tenfei02.cfp.cn/creative/vcg/nowater800/new/VCG41N1294678559.jpg, error: HTTPSConnectionPool(host='tenfei02.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294678559.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei02.cfp.cn', port=443): Failed to resolve 'tenfei02.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:02,078 - ERROR - downloader - Exception caught when downloading file https://tenfei02.cfp.cn/creative/vcg/nowater800/new/VCG41N1294678559.jpg, error: HTTPSConnectionPool(host='tenfei02.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294678559.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei02.cfp.cn', port=443): Failed to resolve 'tenfei02.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:02,124 - ERROR - downloader - Exception caught when downloading file https://alifei05.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189552.jpg, error: HTTPSConnectionPool(host='alifei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189552.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei05.cfp.cn', port=443): Failed to resolve 'alifei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:02,170 - INFO - downloader - image #13	https://bkimg.cdn.bcebos.com/pic/cdbf6c81800a19d89c163d8233fa828ba61e461b
+2026-05-11 15:54:02,175 - ERROR - downloader - Exception caught when downloading file https://tenfei03.cfp.cn/creative/vcg/nowater800/new/VCG41N1294678561.jpg, error: HTTPSConnectionPool(host='tenfei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294678561.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei03.cfp.cn', port=443): Failed to resolve 'tenfei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:02,182 - ERROR - downloader - Exception caught when downloading file https://alifei05.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189552.jpg, error: HTTPSConnectionPool(host='alifei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189552.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei05.cfp.cn', port=443): Failed to resolve 'alifei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:02,223 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189644.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189644.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 2
+2026-05-11 15:54:02,278 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189644.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189644.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:02,325 - ERROR - downloader - Exception caught when downloading file https://alifei01.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189644.jpg, error: HTTPSConnectionPool(host='alifei01.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189644.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei01.cfp.cn', port=443): Failed to resolve 'alifei01.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:02,503 - ERROR - downloader - Exception caught when downloading file https://alifei05.cfp.cn/creative/vcg/veer/nowarter800/new/VCG41N890189552.jpg, error: HTTPSConnectionPool(host='alifei05.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/veer/nowarter800/new/VCG41N890189552.jpg (Caused by NameResolutionError("HTTPSConnection(host='alifei05.cfp.cn', port=443): Failed to resolve 'alifei05.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:02,517 - ERROR - downloader - Exception caught when downloading file https://tenfei03.cfp.cn/creative/vcg/nowater800/new/VCG41N1294678561.jpg, error: HTTPSConnectionPool(host='tenfei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294678561.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei03.cfp.cn', port=443): Failed to resolve 'tenfei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 1
+2026-05-11 15:54:02,713 - INFO - downloader - image #14	https://bkimg.cdn.bcebos.com/pic/9f2f070828381f30e92467b88b4b5b086e061d955ac5
+2026-05-11 15:54:02,803 - ERROR - downloader - Exception caught when downloading file https://tenfei03.cfp.cn/creative/vcg/nowater800/new/VCG41N1294678561.jpg, error: HTTPSConnectionPool(host='tenfei03.cfp.cn', port=443): Max retries exceeded with url: /creative/vcg/nowater800/new/VCG41N1294678561.jpg (Caused by NameResolutionError("HTTPSConnection(host='tenfei03.cfp.cn', port=443): Failed to resolve 'tenfei03.cfp.cn' ([Errno -2] Name or service not known)")), remaining retry times: 0
+2026-05-11 15:54:02,932 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:54:02,932 - INFO - parser - thread parser-001 exit
+2026-05-11 15:54:05,526 - INFO - downloader - image #15	https://f.chongwunet.com/chongwunet/202107/c6/08ac30eb3faf9d.png
+2026-05-11 15:54:07,504 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:54:07,504 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:54:07,714 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:54:07,714 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:54:07,803 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:54:07,804 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:54:10,529 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:54:10,529 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:54:11,223 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:54:11,225 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:54:11,225 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:54:11,225 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:54:11,226 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:54:11,226 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:54:11,229 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:54:11,495 - INFO - parser - parsing result page https://www.bing.com/images/async?q=卷尾猴&first=20
+2026-05-11 15:54:11,555 - INFO - parser - parsing result page https://www.bing.com/images/async?q=卷尾猴&first=0
+2026-05-11 15:54:11,784 - INFO - downloader - image #1	https://greekreporter.com/wp-content/uploads/2024/07/tourists-in-ibiza-spotted-a-mysterious-ufo-credit-maxime-raynal-flickr-cc-by-20-1392x783.jpg
+2026-05-11 15:54:12,428 - INFO - downloader - image #2	http://cdn.shopify.com/s/files/1/1540/2631/products/dde9e8f841dc1913a21708f0f9400e56_1024x1024.jpg
+2026-05-11 15:54:13,503 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:54:13,503 - INFO - parser - thread parser-002 exit
+2026-05-11 15:54:13,560 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:54:13,560 - INFO - parser - thread parser-001 exit
+2026-05-11 15:54:16,231 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:54:16,231 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:54:16,231 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:54:16,232 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:54:16,785 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:54:16,785 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:54:17,429 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:54:17,429 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:54:18,240 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:54:18,245 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:54:18,246 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:54:18,246 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:54:18,247 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:54:18,247 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:54:18,250 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:54:20,250 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:54:20,251 - INFO - parser - thread parser-002 exit
+2026-05-11 15:54:20,257 - INFO - parser - parsing result page http://image.baidu.com/search/acjson?tn=resultjson_com&ipn=rj&word=卷尾猴&pn=0&rn=30
+2026-05-11 15:54:20,593 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/o8FgWAAGnFAGeEvjC9FEgCD1AsA9mpAQIPf1Cc~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:54:20,598 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813/okA5AA1jkELKioIPRAZ8DaIiTAWABAZPm1QDj~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:54:23,052 - INFO - downloader - image #1	https://b0.bdstatic.com/ugc/ugc_newworld_zhanneixin/dnWOTjG8rZRpfSb3e-zpKg7ded9226c1a852edfb2a9022f61522ba.jpg
+2026-05-11 15:54:23,078 - INFO - downloader - image #2	https://pic.rmb.bdstatic.com/bjh/news/468fc6bafb64c944be495344e86906b3.png
+2026-05-11 15:54:23,354 - INFO - downloader - image #3	https://b0.bdstatic.com/ugc/EQmSy4RCTFejRPHn0zyDygea7746a323ffd99d2c7e73868a971372.jpg
+2026-05-11 15:54:23,688 - INFO - downloader - image #4	https://q2.itc.cn/q_70/images03/20250901/584edd793ae64e5687e631b7c07e5f5e.jpeg
+2026-05-11 15:54:23,709 - INFO - downloader - image #5	https://bkimg.cdn.bcebos.com/pic/a2cc7cd98d1001e93901f76b345a6cec54e736d13900
+2026-05-11 15:54:24,392 - INFO - downloader - image #6	https://pic.rmb.bdstatic.com/bjh/down/Y1i9cDiv2Acmavekjs3ASAcfbd209422182115710fd616da14b327.jpg
+2026-05-11 15:54:24,792 - INFO - downloader - image #7	https://q4.itc.cn/q_70/images03/20250901/820721101fe84881bdb04c9d6abea2ac.jpeg
+2026-05-11 15:54:25,184 - INFO - downloader - image #8	https://pic.rmb.bdstatic.com/bjh/3f68ec89093/251106/15d657477a556d39590dc2bb302b5cee.png?x-bce-process=image/watermark,bucket_baidu-rmb-video-cover-1,image_YmpoL25ld3MvNjUzZjZkMjRlMDJiNjdjZWU1NzEzODg0MDNhYTQ0YzQucG5n,type_RlpMYW5UaW5nSGVpU01HQg==,w_10,text_QOW_g-aAgOmUpue7ow==,size_10,x_8,y_8,interval_2,color_FFFFFF,effect_softoutline,shc_000000,blr_2,align_1/strip,k_1
+2026-05-11 15:54:25,446 - INFO - downloader - image #9	https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fss2.meipian.me%2Fusers%2F320332%2F5fd6dc7d296d4babae1308acfcda6380.png%3Fmeipian-watermark%2Fbucket%2Fivwen%2Fkey%2FdXNlcnMvMzIwMzMyLzVmZDZkYzdkMjk2ZDRiYWJhZTEzMDhhY2ZjZGE2MzgwLnBuZw%3D%3D%2Fnickname%2F6JC956yU5bGx5Lq65LiA5YKF5L-K5YWD%2Fuserid%2FMzIwMzMy%2Fsign%2F815dfe268563e0038d884f221b9ad7b3%257cimageView2%2F2%2Fw%2F750%2Finterlace%2F0%2Fq%2F80&refer=http%3A%2F%2Fss2.meipian.me&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1781099660&t=571616d7fe48169be472ee07578c5ce9
+2026-05-11 15:54:25,659 - INFO - downloader - image #10	https://bkimg.cdn.bcebos.com/pic/d788d43f8794a4c27d1ecd1797a00cd5ad6eddc493c9
+2026-05-11 15:54:26,377 - INFO - downloader - image #11	https://pic.rmb.bdstatic.com/bjh/news/da07bf301bc5d971e5b711527e6ee4c1.png
+2026-05-11 15:54:26,401 - ERROR - downloader - Response status code 403, file https://p3-pc-sign.douyinpic.com/tos-cn-i-0813c001/oQIjQAAA9gvsAvDnPFFffEtFKC9A1EAgC1cWCC~tplv-dy-aweme-images:q75.webp
+2026-05-11 15:54:27,649 - INFO - downloader - image #12	https://pic.rmb.bdstatic.com/bjh/bc118d7d46dc/250405/06d11e6755118deaf5c195d8a8159681.jpeg?x-bce-process=image/resize,m_lfit,w_1242&for=bg
+2026-05-11 15:54:28,005 - INFO - downloader - image #13	https://bkimg.cdn.bcebos.com/pic/8644ebf81a4c510fd9f91fec0c0d322dd42a29340fb2
+2026-05-11 15:54:28,094 - INFO - downloader - image #14	https://pic.rmb.bdstatic.com/bjh/down/PKq-4GSNmN_WjNX-a_efrwc88b76e71fd34961b9af3d1e6c5e9342.jpg
+2026-05-11 15:54:28,344 - INFO - downloader - image #15	https://bkimg.cdn.bcebos.com/pic/d000baa1cd11728b47108955b5a8d4cec3fdfc038632
+2026-05-11 15:54:28,963 - INFO - downloader - image #16	https://bkimg.cdn.bcebos.com/pic/dcc451da81cb39dbb6fd162ead421e24ab18972b9a35
+2026-05-11 15:54:29,194 - INFO - downloader - image #17	https://pic.rmb.bdstatic.com/bjh/news/0ad3e2a0352bddee79b5f7b5d1874f26.png
+2026-05-11 15:54:29,396 - INFO - downloader - image #18	https://bkimg.cdn.bcebos.com/pic/adaf2edda3cc7cd98d105c4c3a55363fb80e7bec3b50
+2026-05-11 15:54:30,166 - INFO - downloader - image #19	https://vd3.bdstatic.com/mda-rddhdai8pgyd3i8y/1744632996/mda-rddhdai8pgyd3i8y00000000.jpg?for=bg
+2026-05-11 15:54:30,269 - ERROR - downloader - Exception caught when downloading file https://sxzm-res.szpgm.com/sxzmeds/editing/image/202509/01/68b562eb90eead8364f81c55.jpeg, error: HTTPSConnectionPool(host='sxzm-res.szpgm.com', port=443): Read timed out. (read timeout=5), remaining retry times: 2
+2026-05-11 15:54:30,404 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:54:30,405 - INFO - parser - thread parser-001 exit
+2026-05-11 15:54:30,737 - INFO - downloader - image #20	https://bkimg.cdn.bcebos.com/pic/d009b3de9c82d158ccbf8d452e5e0ed8bc3eb035e4b0
+2026-05-11 15:54:31,012 - INFO - downloader - image #21	https://img95.699pic.com/xsj/1u/0q/x3.jpg%21/fw/700/watermark/url/L3hzai93YXRlcl9kZXRhaWwyLnBuZw/align/southeast
+2026-05-11 15:54:31,218 - INFO - downloader - image #22	https://pic.rmb.bdstatic.com/bjh/news/cb3687a3ecd4d995aa0249cf556ea8d9.png
+2026-05-11 15:54:31,623 - INFO - downloader - image #23	https://img95.699pic.com/xsj/1v/6i/dv.jpg%21/fw/700/watermark/url/L3hzai93YXRlcl9kZXRhaWwyLnBuZw/align/southeast
+2026-05-11 15:54:32,059 - INFO - downloader - image #24	https://vcg05.cfp.cn/creative/vcg/nowarter800/new/VCG41N1149335881.jpg
+2026-05-11 15:54:34,756 - INFO - downloader - image #25	https://sxzm-res.szpgm.com/sxzmeds/editing/image/202509/01/68b562eb90eead8364f81c55.jpeg
+2026-05-11 15:54:36,219 - INFO - downloader - no more download task for thread downloader-001
+2026-05-11 15:54:36,220 - INFO - downloader - thread downloader-001 exit
+2026-05-11 15:54:36,624 - INFO - downloader - no more download task for thread downloader-003
+2026-05-11 15:54:36,624 - INFO - downloader - thread downloader-003 exit
+2026-05-11 15:54:37,060 - INFO - downloader - no more download task for thread downloader-002
+2026-05-11 15:54:37,061 - INFO - downloader - thread downloader-002 exit
+2026-05-11 15:54:39,760 - INFO - downloader - no more download task for thread downloader-004
+2026-05-11 15:54:39,761 - INFO - downloader - thread downloader-004 exit
+2026-05-11 15:54:40,281 - INFO - icrawler.crawler - Crawling task done!
+2026-05-11 15:54:40,283 - INFO - icrawler.crawler - start crawling...
+2026-05-11 15:54:40,283 - INFO - icrawler.crawler - starting 2 feeder threads...
+2026-05-11 15:54:40,283 - INFO - feeder - thread feeder-001 exit
+2026-05-11 15:54:40,284 - INFO - feeder - thread feeder-002 exit
+2026-05-11 15:54:40,284 - INFO - icrawler.crawler - starting 2 parser threads...
+2026-05-11 15:54:40,287 - INFO - icrawler.crawler - starting 4 downloader threads...
+2026-05-11 15:54:40,573 - INFO - parser - parsing result page https://www.bing.com/images/async?q=白面卷尾猴&first=0
+2026-05-11 15:54:40,679 - INFO - parser - parsing result page https://www.bing.com/images/async?q=白面卷尾猴&first=20
+2026-05-11 15:54:40,897 - INFO - downloader - image #1	https://imgs.yachthub.com/3/4/1/6/0/4/0_5.jpg
+2026-05-11 15:54:40,902 - INFO - downloader - image #2	https://floatmagazin.de/wp-content/uploads/2016/12/2016-12-12dehler-34-deck.jpg
+2026-05-11 15:54:41,231 - INFO - downloader - image #3	https://img.yachtall.com/image-sale-boat/dehler-34-huge-178344a72761fb250.jpg
+2026-05-11 15:54:42,095 - INFO - downloader - image #4	https://www.dreamworks.com/storage/movies/the-road-to-el-dorado/gallery/the-road-to-el-dorado-gallery-3.jpg
+2026-05-11 15:54:42,521 - ERROR - downloader - Response status code 404, file https://itboat.com/uploads/f814/be45c672bbba.jpg
+2026-05-11 15:54:42,588 - INFO - parser - no more page urls for thread parser-001 to parse
+2026-05-11 15:54:42,588 - INFO - parser - thread parser-001 exit
+2026-05-11 15:54:42,655 - ERROR - downloader - Response status code 404, file https://itboat.com/uploads/4078/dc7815bae770.jpg
+2026-05-11 15:54:43,685 - INFO - downloader - image #5	https://static.wixstatic.com/media/ef4663_652bc9822d8d42449dddc36ef52378a4~mv2_d_2592_3888_s_4_2.jpg
+2026-05-11 15:54:43,947 - INFO - downloader - image #6	https://www.devalk.nl/images/thumbnails/website/dehler-34-801477_64ec992e7ff9ee.jpg
+2026-05-11 15:54:44,128 - ERROR - downloader - Response status code 403, file https://images.boats.com/resize/1/52/63/9295263_960354641_0_150320242112_1.jpg
+2026-05-11 15:54:44,746 - INFO - downloader - image #7	https://2.bp.blogspot.com/-HYDRVIIAMjs/UHLYgA2g2MI/AAAAAAAAAMQ/SGpCrTpYxOw/s1600/timonera.jpg
+2026-05-11 15:54:44,992 - ERROR - downloader - Response status code 403, file https://images.boats.com/resize/1/77/36/8327736_20220521032627950_1_LARGE.jpg
+2026-05-11 15:54:45,000 - INFO - downloader - image #8	https://www.dehlerclub.nl/wp-content/uploads/2020/11/Dehler-34-1503x1127-1.jpg
+2026-05-11 15:54:45,151 - INFO - downloader - image #9	https://www.devalk.nl/images/thumbnails/website/dehler-34-350356_40c.jpg
+2026-05-11 15:54:45,200 - INFO - downloader - image #10	https://www.devalk.nl/images/thumbnails/website/dehler-34-350356_39c.jpg
+2026-05-11 15:54:45,327 - ERROR - downloader - Response status code 403, file https://images.boats.com/resize/1/3/15/8490315_0_100920221748_1.jpg
+2026-05-11 15:54:45,368 - INFO - downloader - image #11	https://static.wixstatic.com/media/ef4663_b571f8372bae4744bb894074fa556ccc~mv2_d_3888_2592_s_4_2.jpg
+2026-05-11 15:54:45,419 - INFO - downloader - image #12	https://www.devalk.nl/images/thumbnails/website/dehler-34-top-39726_38c.jpg
+2026-05-11 15:54:45,438 - ERROR - downloader - Response status code 403, file https://images.boats.com/resize/1/58/58/8055858_20211004044853738_1_LARGE.jpg
+2026-05-11 15:54:45,560 - ERROR - downloader - Response status code 403, file https://images.boats.com/resize/1/70/53/8337053_20220529181843477_1_LARGE.jpg
+2026-05-11 15:54:45,942 - INFO - downloader - image #13	https://www.zeilen.nl/app/uploads/2025/02/ZEI2503_Cover-HR-1178x1536.jpg
+2026-05-11 15:54:46,660 - INFO - parser - no more page urls for thread parser-002 to parse
+2026-05-11 15:54:46,660 - INFO - parser - thread parser-002 exit
+2026-05-11 15:54:46,737 - INFO - downloader - image #14	https://static.wixstatic.com/media/ef4663_5bab91dbb2354c8487467f0ee1441917~mv2_d_2592_3888_s_4_2.jpg
