@@ -7,6 +7,7 @@ import subprocess, sys, os
 from pathlib import Path
 
 ROOT = Path(__file__).parent
+IMAGES_DIR = ROOT / "images"
 
 # class_dir : (queries, detect, category_pos|None, category_neg|None)
 CONFIG = {
@@ -205,7 +206,7 @@ CONFIG = {
 
 def already_done(name: str) -> bool:
     """Skip if dir already has >50 files (means it was already uncapped)."""
-    d = ROOT / name
+    d = IMAGES_DIR / name
     if not d.is_dir():
         return False
     return len(list(d.glob("*.jpg"))) > 50
@@ -225,7 +226,7 @@ def run_one(name, conf):
     if neg:
         cmd += ["--category-neg", *neg]
     # remove any old (capped) output
-    out = ROOT / name
+    out = IMAGES_DIR / name
     if out.exists():
         for f in out.glob("*.jpg"):
             f.unlink()
@@ -243,10 +244,10 @@ def main():
             continue
         if already_done(name):
             print(f"-- skip {name} (already > 50 files)")
-            summary.append((name, "skip", len(list((ROOT/name).glob('*.jpg')))))
+            summary.append((name, "skip", len(list((IMAGES_DIR/name).glob('*.jpg')))))
             continue
         rc = run_one(name, conf)
-        cnt = len(list((ROOT/name).glob("*.jpg")))
+        cnt = len(list((IMAGES_DIR/name).glob("*.jpg")))
         summary.append((name, "ok" if rc == 0 else f"fail({rc})", cnt))
 
     print("\n========== SUMMARY ==========")

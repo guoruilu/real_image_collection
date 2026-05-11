@@ -14,9 +14,9 @@ clip_scores()     对每张图计算 real_score（必）+ cat_score（可选）
    ↓
 YOLO-World        set_classes([detect_prompt])，imgsz=640, conf=0.05
    ↓
-[裁剪 + 加 5% 边距 + min_box 检查] → 保存到 out_dir
+[裁剪 + 加 5% 边距 + min_box 检查；--detect-fallback 时无框就用整图]
    ↓
-成功则删 _raw/，否则保留供重试
+保存到 images/<out>/<out>_NNN.jpg，跑完删 _raw/
 ```
 
 ## 关键函数

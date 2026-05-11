@@ -50,9 +50,15 @@ python collect.py --queries "acoustic guitar" "原声吉他" --detect "guitar" -
 │   ├── tech_stack.md
 │   ├── models.md
 │   └── pipeline.md
+├── collect.py                  # 主流水线（CLI 入口）
+├── run_all.py                  # 批量驱动：按 img_list.txt + 内嵌配置跑全部类别
+├── img_list.txt                # ImageNet wnid + 中文类别列表（30 类）
 ├── logs/                       # 任务日志（每次任务追加一份 md）
-│   └── 2026-05-11_egyptian_mau_pipeline.md
-├── egyptian_mau_cats/          # 第一次跑出的 50 张埃及猫
+│   ├── 2026-05-11_egyptian_mau_pipeline.md
+│   ├── 2026-05-11_batch_30_classes.md
+│   └── run_all_2026-05-11.log
+├── images/                     # 所有类别产出统一在这下面
+│   └── <class_name>/           # 30 个类别目录，每类 33~184 张裁剪图
 ├── yolov8n.pt                  # COCO YOLOv8 nano（v1 遗留，可删）
 ├── yolov8s-worldv2.pt          # YOLO-World 开放词表权重
 └── _raw/                       # 候选图缓存，跑成功后自动删
@@ -66,19 +72,19 @@ python collect.py --queries "acoustic guitar" "原声吉他" --detect "guitar" -
 ## 已完成 / 待完成
 
 ### ✅ 已完成
-- [x] 通用采集流水线 `collect.py`
-- [x] 埃及猫 50 张产出（验证流水线，存放于 `egyptian_mau_cats/`）
+- [x] 通用采集流水线 `collect.py`（带 YOLO 单图容错 + `--detect-fallback` 整图兜底）
+- [x] 批量驱动 `run_all.py`，跑完 `img_list.txt` 全 30 类，共 **2,916 张**
+- [x] 输出策略：不再限制 50 张，过滤出多少存多少
 - [x] 项目约定 `CLAUDE.md`、文档体系 `docs/`、历史日志 `logs/`
 
 ### 🚧 待完成（按优先级）
-1. **跑其他类别**：吉他、马、熊猫……（命令模板见 `docs/usage.md`）
-2. **流水线鲁棒性**：
+1. **流水线鲁棒性**：
    - 加 pHash 近似图去重（目前只按 `(size, filesize)` 粗去重）
    - 加 `--engines bing,baidu,google` 开关；中文关键词可禁用 Bing 提速
    - 真实性过滤负模板按类别裁剪（吉他不需要 "plush toy / figurine"）
-3. **质量评估**：
+2. **质量评估**：
    - 写一个小脚本随机抽样产出图做人工核验，记录 precision
    - 跨类别的稳定阈值表（real/cat 的合适默认值）
-4. **EEG 关联（原项目意图，待用户澄清）**：
+3. **EEG 关联（原项目意图，待用户澄清）**：
    - 项目名含 "EEG"，但当前流水线只做图像采集，未涉及脑电信号处理
    - 推测后续要把这些图作为视觉刺激集，配合 EEG 做物体识别任务——具体方向请询问用户

@@ -14,6 +14,7 @@ from ultralytics import YOLO
 from icrawler.builtin import BingImageCrawler, BaiduImageCrawler
 
 ROOT = Path(__file__).parent
+IMAGES_DIR = ROOT / "images"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 REAL_TEMPLATES = [
@@ -109,14 +110,15 @@ def clip_scores(model, preprocess, files, real_prompts, fake_prompts,
 def collect(query_list, detect_prompt, out_dir, n=50, raw_dir=None,
             category_pos=None, category_neg=None,
             real_thresh=0.7, cat_thresh=0.5, candidates_factor=6,
-            yolo_world="yolov8s-worldv2.pt", min_box=60):
+            yolo_world="yolov8s-worldv2.pt", min_box=60,
+            detect_fallback=False):
     """
     query_list: search keywords (multiple language/variants)
     detect_prompt: text for YOLO-World detection (e.g., "egyptian mau cat")
     category_pos / category_neg: optional CLIP prompts for fine category filtering
         e.g. pos=["egyptian mau cat"], neg=["persian cat","tabby cat","ragdoll cat"]
     """
-    out_dir = Path(out_dir); out_dir.mkdir(exist_ok=True)
+    out_dir = Path(out_dir); out_dir.mkdir(parents=True, exist_ok=True)
     raw_dir = Path(raw_dir or (ROOT / "_raw"))
 
     target_candidates = n * candidates_factor
@@ -196,19 +198,30 @@ def collect(query_list, detect_prompt, out_dir, n=50, raw_dir=None,
             continue
         used_keys.add(key)
 
-        res = det.predict(source=str(f), conf=0.05, iou=0.5, verbose=False, imgsz=640)[0]
-        if len(res.boxes) == 0:
-            continue
-        boxes = res.boxes
-        best = int(boxes.conf.argmax())
-        x1, y1, x2, y2 = map(int, boxes.xyxy[best].tolist())
+        try:
+            res = det.predict(source=str(f), conf=0.05, iou=0.5, verbose=False, imgsz=640)[0]
+            has_box = len(res.boxes) > 0
+        except Exception as e:
+            print(f"detect error {f.name}: {e}")
+            has_box = False
         W, H = img.size
-        mx = int(0.05 * (x2 - x1)); my = int(0.05 * (y2 - y1))
-        x1 = max(0, x1 - mx); y1 = max(0, y1 - my)
-        x2 = min(W, x2 + mx); y2 = min(H, y2 + my)
-        if (x2 - x1) < min_box or (y2 - y1) < min_box:
+        if has_box:
+            boxes = res.boxes
+            best = int(boxes.conf.argmax())
+            x1, y1, x2, y2 = map(int, boxes.xyxy[best].tolist())
+            mx = int(0.05 * (x2 - x1)); my = int(0.05 * (y2 - y1))
+            x1 = max(0, x1 - mx); y1 = max(0, y1 - my)
+            x2 = min(W, x2 + mx); y2 = min(H, y2 + my)
+            if (x2 - x1) < min_box or (y2 - y1) < min_box:
+                continue
+            crop = img.crop((x1, y1, x2, y2))
+        elif detect_fallback:
+            # Use the whole image (likely a tight product shot)
+            if W < min_box or H < min_box:
+                continue
+            crop = img
+        else:
             continue
-        crop = img.crop((x1, y1, x2, y2))
         saved += 1
         crop.save(out_dir / f"{out_dir.name}_{saved:03d}.jpg", quality=92)
 
@@ -235,18 +248,22 @@ def main():
     ap.add_argument("--keep-raw", action="store_true",
                     help="don't delete _raw after success")
     ap.add_argument("--yolo-world", default="yolov8s-worldv2.pt")
+    ap.add_argument("--detect-fallback", action="store_true",
+                    help="if YOLO-World finds no box, save the whole image "
+                         "(useful for object categories with tight product shots)")
     args = ap.parse_args()
 
     saved, raw_dir = collect(
         query_list=args.queries,
         detect_prompt=args.detect,
-        out_dir=ROOT / args.out,
+        out_dir=IMAGES_DIR / args.out,
         n=args.n,
         category_pos=args.category_pos,
         category_neg=args.category_neg,
         real_thresh=args.real_thresh,
         cat_thresh=args.cat_thresh,
         yolo_world=args.yolo_world,
+        detect_fallback=args.detect_fallback,
     )
     if not args.keep_raw:
         shutil.rmtree(raw_dir, ignore_errors=True)
