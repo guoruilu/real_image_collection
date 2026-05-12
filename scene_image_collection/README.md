@@ -58,6 +58,9 @@ python run_all.py egyptian_mau_cats clownfish
 | CLI 参数表、调参经验 | [docs/usage.md](docs/usage.md) |
 | 流水线内部数据流 | [docs/pipeline.md](docs/pipeline.md) |
 | 双检测器策略、LVIS 词表来源 | [docs/tech_stack.md](docs/tech_stack.md) |
+| 现有公开数据集对照 + 本数据集必要性 | [docs/dataset_landscape.md](docs/dataset_landscape.md) |
+| 研究计划速览（关键点决策表） | [docs/research_plan.md](docs/research_plan.md) |
+| 研究计划完整论证（块设计原理、对照表、原文摘录） | [docs/research_plan_details.md](docs/research_plan_details.md) |
 | 协作约定 | [../CLAUDE.md](../CLAUDE.md) |
 
 ## 目录结构
