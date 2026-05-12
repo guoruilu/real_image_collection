@@ -38,4 +38,20 @@ __pycache__/
 .idea/
 .DS_Store
 
-.zip
+# JSON metadata
+*.json
+
+# Archives / compressed
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.tar.bz2
+*.tbz2
+*.tar.xz
+*.txz
+*.gz
+*.bz2
+*.xz
+*.7z
+*.rar
