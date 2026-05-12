@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000008.jpg",
+  "image_size": [
+    1500,
+    1138
+  ],
+  "real_score": 0.948429524898529,
+  "target": {
+    "prompt": "car",
+    "box": [
+      0.0,
+      516.2103881835938,
+      385.1059265136719,
+      900.5869140625
+    ],
+    "conf": 0.9113186597824097,
+    "area_ratio": 0.08671685889203432
+  },
+  "co_objects": [
+    {
+      "label": "kite",
+      "box": [
+        1303.8092041015625,
+        0.0,
+        1342.4599609375,
+        25.397979736328125
+      ],
+      "conf": 0.4283071458339691,
+      "source": "coco"
+    }
+  ]
+}

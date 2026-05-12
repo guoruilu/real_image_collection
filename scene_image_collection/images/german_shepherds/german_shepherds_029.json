@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000034.jpg",
+  "image_size": [
+    1500,
+    1099
+  ],
+  "real_score": 0.9057995676994324,
+  "target": {
+    "prompt": "dog",
+    "box": [
+      428.4852294921875,
+      259.8240966796875,
+      947.5405883789062,
+      920.7156372070312
+    ],
+    "conf": 0.9424603581428528,
+    "area_ratio": 0.2080917778305228
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        12.346315383911133,
+        1490.620361328125,
+        1005.07275390625
+      ],
+      "conf": 0.5511297583580017,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000031.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.8312471508979797,
+  "target": {
+    "prompt": "bear",
+    "box": [
+      372.5588073730469,
+      69.29139709472656,
+      1213.4412841796875,
+      998.8306274414062
+    ],
+    "conf": 0.8397522568702698,
+    "area_ratio": 0.47328686061329367
+  },
+  "co_objects": [
+    {
+      "label": "rock",
+      "box": [
+        1259.7830810546875,
+        847.0885009765625,
+        1499.7181396484375,
+        999.193115234375
+      ],
+      "conf": 0.3142890930175781,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

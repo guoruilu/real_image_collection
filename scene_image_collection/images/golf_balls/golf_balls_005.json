@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000009.jpg",
+  "image_size": [
+    1125,
+    1600
+  ],
+  "real_score": 0.9398732781410217,
+  "target": {
+    "prompt": "ball",
+    "box": [
+      482.2140808105469,
+      951.1729736328125,
+      757.1563720703125,
+      1233.421142578125
+    ],
+    "conf": 0.8547293543815613,
+    "area_ratio": 0.043112199040943135
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        9.65484619140625,
+        1.54632568359375,
+        1119.41796875,
+        1490.362548828125
+      ],
+      "conf": 0.6050174236297607,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "bird",
+      "box": [
+        556.4240112304688,
+        75.83244323730469,
+        722.4185791015625,
+        659.8880615234375
+      ],
+      "conf": 0.40315234661102295,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

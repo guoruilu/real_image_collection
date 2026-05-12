@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000035.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.890956461429596,
+  "target": {
+    "prompt": "cellphone",
+    "box": [
+      523.0393676757812,
+      64.23526000976562,
+      1366.731201171875,
+      937.62158203125
+    ],
+    "conf": 0.8934274315834045,
+    "area_ratio": 0.4461815969583505
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        345.4661560058594,
+        591.19775390625,
+        906.1072387695312,
+        992.5474853515625
+      ],
+      "conf": 0.38760700821876526,
+      "source": "coco"
+    },
+    {
+      "label": "person",
+      "box": [
+        0.0,
+        73.98333740234375,
+        1046.2296142578125,
+        979.0503540039062
+      ],
+      "conf": 0.2876516282558441,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

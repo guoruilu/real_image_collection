@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000015.jpg",
+  "image_size": [
+    1600,
+    1067
+  ],
+  "real_score": 0.9256536960601807,
+  "target": {
+    "prompt": "bicycle",
+    "box": [
+      363.85107421875,
+      675.94921875,
+      731.0321044921875,
+      1014.17919921875
+    ],
+    "conf": 0.9259806871414185,
+    "area_ratio": 0.07274580172087644
+  },
+  "co_objects": [
+    {
+      "label": "fence",
+      "box": [
+        5.5743408203125,
+        652.7716064453125,
+        1599.092041015625,
+        969.251708984375
+      ],
+      "conf": 0.40201446413993835,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

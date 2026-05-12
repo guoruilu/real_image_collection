@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000029.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.7766156792640686,
+  "target": {
+    "prompt": "ball",
+    "box": [
+      1115.5948486328125,
+      603.7267456054688,
+      1372.10693359375,
+      849.74169921875
+    ],
+    "conf": 0.9226176738739014,
+    "area_ratio": 0.03821120719522319
+  },
+  "co_objects": [
+    {
+      "label": "sports ball",
+      "box": [
+        582.6332397460938,
+        431.7237548828125,
+        1010.5965576171875,
+        861.6514282226562
+      ],
+      "conf": 0.9226561784744263,
+      "source": "coco"
+    },
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        30.744625091552734,
+        1483.7777099609375,
+        992.6788940429688
+      ],
+      "conf": 0.5492467880249023,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

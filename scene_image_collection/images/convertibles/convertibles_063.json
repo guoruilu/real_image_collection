@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000017.jpg",
+  "image_size": [
+    1500,
+    1225
+  ],
+  "real_score": 0.754612386226654,
+  "target": {
+    "prompt": "car",
+    "box": [
+      293.762939453125,
+      515.8988037109375,
+      1355.0792236328125,
+      991.6428833007812
+    ],
+    "conf": 0.8443962335586548,
+    "area_ratio": 0.27478364014736245
+  },
+  "co_objects": [
+    {
+      "label": "umbrella",
+      "box": [
+        0.5724906921386719,
+        8.151841163635254,
+        1482.6416015625,
+        1062.2525634765625
+      ],
+      "conf": 0.2761146128177643,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

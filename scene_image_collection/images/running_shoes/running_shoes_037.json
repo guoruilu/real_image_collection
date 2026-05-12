@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000019.jpg",
+  "image_size": [
+    1664,
+    928
+  ],
+  "real_score": 0.855445921421051,
+  "target": {
+    "prompt": "shoe",
+    "box": [
+      281.3999938964844,
+      194.0983123779297,
+      1361.918212890625,
+      741.9837036132812
+    ],
+    "conf": 0.9586004614830017,
+    "area_ratio": 0.3833721112080169
+  },
+  "co_objects": [
+    {
+      "label": "boat",
+      "box": [
+        1.3188445568084717,
+        1.8734313249588013,
+        295.0416564941406,
+        350.2992858886719
+      ],
+      "conf": 0.4141840934753418,
+      "source": "coco"
+    }
+  ]
+}

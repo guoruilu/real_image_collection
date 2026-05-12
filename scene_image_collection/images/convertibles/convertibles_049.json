@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000013.jpeg",
+  "image_size": [
+    1080,
+    1440
+  ],
+  "real_score": 0.9390541315078735,
+  "target": {
+    "prompt": "car",
+    "box": [
+      5.667778015136719,
+      505.09423828125,
+      1060.4324951171875,
+      1122.255126953125
+    ],
+    "conf": 0.9239055514335632,
+    "area_ratio": 0.4185696567299643
+  },
+  "co_objects": [
+    {
+      "label": "parking meter",
+      "box": [
+        674.75537109375,
+        460.5520935058594,
+        711.6038818359375,
+        514.5675048828125
+      ],
+      "conf": 0.360860675573349,
+      "source": "coco"
+    }
+  ]
+}

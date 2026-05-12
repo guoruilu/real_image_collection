@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000004.jpg",
+  "image_size": [
+    845,
+    1600
+  ],
+  "real_score": 0.9371740221977234,
+  "target": {
+    "prompt": "mushroom",
+    "box": [
+      51.115142822265625,
+      807.5140380859375,
+      253.83670043945312,
+      1005.3741455078125
+    ],
+    "conf": 0.11545106768608093,
+    "area_ratio": 0.029667536366025548
+  },
+  "co_objects": [
+    {
+      "label": "banana",
+      "box": [
+        524.0650634765625,
+        631.953857421875,
+        842.0435791015625,
+        1172.7747802734375
+      ],
+      "conf": 0.2885187864303589,
+      "source": "coco"
+    }
+  ]
+}

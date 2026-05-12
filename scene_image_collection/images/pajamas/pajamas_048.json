@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000030.jpeg",
+  "image_size": [
+    1024,
+    834
+  ],
+  "real_score": 0.7737780809402466,
+  "target": {
+    "prompt": "pajamas",
+    "box": [
+      37.99555587768555,
+      411.2484436035156,
+      342.6582946777344,
+      829.3453369140625
+    ],
+    "conf": 0.1475190818309784,
+    "area_ratio": 0.14915241002485086
+  },
+  "co_objects": [
+    {
+      "label": "surfboard",
+      "box": [
+        680.6920776367188,
+        189.30918884277344,
+        876.4298095703125,
+        767.7689819335938
+      ],
+      "conf": 0.8847418427467346,
+      "source": "coco"
+    },
+    {
+      "label": "toy",
+      "box": [
+        40.89077377319336,
+        216.81358337402344,
+        627.1173095703125,
+        831.087890625
+      ],
+      "conf": 0.6653823256492615,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

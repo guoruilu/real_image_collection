@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000019.jpg",
+  "image_size": [
+    1002,
+    1002
+  ],
+  "real_score": 0.9152387380599976,
+  "target": {
+    "prompt": "chair",
+    "box": [
+      517.40771484375,
+      75.46515655517578,
+      853.4282836914062,
+      964.6536254882812
+    ],
+    "conf": 0.6647872924804688,
+    "area_ratio": 0.29759404857319155
+  },
+  "co_objects": [
+    {
+      "label": "chair",
+      "box": [
+        149.24925231933594,
+        78.4783935546875,
+        483.8573303222656,
+        922.5924682617188
+      ],
+      "conf": 0.8765314221382141,
+      "source": "coco"
+    }
+  ]
+}

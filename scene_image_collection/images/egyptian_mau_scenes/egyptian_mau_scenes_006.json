@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000006.jpg",
+  "image_size": [
+    870,
+    1116
+  ],
+  "real_score": 0.9382373094558716,
+  "target": {
+    "prompt": "cat",
+    "box": [
+      376.87091064453125,
+      225.46664428710938,
+      759.6927490234375,
+      919.0531616210938
+    ],
+    "conf": 0.27152219414711,
+    "area_ratio": 0.2734726503116828
+  },
+  "co_objects": [
+    {
+      "label": "bed",
+      "box": [
+        0.0,
+        2.9732296466827393,
+        870.0,
+        893.181396484375
+      ],
+      "conf": 0.7983618378639221,
+      "source": "coco"
+    }
+  ]
+}

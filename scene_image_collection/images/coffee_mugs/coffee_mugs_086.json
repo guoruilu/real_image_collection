@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000034.jpg",
+  "image_size": [
+    1001,
+    1600
+  ],
+  "real_score": 0.8119789958000183,
+  "target": {
+    "prompt": "cup",
+    "box": [
+      370.2962646484375,
+      868.4542846679688,
+      817.8099975585938,
+      1120.73193359375
+    ],
+    "conf": 0.9315179586410522,
+    "area_ratio": 0.07049057967068821
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        0.0,
+        26.475677490234375,
+        997.68603515625,
+        1503.294921875
+      ],
+      "conf": 0.9112710356712341,
+      "source": "coco"
+    },
+    {
+      "label": "plate",
+      "box": [
+        354.2936706542969,
+        1014.1580200195312,
+        899.0408325195312,
+        1181.6400146484375
+      ],
+      "conf": 0.36190900206565857,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

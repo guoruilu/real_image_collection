@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000029.jpg",
+  "image_size": [
+    800,
+    800
+  ],
+  "real_score": 0.5735468864440918,
+  "target": {
+    "prompt": "tent",
+    "box": [
+      26.497268676757812,
+      413.79522705078125,
+      780.5193481445312,
+      777.8341064453125
+    ],
+    "conf": 0.9491978287696838,
+    "area_ratio": 0.42889586382528505
+  },
+  "co_objects": [
+    {
+      "label": "knife",
+      "box": [
+        35.22956848144531,
+        22.70671844482422,
+        424.83770751953125,
+        345.4925231933594
+      ],
+      "conf": 0.7337392568588257,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        570.9864501953125,
+        728.4039306640625,
+        799.8330688476562
+      ],
+      "conf": 0.47130855917930603,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

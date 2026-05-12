@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/bing_1/000012.jpg",
+  "image_size": [
+    1500,
+    1000
+  ],
+  "real_score": 0.9774706363677979,
+  "target": {
+    "prompt": "cellphone",
+    "box": [
+      0.6284236907958984,
+      576.1884765625,
+      797.322509765625,
+      1000.0
+    ],
+    "conf": 0.16811096668243408,
+    "area_ratio": 0.2250987562220134
+  },
+  "co_objects": [
+    {
+      "label": "monitor",
+      "box": [
+        0.1110076904296875,
+        2.6920080184936523,
+        907.7988891601562,
+        749.3632202148438
+      ],
+      "conf": 0.32079488039016724,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "refrigerator",
+      "box": [
+        0.9861946105957031,
+        0.0,
+        1499.5306396484375,
+        991.9286499023438
+      ],
+      "conf": 0.2801244854927063,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

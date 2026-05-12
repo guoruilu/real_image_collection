@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000022.jpg",
+  "image_size": [
+    1600,
+    844
+  ],
+  "real_score": 0.9547131657600403,
+  "target": {
+    "prompt": "guitar",
+    "box": [
+      336.65618896484375,
+      526.130615234375,
+      1112.08837890625,
+      787.9000854492188
+    ],
+    "conf": 0.33469706773757935,
+    "area_ratio": 0.15031433171541617
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        523.03076171875,
+        97.36671447753906,
+        1085.2646484375,
+        837.3865966796875
+      ],
+      "conf": 0.9363972544670105,
+      "source": "coco"
+    }
+  ]
+}

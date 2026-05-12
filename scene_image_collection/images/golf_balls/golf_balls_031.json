@@ -1,0 +1,54 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000034.png",
+  "image_size": [
+    800,
+    1096
+  ],
+  "real_score": 0.8158055543899536,
+  "target": {
+    "prompt": "ball",
+    "box": [
+      318.0800476074219,
+      670.3573608398438,
+      551.754150390625,
+      901.0889282226562
+    ],
+    "conf": 0.6663023233413696,
+    "area_ratio": 0.061491779187888784
+  },
+  "co_objects": [
+    {
+      "label": "baseball bat",
+      "box": [
+        540.9564819335938,
+        2.60292911529541,
+        787.8510131835938,
+        804.7109375
+      ],
+      "conf": 0.8819884657859802,
+      "source": "coco"
+    },
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        3.6603853702545166,
+        800.0,
+        1088.4599609375
+      ],
+      "conf": 0.3981061279773712,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "grass",
+      "box": [
+        18.214754104614258,
+        595.675537109375,
+        800.0,
+        1096.0
+      ],
+      "conf": 0.3571285903453827,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

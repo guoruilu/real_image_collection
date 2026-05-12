@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000007.jpg",
+  "image_size": [
+    1001,
+    1600
+  ],
+  "real_score": 0.7364646792411804,
+  "target": {
+    "prompt": "ball",
+    "box": [
+      326.1201477050781,
+      630.477783203125,
+      550.9173583984375,
+      854.673583984375
+    ],
+    "conf": 0.7222148776054382,
+    "area_ratio": 0.0314676515139792
+  },
+  "co_objects": [
+    {
+      "label": "baseball bat",
+      "box": [
+        322.3800048828125,
+        243.37953186035156,
+        1000.2686157226562,
+        788.7396240234375
+      ],
+      "conf": 0.3808673620223999,
+      "source": "coco"
+    }
+  ]
+}

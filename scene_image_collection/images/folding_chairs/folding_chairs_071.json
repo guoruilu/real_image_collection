@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000022.jpg",
+  "image_size": [
+    2048,
+    2048
+  ],
+  "real_score": 0.799597978591919,
+  "target": {
+    "prompt": "chair",
+    "box": [
+      189.6013641357422,
+      889.6304931640625,
+      1360.75732421875,
+      2008.739501953125
+    ],
+    "conf": 0.49430611729621887,
+    "area_ratio": 0.31248359337470477
+  },
+  "co_objects": [
+    {
+      "label": "teapot",
+      "box": [
+        1661.8563232421875,
+        765.6329956054688,
+        1998.2679443359375,
+        1220.5357666015625
+      ],
+      "conf": 0.3236731290817261,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

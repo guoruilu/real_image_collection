@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000003.jpg",
+  "image_size": [
+    1500,
+    1225
+  ],
+  "real_score": 0.8564491868019104,
+  "target": {
+    "prompt": "flower",
+    "box": [
+      281.50592041015625,
+      333.4794616699219,
+      830.0072021484375,
+      814.7261962890625
+    ],
+    "conf": 0.5528898239135742,
+    "area_ratio": 0.14365412286855028
+  },
+  "co_objects": [
+    {
+      "label": "broccoli",
+      "box": [
+        978.8778076171875,
+        411.6217346191406,
+        1208.1356201171875,
+        682.1586303710938
+      ],
+      "conf": 0.27761638164520264,
+      "source": "coco"
+    }
+  ]
+}

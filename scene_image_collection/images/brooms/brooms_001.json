@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000003.jpg",
+  "image_size": [
+    3024,
+    4032
+  ],
+  "real_score": 0.6902137398719788,
+  "target": {
+    "prompt": "broom",
+    "box": [
+      1049.242919921875,
+      172.08604431152344,
+      1903.0909423828125,
+      3589.543701171875
+    ],
+    "conf": 0.10926012694835663,
+    "area_ratio": 0.2393213306571732
+  },
+  "co_objects": [
+    {
+      "label": "wall",
+      "box": [
+        9.860092163085938,
+        14.698141098022461,
+        3022.874267578125,
+        2849.013916015625
+      ],
+      "conf": 0.3890044093132019,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "book",
+      "box": [
+        1057.1900634765625,
+        2950.109130859375,
+        1912.285400390625,
+        3597.18798828125
+      ],
+      "conf": 0.25530847907066345,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

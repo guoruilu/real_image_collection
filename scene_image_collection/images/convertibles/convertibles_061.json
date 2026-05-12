@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000012.jpg",
+  "image_size": [
+    3157,
+    1776
+  ],
+  "real_score": 0.7796759009361267,
+  "target": {
+    "prompt": "car",
+    "box": [
+      1016.120849609375,
+      861.3867797851562,
+      2098.884521484375,
+      1618.6571044921875
+    ],
+    "conf": 0.7305616140365601,
+    "area_ratio": 0.14624030065137653
+  },
+  "co_objects": [
+    {
+      "label": "traffic light",
+      "box": [
+        970.8889770507812,
+        125.62858581542969,
+        1020.5858764648438,
+        275.45916748046875
+      ],
+      "conf": 0.46903738379478455,
+      "source": "coco"
+    }
+  ]
+}

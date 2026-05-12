@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000036.jpg",
+  "image_size": [
+    1500,
+    1104
+  ],
+  "real_score": 0.8866899013519287,
+  "target": {
+    "prompt": "jack-o-lantern",
+    "box": [
+      852.2562255859375,
+      540.78173828125,
+      1207.81103515625,
+      907.3602905273438
+    ],
+    "conf": 0.3618294894695282,
+    "area_ratio": 0.07870698510653425
+  },
+  "co_objects": [
+    {
+      "label": "bread",
+      "box": [
+        36.27705383300781,
+        91.2038345336914,
+        724.823974609375,
+        933.515625
+      ],
+      "conf": 0.38638731837272644,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

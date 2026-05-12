@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000022.jpg",
+  "image_size": [
+    1500,
+    900
+  ],
+  "real_score": 0.7763047814369202,
+  "target": {
+    "prompt": "camera",
+    "box": [
+      167.16204833984375,
+      376.9173889160156,
+      451.15765380859375,
+      642.9425048828125
+    ],
+    "conf": 0.47154879570007324,
+    "area_ratio": 0.055962936206581416
+  },
+  "co_objects": [
+    {
+      "label": "speaker",
+      "box": [
+        634.7431030273438,
+        403.8824462890625,
+        927.6784057617188,
+        627.5782470703125
+      ],
+      "conf": 0.310274213552475,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

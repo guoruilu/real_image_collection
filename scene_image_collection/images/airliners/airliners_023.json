@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000020.jpg",
+  "image_size": [
+    1500,
+    1083
+  ],
+  "real_score": 0.9719424843788147,
+  "target": {
+    "prompt": "airplane",
+    "box": [
+      0.0,
+      0.0,
+      719.9619750976562,
+      984.0072021484375
+    ],
+    "conf": 0.7580623030662537,
+    "area_ratio": 0.43610204294805033
+  },
+  "co_objects": [
+    {
+      "label": "truck",
+      "box": [
+        1328.118896484375,
+        614.2353515625,
+        1499.1351318359375,
+        757.5401611328125
+      ],
+      "conf": 0.3883891999721527,
+      "source": "coco"
+    }
+  ]
+}

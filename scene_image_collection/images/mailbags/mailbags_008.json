@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000022.jpg",
+  "image_size": [
+    1080,
+    1050
+  ],
+  "real_score": 0.9149728417396545,
+  "target": {
+    "prompt": "bag",
+    "box": [
+      11.659189224243164,
+      245.65155029296875,
+      630.1500244140625,
+      885.89990234375
+    ],
+    "conf": 0.5618788003921509,
+    "area_ratio": 0.3491955361453203
+  },
+  "co_objects": [
+    {
+      "label": "suitcase",
+      "box": [
+        488.1329650878906,
+        190.18930053710938,
+        1028.834228515625,
+        740.9210815429688
+      ],
+      "conf": 0.4577639102935791,
+      "source": "coco"
+    }
+  ]
+}

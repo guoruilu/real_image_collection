@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000004.jpg",
+  "image_size": [
+    1440,
+    1920
+  ],
+  "real_score": 0.8925753831863403,
+  "target": {
+    "prompt": "shoe",
+    "box": [
+      261.297607421875,
+      687.797119140625,
+      1276.585205078125,
+      1255.849609375
+    ],
+    "conf": 0.5172784328460693,
+    "area_ratio": 0.20859977146727032
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        770.09033203125,
+        1440.0,
+        1919.8245849609375
+      ],
+      "conf": 0.5573856234550476,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

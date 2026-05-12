@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000034.jpg",
+  "image_size": [
+    1440,
+    2560
+  ],
+  "real_score": 0.7676112651824951,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      314.439697265625,
+      116.474609375,
+      1439.54541015625,
+      1142.2724609375
+    ],
+    "conf": 0.1532604694366455,
+    "area_ratio": 0.31307807700301055
+  },
+  "co_objects": [
+    {
+      "label": "clock",
+      "box": [
+        128.51661682128906,
+        1502.26953125,
+        478.225830078125,
+        1895.40966796875
+      ],
+      "conf": 0.8077930212020874,
+      "source": "coco"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000045.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9703974723815918,
+  "target": {
+    "prompt": "butterfly",
+    "box": [
+      816.9312744140625,
+      60.67242431640625,
+      1166.3123779296875,
+      614.291259765625
+    ],
+    "conf": 0.4526526629924774,
+    "area_ratio": 0.11712016933471588
+  },
+  "co_objects": [
+    {
+      "label": "plant",
+      "box": [
+        437.1191101074219,
+        552.4349975585938,
+        1203.678466796875,
+        986.3287353515625
+      ],
+      "conf": 0.4168007969856262,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "tree",
+      "box": [
+        0.1574993133544922,
+        14.033102989196777,
+        1484.612548828125,
+        989.8727416992188
+      ],
+      "conf": 0.4127485752105713,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

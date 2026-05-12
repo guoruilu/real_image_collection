@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000004.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.7451115846633911,
+  "target": {
+    "prompt": "ball",
+    "box": [
+      710.1443481445312,
+      590.8880615234375,
+      1000.8035888671875,
+      883.842529296875
+    ],
+    "conf": 0.79671710729599,
+    "area_ratio": 0.051559142094663765
+  },
+  "co_objects": [
+    {
+      "label": "cell phone",
+      "box": [
+        155.29473876953125,
+        509.615478515625,
+        671.955322265625,
+        911.202392578125
+      ],
+      "conf": 0.5171208381652832,
+      "source": "coco"
+    },
+    {
+      "label": "ball",
+      "box": [
+        892.03564453125,
+        343.4322204589844,
+        1030.564697265625,
+        484.0345458984375
+      ],
+      "conf": 0.3578672707080841,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

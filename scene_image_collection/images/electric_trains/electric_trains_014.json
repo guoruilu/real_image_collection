@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000009.jpg",
+  "image_size": [
+    1500,
+    1093
+  ],
+  "real_score": 0.9400526881217957,
+  "target": {
+    "prompt": "train",
+    "box": [
+      566.2207641601562,
+      261.96893310546875,
+      1499.5899658203125,
+      794.70263671875
+    ],
+    "conf": 0.7919380068778992,
+    "area_ratio": 0.3032858991393636
+  },
+  "co_objects": [
+    {
+      "label": "door",
+      "box": [
+        1028.0623779296875,
+        431.52880859375,
+        1088.57958984375,
+        587.8582763671875
+      ],
+      "conf": 0.4262998700141907,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

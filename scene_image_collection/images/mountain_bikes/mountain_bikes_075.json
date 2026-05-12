@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000014.jpg",
+  "image_size": [
+    2162,
+    2520
+  ],
+  "real_score": 0.9454997181892395,
+  "target": {
+    "prompt": "bicycle",
+    "box": [
+      1033.512451171875,
+      1112.2763671875,
+      1845.755859375,
+      1976.5152587890625
+    ],
+    "conf": 0.8982810378074646,
+    "area_ratio": 0.12884387303351985
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        1107.42919921875,
+        707.233642578125,
+        1735.5224609375,
+        1634.2276611328125
+      ],
+      "conf": 0.859470009803772,
+      "source": "coco"
+    }
+  ]
+}

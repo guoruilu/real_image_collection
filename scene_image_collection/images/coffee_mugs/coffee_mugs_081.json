@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000018.jpg",
+  "image_size": [
+    1500,
+    1098
+  ],
+  "real_score": 0.8177791833877563,
+  "target": {
+    "prompt": "cup",
+    "box": [
+      519.8704223632812,
+      155.7760467529297,
+      1116.4595947265625,
+      747.6366577148438
+    ],
+    "conf": 0.9765887260437012,
+    "area_ratio": 0.21438836189932867
+  },
+  "co_objects": [
+    {
+      "label": "plate",
+      "box": [
+        338.04449462890625,
+        383.0576477050781,
+        1400.30908203125,
+        868.5903930664062
+      ],
+      "conf": 0.6731484532356262,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "dining table",
+      "box": [
+        5.4840087890625,
+        39.800621032714844,
+        1495.866455078125,
+        999.1473999023438
+      ],
+      "conf": 0.551036536693573,
+      "source": "coco"
+    }
+  ]
+}

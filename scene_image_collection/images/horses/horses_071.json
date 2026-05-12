@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000008.jpeg",
+  "image_size": [
+    4564,
+    3102
+  ],
+  "real_score": 0.9645713567733765,
+  "target": {
+    "prompt": "horse",
+    "box": [
+      1029.5828857421875,
+      848.7942504882812,
+      3992.452392578125,
+      3102.0
+    ],
+    "conf": 0.9579310417175293,
+    "area_ratio": 0.4715480419926194
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        1997.5623779296875,
+        127.14464569091797,
+        2900.193115234375,
+        2165.919189453125
+      ],
+      "conf": 0.9165121912956238,
+      "source": "coco"
+    },
+    {
+      "label": "boot",
+      "box": [
+        2473.97265625,
+        1587.2366943359375,
+        2830.854736328125,
+        2158.3291015625
+      ],
+      "conf": 0.6506109833717346,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

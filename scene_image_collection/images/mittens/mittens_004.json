@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/bing_3/000016.jpg",
+  "image_size": [
+    1483,
+    924
+  ],
+  "real_score": 0.9139891266822815,
+  "target": {
+    "prompt": "mitten",
+    "box": [
+      360.0635681152344,
+      0.0,
+      1212.7864990234375,
+      735.4649658203125
+    ],
+    "conf": 0.10496554523706436,
+    "area_ratio": 0.45767459872392036
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        332.25958251953125,
+        616.454345703125,
+        1220.5223388671875,
+        914.7333984375
+      ],
+      "conf": 0.9058083891868591,
+      "source": "coco"
+    }
+  ]
+}

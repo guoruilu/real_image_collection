@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000017.jpg",
+  "image_size": [
+    1500,
+    1098
+  ],
+  "real_score": 0.9364476203918457,
+  "target": {
+    "prompt": "canoe",
+    "box": [
+      0.0401616096496582,
+      598.5633544921875,
+      509.28082275390625,
+      1000.1387939453125
+    ],
+    "conf": 0.16938085854053497,
+    "area_ratio": 0.12416426368330587
+  },
+  "co_objects": [
+    {
+      "label": "tree",
+      "box": [
+        435.13983154296875,
+        1.9408822059631348,
+        1490.9205322265625,
+        410.7728271484375
+      ],
+      "conf": 0.35368889570236206,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

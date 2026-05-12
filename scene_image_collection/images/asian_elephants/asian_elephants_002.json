@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000008.jpg",
+  "image_size": [
+    1573,
+    1050
+  ],
+  "real_score": 0.9760901927947998,
+  "target": {
+    "prompt": "elephant",
+    "box": [
+      226.51943969726562,
+      277.9438171386719,
+      1269.6221923828125,
+      796.748291015625
+    ],
+    "conf": 0.5444877743721008,
+    "area_ratio": 0.32765196912579947
+  },
+  "co_objects": [
+    {
+      "label": "elephant",
+      "box": [
+        569.9669189453125,
+        2.7032713890075684,
+        1090.74658203125,
+        324.5497741699219
+      ],
+      "conf": 0.34253332018852234,
+      "source": "coco"
+    }
+  ]
+}

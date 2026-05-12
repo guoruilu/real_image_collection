@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000005.jpg",
+  "image_size": [
+    800,
+    800
+  ],
+  "real_score": 0.8085740208625793,
+  "target": {
+    "prompt": "tent",
+    "box": [
+      91.2158203125,
+      247.7633819580078,
+      786.6146850585938,
+      562.709228515625
+    ],
+    "conf": 0.9410200119018555,
+    "area_ratio": 0.34220778773853816
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        494.1246032714844,
+        799.5150756835938,
+        799.55126953125
+      ],
+      "conf": 0.6345656514167786,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

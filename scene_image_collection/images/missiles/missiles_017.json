@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_6/000019.jpg",
+  "image_size": [
+    1242,
+    866
+  ],
+  "real_score": 0.9133557677268982,
+  "target": {
+    "prompt": "missile",
+    "box": [
+      87.75334930419922,
+      118.90604400634766,
+      1140.6220703125,
+      619.8187866210938
+    ],
+    "conf": 0.11816564947366714,
+    "area_ratio": 0.4903394274428378
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        4.458202362060547,
+        452.239990234375,
+        1241.40380859375,
+        684.0762329101562
+      ],
+      "conf": 0.2608873248100281,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "suitcase",
+      "box": [
+        812.1012573242188,
+        118.97653198242188,
+        955.3175659179688,
+        165.10125732421875
+      ],
+      "conf": 0.15309791266918182,
+      "source": "coco"
+    }
+  ]
+}

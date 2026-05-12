@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000012.png",
+  "image_size": [
+    1080,
+    1410
+  ],
+  "real_score": 0.9154092669487,
+  "target": {
+    "prompt": "tent",
+    "box": [
+      0.0,
+      715.93212890625,
+      522.748779296875,
+      1135.106201171875
+    ],
+    "conf": 0.7712736129760742,
+    "area_ratio": 0.14389462476343284
+  },
+  "co_objects": [
+    {
+      "label": "tree",
+      "box": [
+        0.44922423362731934,
+        212.7067108154297,
+        347.25439453125,
+        808.0906372070312
+      ],
+      "conf": 0.40462759137153625,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "kite",
+      "box": [
+        477.4653625488281,
+        555.3265991210938,
+        513.1290283203125,
+        582.6102905273438
+      ],
+      "conf": 0.3929290771484375,
+      "source": "coco"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000001.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9599576592445374,
+  "target": {
+    "prompt": "elephant",
+    "box": [
+      350.381591796875,
+      150.9899139404297,
+      1109.7171630859375,
+      958.9276123046875
+    ],
+    "conf": 0.9676283001899719,
+    "area_ratio": 0.37147794959333574
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        0.25348663330078125,
+        339.9537658691406,
+        1481.291259765625,
+        995.8388061523438
+      ],
+      "conf": 0.3248550593852997,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "chair",
+      "box": [
+        0.0,
+        246.66786193847656,
+        52.382415771484375,
+        402.4095153808594
+      ],
+      "conf": 0.27851253747940063,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000030.jpg",
+  "image_size": [
+    1500,
+    1063
+  ],
+  "real_score": 0.9685606360435486,
+  "target": {
+    "prompt": "bicycle",
+    "box": [
+      535.93310546875,
+      71.08319091796875,
+      1036.523681640625,
+      606.4271240234375
+    ],
+    "conf": 0.34328755736351013,
+    "area_ratio": 0.16807032168290018
+  },
+  "co_objects": [
+    {
+      "label": "bicycle",
+      "box": [
+        521.6012573242188,
+        68.20328521728516,
+        1227.6390380859375,
+        878.503662109375
+      ],
+      "conf": 0.6099053621292114,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "boot",
+      "box": [
+        589.0869750976562,
+        376.3138427734375,
+        709.6943969726562,
+        690.534912109375
+      ],
+      "conf": 0.3145086467266083,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

@@ -1,90 +1,61 @@
-# EEG_Obj_Detection — 真实物体图片采集与精确裁剪流水线
+# EEG_Obj_Detection — 真实图像采集系列
 
-> 项目名沿用历史命名，**实际职能**是：给定一个类别（埃及猫、吉他、马、熊猫……），自动从互联网下载图片 → 过滤掉卡通/插画/表情包/手办等非真实照片 → 用开放词表检测器精确裁剪出目标物体 → 把所有过得了过滤的图像全部保存下来。
+> 项目名沿用历史命名。**实际职能**：为 EEG 物体识别任务采集真实照片数据集。给定一个类别（埃及猫、吉他、马、熊猫……），从互联网下载图片 → 过滤掉卡通/插画/表情包/手办等非真实照片 → 输出可用的图像数据。
 
-## 这个项目能做什么
+本目录下有两个子工程，对应两种产物形态：
 
-输入一个/多个搜索关键词和一个检测词，输出全部「真实拍摄 + 已裁剪到目标」的 JPG（**数量不设上限**，过滤出多少存多少）。
+## 子工程
 
-- **真实性过滤**：CLIP-ViT-L/14 用「照片 vs 卡通/插画/3D 渲染/表情包/手办/绘画/动漫」多模板对比打分，剔除非照片。
-- **细类过滤（可选）**：对易混类别（如猫的品种）做 CLIP 二次分类。
-- **开放词表裁剪**：YOLO-World 接受任意文本作为检测类，不限 COCO 80 类。
-- **多源抓取**：Bing + Baidu 并行，中英文混合关键词。
-- **自动清理**：成功后删除候选缓存 `_raw/`。
+| 子工程 | 产物 | 适用场景 |
+|---|---|---|
+| [`small_image_collection/`](small_image_collection/) | 目标主体的**精确裁剪小图**（已用 YOLO-World 裁好） | 单一物体识别、分类训练样本、紧凑刺激 |
+| [`scene_image_collection/`](scene_image_collection/) | **带共存物体的场景大图**（原图 + JSON 元数据 + 可视化画框工具） | 多目标共存识别、EEG 复杂视觉刺激 |
+
+## 共享资源
+
+- `CLAUDE.md` — 协作约定（日志/文档/真实性/数量规则），两个子工程共用
+- `img_list.txt` — 30 类 ImageNet wnid + 中文类别列表，两个子工程通过 `../img_list.txt` 引用
+- `.gitignore` — 共用一份，排除所有图像和模型权重文件
 
 ## 30 秒上手
 
-新机器先建环境（详见 [docs/setup.md](docs/setup.md)）：
-```bash
-conda env create -f environment.yml && conda activate eh
-```
+进入对应子工程，按其 `README.md` 操作。例如：
 
-然后跑：
 ```bash
-cd ~/prjs/EEG_Obj_Detection
+cd small_image_collection
 python collect.py --queries "acoustic guitar" "原声吉他" --detect "guitar" --out guitars --n 50
 ```
 
-完整参数、调阈值经验、带细类过滤的例子见 [docs/usage.md](docs/usage.md)。
+或：
 
-## 文档地图
-
-| 想知道 | 看哪 |
-|---|---|
-| 怎么在新机器上建环境 | [docs/setup.md](docs/setup.md) |
-| 怎么用 `collect.py`、参数表、调参经验 | [docs/usage.md](docs/usage.md) |
-| 用了哪些模型、为什么选它们、各自角色 | [docs/tech_stack.md](docs/tech_stack.md) |
-| 模型权重去哪下、缓存在哪、离线打包 | [docs/models.md](docs/models.md) |
-| `collect.py` 内部数据流和函数 | [docs/pipeline.md](docs/pipeline.md) |
-| 历次任务日志、版本演进、踩坑记录 | [logs/](logs/) |
-| 与 Agent 协作的项目约定 | [CLAUDE.md](CLAUDE.md) |
+```bash
+cd scene_image_collection
+python collect_scene.py --queries "Egyptian Mau in living room" "埃及猫 客厅" \
+  --target "cat" --out egyptian_mau_scenes --n 80
+```
 
 ## 目录结构
+
 ```
-~/prjs/EEG_Obj_Detection/
-├── README.md                   # 本文件（梗概）
-├── CLAUDE.md                   # 协作约定（日志/文档更新规则）
-├── collect.py                  # 主流水线（CLI 入口）
-├── docs/                       # 详细文档
-│   ├── usage.md
-│   ├── tech_stack.md
-│   ├── models.md
-│   └── pipeline.md
-├── collect.py                  # 主流水线（CLI 入口）
-├── run_all.py                  # 批量驱动：按 img_list.txt + 内嵌配置跑全部类别
-├── img_list.txt                # ImageNet wnid + 中文类别列表（30 类）
-├── logs/                       # 任务日志（每次任务追加一份 md）
-│   ├── 2026-05-11_egyptian_mau_pipeline.md
-│   ├── 2026-05-11_batch_30_classes.md
-│   └── run_all_2026-05-11.log
-├── images/                     # 所有类别产出统一在这下面
-│   └── <class_name>/           # 30 个类别目录，每类 33~184 张裁剪图
-├── yolov8n.pt                  # COCO YOLOv8 nano（v1 遗留，可删）
-├── yolov8s-worldv2.pt          # YOLO-World 开放词表权重
-└── _raw/                       # 候选图缓存，跑成功后自动删
+real_image_collection/
+├── README.md                  # 本文件
+├── CLAUDE.md                  # 协作约定（两子工程共用）
+├── img_list.txt               # 30 类列表（共享）
+├── .gitignore                 # 共享
+├── small_image_collection/    # 子工程 A：裁剪小图
+│   ├── collect.py
+│   ├── run_all.py
+│   ├── README.md
+│   ├── docs/
+│   ├── logs/
+│   └── images/
+└── scene_image_collection/    # 子工程 B：场景大图
+    ├── collect_scene.py
+    ├── run_all.py
+    ├── draw_boxes.py
+    ├── README.md
+    ├── docs/
+    ├── logs/
+    ├── images/                # 原图 + JSON
+    └── images_annotated/      # 画框可视化
 ```
-
-## 资源参考（RTX 4070 Laptop 8GB）
-- 显存峰值 ≈ 4 GB
-- 单次任务（50 张产出）≈ 3–10 分钟，主要时间花在下载
-- 首次运行需联网下载 CLIP-L 权重 ≈ 338 MB
-
-## 已完成 / 待完成
-
-### ✅ 已完成
-- [x] 通用采集流水线 `collect.py`（带 YOLO 单图容错 + `--detect-fallback` 整图兜底）
-- [x] 批量驱动 `run_all.py`，跑完 `img_list.txt` 全 30 类，共 **2,916 张**
-- [x] 输出策略：不再限制 50 张，过滤出多少存多少
-- [x] 项目约定 `CLAUDE.md`、文档体系 `docs/`、历史日志 `logs/`
-
-### 🚧 待完成（按优先级）
-1. **流水线鲁棒性**：
-   - 加 pHash 近似图去重（目前只按 `(size, filesize)` 粗去重）
-   - 加 `--engines bing,baidu,google` 开关；中文关键词可禁用 Bing 提速
-   - 真实性过滤负模板按类别裁剪（吉他不需要 "plush toy / figurine"）
-2. **质量评估**：
-   - 写一个小脚本随机抽样产出图做人工核验，记录 precision
-   - 跨类别的稳定阈值表（real/cat 的合适默认值）
-3. **EEG 关联（原项目意图，待用户澄清）**：
-   - 项目名含 "EEG"，但当前流水线只做图像采集，未涉及脑电信号处理
-   - 推测后续要把这些图作为视觉刺激集，配合 EEG 做物体识别任务——具体方向请询问用户

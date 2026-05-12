@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000048.jpg",
+  "image_size": [
+    1500,
+    1069
+  ],
+  "real_score": 0.9327726364135742,
+  "target": {
+    "prompt": "cellphone",
+    "box": [
+      523.70947265625,
+      498.5073547363281,
+      1155.391845703125,
+      948.0714721679688
+    ],
+    "conf": 0.5977649688720703,
+    "area_ratio": 0.17710117152225927
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        0.38967132568359375,
+        4.123878479003906,
+        1495.342529296875,
+        952.3760375976562
+      ],
+      "conf": 0.8848220109939575,
+      "source": "coco"
+    }
+  ]
+}

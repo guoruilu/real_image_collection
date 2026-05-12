@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000027.jpg",
+  "image_size": [
+    1200,
+    803
+  ],
+  "real_score": 0.8006651997566223,
+  "target": {
+    "prompt": "parachute",
+    "box": [
+      214.17930603027344,
+      105.3674087524414,
+      595.0157470703125,
+      544.654296875
+    ],
+    "conf": 0.2977472245693207,
+    "area_ratio": 0.17361608039450915
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        778.06591796875,
+        597.558837890625,
+        814.1884765625,
+        698.3043823242188
+      ],
+      "conf": 0.3179223835468292,
+      "source": "coco"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000041.jpg",
+  "image_size": [
+    7806,
+    4391
+  ],
+  "real_score": 0.9866309762001038,
+  "target": {
+    "prompt": "bicycle",
+    "box": [
+      4318.1923828125,
+      1609.055419921875,
+      6293.7763671875,
+      3613.892578125
+    ],
+    "conf": 0.934123694896698,
+    "area_ratio": 0.11555337000332482
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        4626.890625,
+        474.4776916503906,
+        5988.62109375,
+        3052.435791015625
+      ],
+      "conf": 0.797964870929718,
+      "source": "coco"
+    },
+    {
+      "label": "hat",
+      "box": [
+        5142.9013671875,
+        481.7662048339844,
+        5590.09375,
+        738.4135131835938
+      ],
+      "conf": 0.2582865357398987,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

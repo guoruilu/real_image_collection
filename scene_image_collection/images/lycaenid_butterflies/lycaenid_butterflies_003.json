@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000043.jpg",
+  "image_size": [
+    1500,
+    1102
+  ],
+  "real_score": 0.9887630343437195,
+  "target": {
+    "prompt": "butterfly",
+    "box": [
+      299.95758056640625,
+      296.6641845703125,
+      812.8080444335938,
+      910.0662231445312
+    ],
+    "conf": 0.17568755149841309,
+    "area_ratio": 0.190310659419157
+  },
+  "co_objects": [
+    {
+      "label": "potted plant",
+      "box": [
+        411.1793518066406,
+        296.29913330078125,
+        1361.4014892578125,
+        990.845947265625
+      ],
+      "conf": 0.27049076557159424,
+      "source": "coco"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000009.jpeg",
+  "image_size": [
+    4000,
+    2667
+  ],
+  "real_score": 0.9747928380966187,
+  "target": {
+    "prompt": "elephant",
+    "box": [
+      1612.0643310546875,
+      1160.5291748046875,
+      1873.96240234375,
+      1500.12646484375
+    ],
+    "conf": 0.4641633629798889,
+    "area_ratio": 0.008337071173249234
+  },
+  "co_objects": [
+    {
+      "label": "sheep",
+      "box": [
+        2155.7802734375,
+        1470.8828125,
+        2425.698974609375,
+        1694.1219482421875
+      ],
+      "conf": 0.3165815472602844,
+      "source": "coco"
+    }
+  ]
+}

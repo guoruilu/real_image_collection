@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000015.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.8325743675231934,
+  "target": {
+    "prompt": "train",
+    "box": [
+      229.97560119628906,
+      243.20654296875,
+      1019.9046020507812,
+      848.5614013671875
+    ],
+    "conf": 0.9327422380447388,
+    "area_ratio": 0.2895472954629672
+  },
+  "co_objects": [
+    {
+      "label": "car",
+      "box": [
+        0.4046782851219177,
+        617.4036254882812,
+        54.754119873046875,
+        721.6353759765625
+      ],
+      "conf": 0.25357821583747864,
+      "source": "coco"
+    }
+  ]
+}

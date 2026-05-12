@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000001.jpg",
+  "image_size": [
+    2400,
+    1600
+  ],
+  "real_score": 0.8055018782615662,
+  "target": {
+    "prompt": "bear",
+    "box": [
+      428.5137023925781,
+      254.7230682373047,
+      1497.2872314453125,
+      1104.587158203125
+    ],
+    "conf": 0.8214182257652283,
+    "area_ratio": 0.23653964652290632
+  },
+  "co_objects": [
+    {
+      "label": "spoon",
+      "box": [
+        610.7938842773438,
+        476.71826171875,
+        1022.1676635742188,
+        688.0558471679688
+      ],
+      "conf": 0.29544445872306824,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "suitcase",
+      "box": [
+        1953.2779541015625,
+        565.907470703125,
+        2243.451171875,
+        972.3591918945312
+      ],
+      "conf": 0.25768589973449707,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

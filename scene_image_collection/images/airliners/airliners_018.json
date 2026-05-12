@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000002.jpg",
+  "image_size": [
+    1440,
+    1440
+  ],
+  "real_score": 0.9795485734939575,
+  "target": {
+    "prompt": "airplane",
+    "box": [
+      0.0,
+      405.1447448730469,
+      1440.0,
+      974.9899291992188
+    ],
+    "conf": 0.7413538098335266,
+    "area_ratio": 0.39572582244873045
+  },
+  "co_objects": [
+    {
+      "label": "airplane",
+      "box": [
+        5.116058349609375,
+        321.51312255859375,
+        1267.215576171875,
+        1426.6824951171875
+      ],
+      "conf": 0.3676490783691406,
+      "source": "coco"
+    }
+  ]
+}

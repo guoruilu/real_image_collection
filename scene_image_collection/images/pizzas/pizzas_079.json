@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000037.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.7363235950469971,
+  "target": {
+    "prompt": "pizza",
+    "box": [
+      272.5114440917969,
+      97.98831939697266,
+      1204.488037109375,
+      841.6080932617188
+    ],
+    "conf": 0.9598138332366943,
+    "area_ratio": 0.41964046221433116
+  },
+  "co_objects": [
+    {
+      "label": "dining table",
+      "box": [
+        3.7938594818115234,
+        4.644298553466797,
+        1460.9627685546875,
+        999.915771484375
+      ],
+      "conf": 0.44442081451416016,
+      "source": "coco"
+    }
+  ]
+}

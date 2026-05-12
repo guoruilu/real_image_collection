@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000036.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9021841287612915,
+  "target": {
+    "prompt": "mushroom",
+    "box": [
+      748.8684692382812,
+      251.3737030029297,
+      1432.05419921875,
+      655.0477905273438
+    ],
+    "conf": 0.10121438652276993,
+    "area_ratio": 0.16699023685108474
+  },
+  "co_objects": [
+    {
+      "label": "cake",
+      "box": [
+        0.0746011734008789,
+        333.51788330078125,
+        325.4867858886719,
+        847.8637084960938
+      ],
+      "conf": 0.2710709273815155,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "fork",
+      "box": [
+        1254.6827392578125,
+        149.44097900390625,
+        1500.0,
+        652.7355346679688
+      ],
+      "conf": 0.2280910164117813,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

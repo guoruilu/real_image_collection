@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000012.jpg",
+  "image_size": [
+    1279,
+    1706
+  ],
+  "real_score": 0.9650087952613831,
+  "target": {
+    "prompt": "shoe",
+    "box": [
+      94.83554077148438,
+      852.6065673828125,
+      269.0940856933594,
+      950.1007080078125
+    ],
+    "conf": 0.45702260732650757,
+    "area_ratio": 0.007786154685491743
+  },
+  "co_objects": [
+    {
+      "label": "car",
+      "box": [
+        0.615075409412384,
+        5.881856918334961,
+        151.98446655273438,
+        188.31549072265625
+      ],
+      "conf": 0.29116564989089966,
+      "source": "coco"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000009.jpg",
+  "image_size": [
+    1500,
+    1089
+  ],
+  "real_score": 0.9455631375312805,
+  "target": {
+    "prompt": "mushroom",
+    "box": [
+      0.09970664978027344,
+      127.35135650634766,
+      662.1182250976562,
+      914.2362060546875
+    ],
+    "conf": 0.1147693321108818,
+    "area_ratio": 0.3189056273566402
+  },
+  "co_objects": [
+    {
+      "label": "hot dog",
+      "box": [
+        48.91701126098633,
+        219.74851989746094,
+        282.1298828125,
+        603.490478515625
+      ],
+      "conf": 0.6127994656562805,
+      "source": "coco"
+    },
+    {
+      "label": "bread",
+      "box": [
+        1131.681640625,
+        430.5353088378906,
+        1406.0234375,
+        590.4178466796875
+      ],
+      "conf": 0.2596209943294525,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

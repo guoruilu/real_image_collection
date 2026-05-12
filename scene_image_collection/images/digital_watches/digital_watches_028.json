@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000021.jpg",
+  "image_size": [
+    1664,
+    928
+  ],
+  "real_score": 0.8529459834098816,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      508.8102111816406,
+      129.79193115234375,
+      1108.5440673828125,
+      730.9501953125
+    ],
+    "conf": 0.41098642349243164,
+    "area_ratio": 0.23347806746309607
+  },
+  "co_objects": [
+    {
+      "label": "remote control",
+      "box": [
+        110.54623413085938,
+        336.6095275878906,
+        657.247314453125,
+        924.85888671875
+      ],
+      "conf": 0.9020980596542358,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "person",
+      "box": [
+        927.0448608398438,
+        513.80859375,
+        1662.4368896484375,
+        918.887451171875
+      ],
+      "conf": 0.5409303903579712,
+      "source": "coco"
+    }
+  ]
+}

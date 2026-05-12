@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000032.jpg",
+  "image_size": [
+    2000,
+    2667
+  ],
+  "real_score": 0.987981379032135,
+  "target": {
+    "prompt": "chair",
+    "box": [
+      136.12478637695312,
+      425.5095520019531,
+      1627.767333984375,
+      1815.1409912109375
+    ],
+    "conf": 0.6998507380485535,
+    "area_ratio": 0.3886076828303445
+  },
+  "co_objects": [
+    {
+      "label": "fence",
+      "box": [
+        170.0824432373047,
+        0.0020029665902256966,
+        1995.9176025390625,
+        249.61026000976562
+      ],
+      "conf": 0.4308052957057953,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

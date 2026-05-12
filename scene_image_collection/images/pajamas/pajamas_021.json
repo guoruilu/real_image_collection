@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000011.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.953823983669281,
+  "target": {
+    "prompt": "pajamas",
+    "box": [
+      77.181884765625,
+      384.7492980957031,
+      824.308837890625,
+      997.8932495117188
+    ],
+    "conf": 0.7657141089439392,
+    "area_ratio": 0.2773819995449414
+  },
+  "co_objects": [
+    {
+      "label": "umbrella",
+      "box": [
+        2.627277374267578,
+        5.469703674316406,
+        1499.763671875,
+        969.3300170898438
+      ],
+      "conf": 0.34916791319847107,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "bench",
+      "box": [
+        7.746791839599609,
+        668.7057495117188,
+        970.169921875,
+        1000.8238525390625
+      ],
+      "conf": 0.256292462348938,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

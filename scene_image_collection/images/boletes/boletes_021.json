@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000014.png",
+  "image_size": [
+    1080,
+    1410
+  ],
+  "real_score": 0.9453205466270447,
+  "target": {
+    "prompt": "mushroom",
+    "box": [
+      138.9168243408203,
+      514.2490844726562,
+      879.372802734375,
+      1160.8106689453125
+    ],
+    "conf": 0.14687256515026093,
+    "area_ratio": 0.31438822604569716
+  },
+  "co_objects": [
+    {
+      "label": "fallen log",
+      "box": [
+        114.56297302246094,
+        738.93505859375,
+        618.1898803710938,
+        1121.95556640625
+      ],
+      "conf": 0.19517458975315094,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

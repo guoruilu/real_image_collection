@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000021.jpg",
+  "image_size": [
+    1600,
+    1068
+  ],
+  "real_score": 0.9614545106887817,
+  "target": {
+    "prompt": "car",
+    "box": [
+      318.0368347167969,
+      326.84515380859375,
+      1544.20556640625,
+      881.55712890625
+    ],
+    "conf": 0.9521130323410034,
+    "area_ratio": 0.3980398402144456
+  },
+  "co_objects": [
+    {
+      "label": "fire hydrant",
+      "box": [
+        64.32427978515625,
+        406.53253173828125,
+        186.7626953125,
+        922.5560913085938
+      ],
+      "conf": 0.29186055064201355,
+      "source": "coco"
+    }
+  ]
+}

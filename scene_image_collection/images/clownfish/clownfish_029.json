@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000012.jpg",
+  "image_size": [
+    1500,
+    1225
+  ],
+  "real_score": 0.9364621639251709,
+  "target": {
+    "prompt": "fish",
+    "box": [
+      1.1648297309875488,
+      479.7150573730469,
+      583.3526611328125,
+      934.4691772460938
+    ],
+    "conf": 0.15479926764965057,
+    "area_ratio": 0.14408289244622297
+  },
+  "co_objects": [
+    {
+      "label": "cake",
+      "box": [
+        0.8799076080322266,
+        31.866573333740234,
+        1499.16162109375,
+        1122.2252197265625
+      ],
+      "conf": 0.5123053789138794,
+      "source": "coco"
+    }
+  ]
+}

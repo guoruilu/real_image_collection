@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000008.jpg",
+  "image_size": [
+    1200,
+    803
+  ],
+  "real_score": 0.9701501727104187,
+  "target": {
+    "prompt": "monkey",
+    "box": [
+      567.5068969726562,
+      297.2082824707031,
+      996.4525756835938,
+      738.2786865234375
+    ],
+    "conf": 0.2713664174079895,
+    "area_ratio": 0.19634209612464465
+  },
+  "co_objects": [
+    {
+      "label": "rock",
+      "box": [
+        669.21728515625,
+        195.01564025878906,
+        1199.7064208984375,
+        800.3394165039062
+      ],
+      "conf": 0.39463716745376587,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "plant",
+      "box": [
+        2.192229986190796,
+        7.125548839569092,
+        1196.86865234375,
+        791.1145629882812
+      ],
+      "conf": 0.2579570710659027,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

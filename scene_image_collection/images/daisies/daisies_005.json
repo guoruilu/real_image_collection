@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000009.jpg",
+  "image_size": [
+    1500,
+    1098
+  ],
+  "real_score": 0.9561278820037842,
+  "target": {
+    "prompt": "flower",
+    "box": [
+      242.18194580078125,
+      94.40497589111328,
+      825.4136962890625,
+      639.5006713867188
+    ],
+    "conf": 0.3520806133747101,
+    "area_ratio": 0.1930280004053
+  },
+  "co_objects": [
+    {
+      "label": "kite",
+      "box": [
+        853.396484375,
+        827.8833618164062,
+        1089.6199951171875,
+        996.79296875
+      ],
+      "conf": 0.4297485649585724,
+      "source": "coco"
+    }
+  ]
+}

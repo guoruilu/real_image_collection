@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000030.jpg",
+  "image_size": [
+    1920,
+    1920
+  ],
+  "real_score": 0.9101468920707703,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      530.593017578125,
+      159.42022705078125,
+      1386.93505859375,
+      1818.034912109375
+    ],
+    "conf": 0.14372505247592926,
+    "area_ratio": 0.38529228642078023
+  },
+  "co_objects": [
+    {
+      "label": "clock",
+      "box": [
+        570.8438720703125,
+        666.8524780273438,
+        1305.29833984375,
+        1368.7239990234375
+      ],
+      "conf": 0.8672325611114502,
+      "source": "coco"
+    },
+    {
+      "label": "wall",
+      "box": [
+        0.0,
+        0.71484375,
+        1880.9190673828125,
+        1909.2476806640625
+      ],
+      "conf": 0.2725171744823456,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

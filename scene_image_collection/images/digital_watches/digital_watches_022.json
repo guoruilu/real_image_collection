@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000033.jpeg",
+  "image_size": [
+    6000,
+    4000
+  ],
+  "real_score": 0.8875359296798706,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      1404.623779296875,
+      853.1530151367188,
+      4527.5966796875,
+      3765.484375
+    ],
+    "conf": 0.5334219336509705,
+    "area_ratio": 0.37896382974211684
+  },
+  "co_objects": [
+    {
+      "label": "phone",
+      "box": [
+        4583.7802734375,
+        0.0,
+        5999.91796875,
+        2930.172119140625
+      ],
+      "conf": 0.28849801421165466,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "tv",
+      "box": [
+        4591.42919921875,
+        14.22429084777832,
+        5997.54052734375,
+        694.6117553710938
+      ],
+      "conf": 0.259136438369751,
+      "source": "coco"
+    }
+  ]
+}

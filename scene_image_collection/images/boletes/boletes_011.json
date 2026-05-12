@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000009.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.8828023076057434,
+  "target": {
+    "prompt": "mushroom",
+    "box": [
+      195.79933166503906,
+      114.9118423461914,
+      911.0921630859375,
+      453.55560302734375
+    ],
+    "conf": 0.19763372838497162,
+    "area_ratio": 0.14667239141425528
+  },
+  "co_objects": [
+    {
+      "label": "frisbee",
+      "box": [
+        256.93603515625,
+        244.5604248046875,
+        1191.1158447265625,
+        526.646484375
+      ],
+      "conf": 0.49059951305389404,
+      "source": "coco"
+    }
+  ]
+}

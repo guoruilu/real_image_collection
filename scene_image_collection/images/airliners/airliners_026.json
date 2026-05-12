@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000020.jpg",
+  "image_size": [
+    1920,
+    1440
+  ],
+  "real_score": 0.9606276750564575,
+  "target": {
+    "prompt": "airplane",
+    "box": [
+      0.0,
+      500.2394714355469,
+      1915.8585205078125,
+      1025.9337158203125
+    ],
+    "conf": 0.9369661211967468,
+    "area_ratio": 0.3642779938102103
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        1.055419921875,
+        1075.28271484375,
+        1918.8087158203125,
+        1440.0
+      ],
+      "conf": 0.3233177065849304,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

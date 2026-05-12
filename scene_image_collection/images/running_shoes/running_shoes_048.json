@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000025.jpg",
+  "image_size": [
+    1600,
+    1067
+  ],
+  "real_score": 0.8131279945373535,
+  "target": {
+    "prompt": "shoe",
+    "box": [
+      330.9677734375,
+      0.423583984375,
+      684.1305541992188,
+      863.9840698242188
+    ],
+    "conf": 0.7716202735900879,
+    "area_ratio": 0.17864188292826855
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        337.69439697265625,
+        2.2296905517578125,
+        1098.2481689453125,
+        841.2493286132812
+      ],
+      "conf": 0.8758044838905334,
+      "source": "coco"
+    }
+  ]
+}

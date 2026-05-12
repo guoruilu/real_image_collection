@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_3/000022.jpg",
+  "image_size": [
+    1920,
+    1920
+  ],
+  "real_score": 0.671294629573822,
+  "target": {
+    "prompt": "cat",
+    "box": [
+      439.8177795410156,
+      875.6239013671875,
+      916.7557373046875,
+      1902.257080078125
+    ],
+    "conf": 0.5772010087966919,
+    "area_ratio": 0.13282344065397714
+  },
+  "co_objects": [
+    {
+      "label": "dog",
+      "box": [
+        947.2694091796875,
+        529.3178100585938,
+        1496.919921875,
+        1840.852783203125
+      ],
+      "conf": 0.7140291929244995,
+      "source": "coco"
+    }
+  ]
+}

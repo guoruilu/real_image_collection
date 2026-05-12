@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000005.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9718957543373108,
+  "target": {
+    "prompt": "flower",
+    "box": [
+      25.893402099609375,
+      115.53783416748047,
+      1305.46533203125,
+      759.323486328125
+    ],
+    "conf": 0.2358829230070114,
+    "area_ratio": 0.4988011198289408
+  },
+  "co_objects": [
+    {
+      "label": "flower pot",
+      "box": [
+        259.52252197265625,
+        613.6156005859375,
+        1177.984130859375,
+        995.9779052734375
+      ],
+      "conf": 0.3916490375995636,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "laundry basket",
+      "box": [
+        1437.53466796875,
+        542.1598510742188,
+        1499.975341796875,
+        819.39208984375
+      ],
+      "conf": 0.25769758224487305,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

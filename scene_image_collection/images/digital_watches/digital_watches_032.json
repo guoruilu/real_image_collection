@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000020.jpg",
+  "image_size": [
+    800,
+    800
+  ],
+  "real_score": 0.8435275554656982,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      451.4254150390625,
+      539.0160522460938,
+      780.2123413085938,
+      788.0231323242188
+    ],
+    "conf": 0.2558397650718689,
+    "area_ratio": 0.12792230074724648
+  },
+  "co_objects": [
+    {
+      "label": "microwave",
+      "box": [
+        7.6290130615234375,
+        10.228824615478516,
+        743.7630615234375,
+        631.6991577148438
+      ],
+      "conf": 0.4859248399734497,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "mouse",
+      "box": [
+        550.7590942382812,
+        540.3218994140625,
+        777.962158203125,
+        707.945068359375
+      ],
+      "conf": 0.28667309880256653,
+      "source": "coco"
+    }
+  ]
+}

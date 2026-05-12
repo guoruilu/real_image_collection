@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000005.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9832785725593567,
+  "target": {
+    "prompt": "fish",
+    "box": [
+      1164.6986083984375,
+      402.59423828125,
+      1356.6802978515625,
+      496.6982116699219
+    ],
+    "conf": 0.34707966446876526,
+    "area_ratio": 0.010939291429251676
+  },
+  "co_objects": [
+    {
+      "label": "bird",
+      "box": [
+        133.8938751220703,
+        91.25066375732422,
+        194.2911376953125,
+        141.243408203125
+      ],
+      "conf": 0.42967426776885986,
+      "source": "coco"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000014.jpg",
+  "image_size": [
+    904,
+    1228
+  ],
+  "real_score": 0.9778523445129395,
+  "target": {
+    "prompt": "car",
+    "box": [
+      170.31719970703125,
+      885.6646118164062,
+      904.0,
+      1227.8709716796875
+    ],
+    "conf": 0.9204604625701904,
+    "area_ratio": 0.22616719788864148
+  },
+  "co_objects": [
+    {
+      "label": "motorcycle",
+      "box": [
+        1.338449239730835,
+        947.4825439453125,
+        154.92745971679688,
+        1165.56982421875
+      ],
+      "conf": 0.8320211172103882,
+      "source": "coco"
+    }
+  ]
+}

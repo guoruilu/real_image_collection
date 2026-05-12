@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000010.jpg",
+  "image_size": [
+    1080,
+    1440
+  ],
+  "real_score": 0.9294845461845398,
+  "target": {
+    "prompt": "piano",
+    "box": [
+      59.137001037597656,
+      603.635986328125,
+      926.571533203125,
+      1256.9476318359375
+    ],
+    "conf": 0.867810070514679,
+    "area_ratio": 0.3643936995752059
+  },
+  "co_objects": [
+    {
+      "label": "stool",
+      "box": [
+        0.0,
+        955.895263671875,
+        483.65740966796875,
+        1439.9080810546875
+      ],
+      "conf": 0.7246876358985901,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "picture frame",
+      "box": [
+        1020.3921508789062,
+        11.169971466064453,
+        1080.0,
+        541.47705078125
+      ],
+      "conf": 0.571694016456604,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

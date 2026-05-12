@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000010.jpg",
+  "image_size": [
+    1001,
+    1600
+  ],
+  "real_score": 0.8432828187942505,
+  "target": {
+    "prompt": "bear",
+    "box": [
+      302.73858642578125,
+      354.2379455566406,
+      681.4442138671875,
+      1391.123291015625
+    ],
+    "conf": 0.8075694441795349,
+    "area_ratio": 0.24517627081471277
+  },
+  "co_objects": [
+    {
+      "label": "sheep",
+      "box": [
+        302.59185791015625,
+        355.2568054199219,
+        670.9749755859375,
+        706.6944580078125
+      ],
+      "conf": 0.6477629542350769,
+      "source": "coco"
+    },
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        0.26611328125,
+        1000.1500244140625,
+        1485.1080322265625
+      ],
+      "conf": 0.3918178975582123,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

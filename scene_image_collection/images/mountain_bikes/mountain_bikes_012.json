@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000025.jpg",
+  "image_size": [
+    959,
+    1280
+  ],
+  "real_score": 0.9826558828353882,
+  "target": {
+    "prompt": "bicycle",
+    "box": [
+      380.427734375,
+      523.8519287109375,
+      956.108642578125,
+      1035.111328125
+    ],
+    "conf": 0.9657778143882751,
+    "area_ratio": 0.23976984112851255
+  },
+  "co_objects": [
+    {
+      "label": "motorcycle",
+      "box": [
+        0.757537841796875,
+        691.4530029296875,
+        209.9182891845703,
+        1073.9453125
+      ],
+      "conf": 0.764045774936676,
+      "source": "coco"
+    },
+    {
+      "label": "tree",
+      "box": [
+        174.27334594726562,
+        0.412994384765625,
+        959.0,
+        431.129638671875
+      ],
+      "conf": 0.27181413769721985,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

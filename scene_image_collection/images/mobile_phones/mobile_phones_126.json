@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/bing_1/000027.jpg",
+  "image_size": [
+    900,
+    1200
+  ],
+  "real_score": 0.7679947018623352,
+  "target": {
+    "prompt": "cellphone",
+    "box": [
+      402.2813720703125,
+      371.5645751953125,
+      839.5049438476562,
+      799.4127807617188
+    ],
+    "conf": 0.19819441437721252,
+    "area_ratio": 0.17320863020025123
+  },
+  "co_objects": [
+    {
+      "label": "umbrella",
+      "box": [
+        48.17761993408203,
+        334.2572021484375,
+        805.3602905273438,
+        788.059326171875
+      ],
+      "conf": 0.5453062653541565,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "car",
+      "box": [
+        12.171648979187012,
+        248.4140167236328,
+        900.0,
+        1199.21630859375
+      ],
+      "conf": 0.44649001955986023,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

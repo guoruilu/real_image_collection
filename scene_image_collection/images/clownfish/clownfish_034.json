@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000001.jpg",
+  "image_size": [
+    1500,
+    952
+  ],
+  "real_score": 0.6536123752593994,
+  "target": {
+    "prompt": "fish",
+    "box": [
+      339.9532165527344,
+      123.5157241821289,
+      1325.8035888671875,
+      817.6974487304688
+    ],
+    "conf": 0.5895951986312866,
+    "area_ratio": 0.4792432154060714
+  },
+  "co_objects": [
+    {
+      "label": "tennis racket",
+      "box": [
+        1014.9349975585938,
+        534.4718017578125,
+        1321.4658203125,
+        813.7366333007812
+      ],
+      "conf": 0.297254353761673,
+      "source": "coco"
+    }
+  ]
+}

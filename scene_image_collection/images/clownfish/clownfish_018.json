@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000024.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9650757312774658,
+  "target": {
+    "prompt": "fish",
+    "box": [
+      477.6256103515625,
+      277.14190673828125,
+      696.6433715820312,
+      399.3576354980469
+    ],
+    "conf": 0.27730417251586914,
+    "area_ratio": 0.016207941447238316
+  },
+  "co_objects": [
+    {
+      "label": "plant",
+      "box": [
+        298.49810791015625,
+        381.7289733886719,
+        1426.7225341796875,
+        966.0039672851562
+      ],
+      "conf": 0.6155787706375122,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

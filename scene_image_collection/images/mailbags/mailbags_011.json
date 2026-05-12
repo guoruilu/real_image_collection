@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000004.jpg",
+  "image_size": [
+    800,
+    800
+  ],
+  "real_score": 0.8349272608757019,
+  "target": {
+    "prompt": "bag",
+    "box": [
+      392.9302978515625,
+      40.51078796386719,
+      761.2673950195312,
+      642.447509765625
+    ],
+    "conf": 0.555501401424408,
+    "area_ratio": 0.3464306637300979
+  },
+  "co_objects": [
+    {
+      "label": "stop sign",
+      "box": [
+        0.0,
+        617.3859252929688,
+        252.417724609375,
+        800.0
+      ],
+      "conf": 0.44838711619377136,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "table",
+      "box": [
+        0.08514404296875,
+        439.7003173828125,
+        798.125,
+        799.6552124023438
+      ],
+      "conf": 0.37175628542900085,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

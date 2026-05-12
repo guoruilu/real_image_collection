@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000038.jpg",
+  "image_size": [
+    2000,
+    2000
+  ],
+  "real_score": 0.9353024363517761,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      560.80419921875,
+      429.1807556152344,
+      1702.270751953125,
+      1791.271728515625
+    ],
+    "conf": 0.3623044192790985,
+    "area_ratio": 0.388695321836805
+  },
+  "co_objects": [
+    {
+      "label": "cake",
+      "box": [
+        1.7821788787841797,
+        2.9783248901367188,
+        627.9112548828125,
+        1000.652587890625
+      ],
+      "conf": 0.7328652739524841,
+      "source": "coco"
+    }
+  ]
+}

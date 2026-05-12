@@ -1,0 +1,54 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_4/000017.jpg",
+  "image_size": [
+    990,
+    1348
+  ],
+  "real_score": 0.6258269548416138,
+  "target": {
+    "prompt": "ball",
+    "box": [
+      501.67333984375,
+      849.7613525390625,
+      801.6581420898438,
+      1148.796142578125
+    ],
+    "conf": 0.18616613745689392,
+    "area_ratio": 0.06721959382742135
+  },
+  "co_objects": [
+    {
+      "label": "grass",
+      "box": [
+        0.0,
+        0.0,
+        984.990478515625,
+        487.61480712890625
+      ],
+      "conf": 0.6020958423614502,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "grass",
+      "box": [
+        0.009255982004106045,
+        506.99627685546875,
+        990.0,
+        1348.0
+      ],
+      "conf": 0.5768043398857117,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "fire hydrant",
+      "box": [
+        261.5867004394531,
+        0.21322101354599,
+        434.5329284667969,
+        47.58526611328125
+      ],
+      "conf": 0.5053589344024658,
+      "source": "coco"
+    }
+  ]
+}

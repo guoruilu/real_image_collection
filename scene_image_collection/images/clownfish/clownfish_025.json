@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000014.jpg",
+  "image_size": [
+    1001,
+    1600
+  ],
+  "real_score": 0.955507755279541,
+  "target": {
+    "prompt": "fish",
+    "box": [
+      328.6009216308594,
+      6.751526832580566,
+      354.80560302734375,
+      38.065330505371094
+    ],
+    "conf": 0.10702252388000488,
+    "area_ratio": 0.0005123428125359253
+  },
+  "co_objects": [
+    {
+      "label": "carrot",
+      "box": [
+        0.0,
+        457.7427673339844,
+        851.5264892578125,
+        1451.9366455078125
+      ],
+      "conf": 0.36936309933662415,
+      "source": "coco"
+    }
+  ]
+}

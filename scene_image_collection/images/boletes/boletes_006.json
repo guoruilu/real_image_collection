@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000042.jpg",
+  "image_size": [
+    1500,
+    1101
+  ],
+  "real_score": 0.9267019629478455,
+  "target": {
+    "prompt": "mushroom",
+    "box": [
+      210.03298950195312,
+      185.68145751953125,
+      823.5513305664062,
+      544.0574340820312
+    ],
+    "conf": 0.25176823139190674,
+    "area_ratio": 0.13313365704994146
+  },
+  "co_objects": [
+    {
+      "label": "plant",
+      "box": [
+        0.09462833404541016,
+        304.1933288574219,
+        366.40069580078125,
+        962.806396484375
+      ],
+      "conf": 0.28707537055015564,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

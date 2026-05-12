@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000019.jpeg",
+  "image_size": [
+    1080,
+    1440
+  ],
+  "real_score": 0.9821621775627136,
+  "target": {
+    "prompt": "car",
+    "box": [
+      69.44808197021484,
+      1036.000732421875,
+      1063.7767333984375,
+      1365.6353759765625
+    ],
+    "conf": 0.9479292631149292,
+    "area_ratio": 0.21075435351707517
+  },
+  "co_objects": [
+    {
+      "label": "flower pot",
+      "box": [
+        1060.28125,
+        1123.6680908203125,
+        1080.0,
+        1160.390380859375
+      ],
+      "conf": 0.3242414593696594,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "tree",
+      "box": [
+        0.09770965576171875,
+        151.94418334960938,
+        299.4889831542969,
+        1184.8414306640625
+      ],
+      "conf": 0.3209553360939026,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

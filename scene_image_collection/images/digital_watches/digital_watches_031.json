@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000009.jpg",
+  "image_size": [
+    1440,
+    1440
+  ],
+  "real_score": 0.8453915119171143,
+  "target": {
+    "prompt": "watch",
+    "box": [
+      201.9359893798828,
+      342.7330322265625,
+      883.9464111328125,
+      1050.3270263671875
+    ],
+    "conf": 0.17576558887958527,
+    "area_ratio": 0.23272881866015033
+  },
+  "co_objects": [
+    {
+      "label": "phone",
+      "box": [
+        584.4653930664062,
+        907.65771484375,
+        1236.498046875,
+        1440.0
+      ],
+      "conf": 0.7605389952659607,
+      "source": "yolo_world_lvis"
+    },
+    {
+      "label": "traffic light",
+      "box": [
+        141.8476104736328,
+        35.955230712890625,
+        1215.2069091796875,
+        1389.3299560546875
+      ],
+      "conf": 0.3903995752334595,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

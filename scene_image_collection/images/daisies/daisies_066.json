@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000025.jpg",
+  "image_size": [
+    1500,
+    1093
+  ],
+  "real_score": 0.8741550445556641,
+  "target": {
+    "prompt": "flower",
+    "box": [
+      180.69705200195312,
+      5.994558334350586,
+      1187.6927490234375,
+      924.3500366210938
+    ],
+    "conf": 0.8676382899284363,
+    "area_ratio": 0.5640622232210172
+  },
+  "co_objects": [
+    {
+      "label": "leaf",
+      "box": [
+        178.29978942871094,
+        342.8026123046875,
+        438.3089904785156,
+        612.8060913085938
+      ],
+      "conf": 0.31157270073890686,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_0/000037.jpg",
+  "image_size": [
+    800,
+    800
+  ],
+  "real_score": 0.7233213186264038,
+  "target": {
+    "prompt": "horse",
+    "box": [
+      264.00506591796875,
+      237.1319580078125,
+      719.5570068359375,
+      704.18701171875
+    ],
+    "conf": 0.8921812176704407,
+    "area_ratio": 0.3324497441149433
+  },
+  "co_objects": [
+    {
+      "label": "horse",
+      "box": [
+        98.37211608886719,
+        342.30560302734375,
+        520.2753295898438,
+        665.6198120117188
+      ],
+      "conf": 0.887701690196991,
+      "source": "coco"
+    }
+  ]
+}

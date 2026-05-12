@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_1/000037.jpg",
+  "image_size": [
+    1500,
+    1155
+  ],
+  "real_score": 0.7589407563209534,
+  "target": {
+    "prompt": "cup",
+    "box": [
+      204.85629272460938,
+      176.30030822753906,
+      1194.7618408203125,
+      923.1539306640625
+    ],
+    "conf": 0.8755120038986206,
+    "area_ratio": 0.42673278179814605
+  },
+  "co_objects": [
+    {
+      "label": "laptop",
+      "box": [
+        514.6953735351562,
+        1.386094093322754,
+        1498.072998046875,
+        504.57080078125
+      ],
+      "conf": 0.26561492681503296,
+      "source": "coco"
+    }
+  ]
+}

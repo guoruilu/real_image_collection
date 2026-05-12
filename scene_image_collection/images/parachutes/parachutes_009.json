@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000025.jpg",
+  "image_size": [
+    1200,
+    900
+  ],
+  "real_score": 0.6674880981445312,
+  "target": {
+    "prompt": "parachute",
+    "box": [
+      248.6751251220703,
+      34.3547477722168,
+      729.0249633789062,
+      452.8040466308594
+    ],
+    "conf": 0.27285581827163696,
+    "area_ratio": 0.1861130120605883
+  },
+  "co_objects": [
+    {
+      "label": "person",
+      "box": [
+        753.07177734375,
+        725.0150756835938,
+        804.714599609375,
+        802.1672973632812
+      ],
+      "conf": 0.5748282670974731,
+      "source": "coco"
+    },
+    {
+      "label": "traffic sign",
+      "box": [
+        5.925950527191162,
+        835.505859375,
+        455.5171203613281,
+        899.9429321289062
+      ],
+      "conf": 0.35388121008872986,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}

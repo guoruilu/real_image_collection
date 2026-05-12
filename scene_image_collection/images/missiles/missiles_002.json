@@ -1,0 +1,43 @@
+{
+  "source_path": "/home/lgr/prjs/EEG_Obj_Detection/real_image_collection/scene_image_collection/_raw/baidu_2/000003.jpg",
+  "image_size": [
+    1600,
+    1116
+  ],
+  "real_score": 0.9309586882591248,
+  "target": {
+    "prompt": "missile",
+    "box": [
+      153.99185180664062,
+      195.7775115966797,
+      1260.73828125,
+      933.5146484375
+    ],
+    "conf": 0.17909079790115356,
+    "area_ratio": 0.4572625123579441
+  },
+  "co_objects": [
+    {
+      "label": "truck",
+      "box": [
+        298.7781066894531,
+        686.412841796875,
+        1049.641357421875,
+        937.8530883789062
+      ],
+      "conf": 0.5458654761314392,
+      "source": "coco"
+    },
+    {
+      "label": "grass",
+      "box": [
+        0.7537841796875,
+        916.4139404296875,
+        1598.303466796875,
+        1112.0230712890625
+      ],
+      "conf": 0.46224331855773926,
+      "source": "yolo_world_lvis"
+    }
+  ]
+}
